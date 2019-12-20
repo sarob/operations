@@ -1,36 +1,17 @@
-### Lincoln Network
-	* Garrett Johnson
-	* Dan Lipps
-	* Sean
-	* finance
-	* policy
-	* events
+# Documentation
+1. [Open Elections: Planning the Organization](https://docs.google.com/document/d/1mEeXGE0sRmKXX3RnAbf4gXgaKp3X4WRWiJ1G0JUkh1c/edit?usp=sharing)
+1. [Outline of Election Security Needs for 2020](https://docs.google.com/document/d/1GNWMvz-dliDvWp4uR392-415c71R-11WZK4xnrlGX98/edit?usp=sharing)
+1. 
 
-### Microsoft
-	* Ginny
-	* policy people
-	* Josh
-	* They held the Redmond meeting
-	* ElectionGuard
-	* few policy meetings
-	* Ginny knows some of the EAC commissioners
+# User Forum
+1. TBD
 
-### Los Angeles RR/CC
-	* Kenneth
-	* ...
-	* Sean has had a few meetings
+# Reports
+1. 
 
-### Voting Works
-	* Ben Addia
-	* Sean has hand a few meetings
+# OE Teams
+[https://docs.google.com/spreadsheets/d/15ioys6XcGFCK_zD3SyZk7PX-2RVIKnpOI-APEGcDq8k/edit?usp=sharing](https://docs.google.com/spreadsheets/d/15ioys6XcGFCK_zD3SyZk7PX-2RVIKnpOI-APEGcDq8k/edit?usp=sharing)
 
-### Galios
-	* ....
-	* Sean has had one Redmond meeting
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSbezy7bieWqat2sMV6VfkrKDEaF4_9rUdzTGsnXbzzpG0m5jQkZZA4JHq2AFjQUhfKU0ZrA5AicBbq/pubhtml?widget=true&amp;headers=false" width="500" height="700"></iframe>
 
-### CCSF
-	* Linda DT CIO
-	* Chris OSVTAC and Elections Commission member
-	* John Elections Director
-	* Charles Belle COIT, Sean spoke with him 11 Dec 2019. He is running for supervisor. He wants to create an Office of Open Source and put it under the Mayor's office. I gave him some background on the state of DT and OSV. CCSF tech budget $240M annual.
-	* Sean worked there for a year
+This page [https://sarob.github.io/operations/oe-community](https://sarob.github.io/operations/oe-community)
