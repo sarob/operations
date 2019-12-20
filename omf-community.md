@@ -13,6 +13,6 @@
 # OMF Teams
 [https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing)
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZuV4c1mjrTnaWrtrhz9rFRXRwYzQHZMyFAvOAytZu7Ng7lVm7hfhrur3jFLSaWzaRzNoA8ZHifYZe/pubhtml?widget=true&amp;headers=false" width="500" height="700"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZuV4c1mjrTnaWrtrhz9rFRXRwYzQHZMyFAvOAytZu7Ng7lVm7hfhrur3jFLSaWzaRzNoA8ZHifYZe/pubhtml?widget=true&amp;headers=false" width="800" height="1300"></iframe>
 
 This page [https://sarob.github.io/operations/omf-community](https://sarob.github.io/operations/omf-community)
