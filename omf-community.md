@@ -1,33 +1,15 @@
-### OMF
-	* responsible for administration
-	* Jascha Executive Director
-	* Sean Operations 
-	* finance?
-	* Sean has at least weekly conversations
+# Documentation
+1. [working groups how-to gdoc](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
+1. [OMF website](https://www.openmobilityfoundation.org/resources/)
 
-### Roundtrip
-	* Boris boris@roundtrip.ai
-	* Andrew Scherkus andrew@roundtrip.ai
-	* Sean first, last spoke with them on 17 dec 2019
-	* They want to become a member, the cost is stopping them
-	* They want to contribute more to the community
-	* They want OMF test infrastructure
-	* They want explanation of how code testing happens
+# User Forum
+1. TBD
 
-### Ellis / Lacuna
-	* Geoff
-	* Mark Maxham
-	* Sean
-	* Todd
-	* 
+# Reports
+1. [OpenHub comparison of OMF, UCF, and Lacuna](https://www.openhub.net/p/_compare?project_0=Open+Mobility+Foundation&project_1=kepler.gl&project_2=Lacuna-tech)
+1. [OpenHub comparision of Bitcoin, Ethereum, and Libra](https://www.openhub.net/p/_compare?project_0=Bitcoin&project_1=Ethereum&project_2=Libra+Association)
 
-### Los Angeles DOT
-	* Hunter
-	* ...
+# OMF Teams
+[https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing)
 
-### Santa Monica DOT
-	* Kegan
-
-### Blue Systems
-	* Henri
-	* Christophe
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRZuV4c1mjrTnaWrtrhz9rFRXRwYzQHZMyFAvOAytZu7Ng7lVm7hfhrur3jFLSaWzaRzNoA8ZHifYZe/pubhtml?widget=true&amp;headers=false" width="500" height="700"></iframe>
