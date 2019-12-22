@@ -11,6 +11,9 @@
 1. [OpenHub comparison of OMF, UCF, and Lacuna](https://www.openhub.net/p/_compare?project_0=Open+Mobility+Foundation&project_1=kepler.gl&project_2=Lacuna-tech)
 1. [OpenHub comparision of Bitcoin, Ethereum, and Libra](https://www.openhub.net/p/_compare?project_0=Bitcoin&project_1=Ethereum&project_2=Libra+Association)
 
+# News
+1. 
+
 # OMF Teams
 [https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing)
 
