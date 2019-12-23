@@ -1,4 +1,5 @@
 # OMF Documentation
+1. [STANDARD project issues, PRs labels and milestones](omf-labels.md)
 1. [working groups how-to gdoc](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
 1. [city services first meeting notes 19dec19 gdoc](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
 1. [OMF website](https://www.openmobilityfoundation.org/resources/)
