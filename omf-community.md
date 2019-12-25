@@ -13,7 +13,8 @@
 1. [OpenHub comparision of Bitcoin, Ethereum, and Libra](https://www.openhub.net/p/_compare?project_0=Bitcoin&project_1=Ethereum&project_2=Libra+Association)
 
 # News
-1. [Your guide to top tech conferences 2019 - 2020](../source/Your%20guide%20to%20top%20tech%20conferences%202019%20-%20202.html)
+1. [Your guide to top tech conferences 2019 - 2020](../source/Your%20guide%20to%20top%20tech%20conferences%202019%20-%20202.html)1. [Analysts say Alphabet, UPS have early edge in delivery's next frontier: drones](../source/Analysts%20say%20Alphabet,%20UPS%20have%20early%20edge%20in.html)
+1. [The Last Mile: Companies are testing radical new technologies to cut the cost of home deliveries](../source/The%20Last%20Mile%20Companies%20are%20testing%20radical%20n.html)
 
 
 # OMF Teams
