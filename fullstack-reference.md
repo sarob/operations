@@ -15,6 +15,6 @@
 1. [How I'm writing Nodejs Serverless services these days](../source/How%20I'm%20writing%20Nodejs%20Serverless%20services%20th.html)
 1. [Camunda - Wikipedia](../source/Camunda%20-%20Wikipedia.html)
 1. [Stackery lets AWS Lambda developers debug their serverless programs locally on a laptop](../source/Stackery%20lets%20AWS%20Lambda%20developers%20debug%20the.html)
-1. [Microsoft looks to 'do for data sharing what open source did for code'](../source/Microsoft%20looks%20to%20'do%20for%20data%20sharing%20what%20.html)
+1. [Microsoft looks to do for data sharing what open source did for code](../source/Microsoft%20looks%20to%20do%20for%20data%20sharing%20what%20.html)
 1. [AWS EventBridge: Revolutioning Serverless or CloudWatch Events 2.0?](../source/AWS%20EventBridge%20Revolutioning%20Serverless%20or%20C.html)
 1. [Site Kit is now available as a developer preview - Site Kit by Google](../source/Site%20Kit%20is%20now%20available%20as%20a%20developer%20prev.html)
