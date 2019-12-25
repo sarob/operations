@@ -16,7 +16,9 @@
 1. [Your guide to top tech conferences 2019 - 2020](../source/Your%20guide%20to%20top%20tech%20conferences%202019%20-%20202.html)1. [Analysts say Alphabet, UPS have early edge in delivery's next frontier: drones](../source/Analysts%20say%20Alphabet,%20UPS%20have%20early%20edge%20in.html)
 1. [The Last Mile: Companies are testing radical new technologies to cut the cost of home deliveries](../source/The%20Last%20Mile%20Companies%20are%20testing%20radical%20n.html)
 1. [X-1 Maximum Security Drone: Does it come in black?](../source/X-1%20Maximum%20Security%20Drone%20Does%20it%20come%20in%20bl.html)
-1. [Uber Challenges Los Angeles’s
+1. [Uber Challenges Suspension of Its Scooters - WSJ](../source/Uber%20Challenges%20Los%20Angeles%20Suspension%20of%20I.html)
+1. [UPS completes first residential drone deliveries from a CVS Pharmacy](../source/UPS%20completes%20first%20residential%20drone%20deliver.html)
+1. [OMF Showcase &amp; Developer Day 2019](../source/OMF%20Showcase%20%26%20Developer%20Day%202019.html)
 
 # OMF Teams
 [https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing)
