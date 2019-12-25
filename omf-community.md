@@ -15,7 +15,8 @@
 # News
 1. [Your guide to top tech conferences 2019 - 2020](../source/Your%20guide%20to%20top%20tech%20conferences%202019%20-%20202.html)1. [Analysts say Alphabet, UPS have early edge in delivery's next frontier: drones](../source/Analysts%20say%20Alphabet,%20UPS%20have%20early%20edge%20in.html)
 1. [The Last Mile: Companies are testing radical new technologies to cut the cost of home deliveries](../source/The%20Last%20Mile%20Companies%20are%20testing%20radical%20n.html)
-1. [X-1 Maximum Security Drone: Does it come in black?]
+1. [X-1 Maximum Security Drone: Does it come in black?](../source/X-1%20Maximum%20Security%20Drone%20Does%20it%20come%20in%20bl.html)
+1. [Uber Challenges Los Angeles’s Suspension of Its Scooters - WSJ](../source/Uber%20Challenges%20
 
 # OMF Teams
 [https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1g6zJ-p_nqMSGEtZLKMugJBFcVLVekLazCOYvSxli0ck/edit?usp=sharing)
