@@ -1,0 +1,844 @@
+<html>
+<head>
+  <title>Goodbye Docker: Purging is Such Sweet Sorrow</title>
+  <basefont face="Segoe UI" size="2" />
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="exporter-version" content="Evernote Windows/308716 (en-US, DDL); Windows/10.0.0 (Win64);"/>
+  <style>
+    body, td {
+      font-family: Segoe UI;
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+<a name="1079"/>
+<h1>Goodbye Docker: Purging is Such Sweet Sorrow</h1>
+<div>
+<table bgcolor="#D4DDE5" border="0">
+<tr><td><b>Created:</b></td><td><i>7/27/2019 11:06 AM</i></td></tr>
+<tr><td><b>Source:</b></td><td><a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/"><i>https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/</i></a></td></tr>
+</table>
+</div>
+<br/>
+
+<div>
+<span>
+<div style="-webkit-text-size-adjust: 100%; background-color: rgb(255, 255, 255); font-family: Georgia, &quot;Times New Roman&quot;, serif; font-size: 18px; line-height: 1.75; color: rgb(56, 56, 56);">
+
+<div style="position: relative; overflow-x: hidden;">
+	<a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/#content" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); overflow: hidden; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; position: absolute !important; position: absolute; left: -1000em; text-decoration: none; color: rgb(0, 135, 190);">Skip to content</a>
+
+	<div>
+		<div style="display: block; position: relative; z-index: 9999; min-height: 1em; margin: 2.625em auto 1.75em; padding: 0px 1.75em; text-align: center; word-wrap: break-word;">
+			<div>
+				<div style="margin-bottom: 1.75em;"><span style="display: table; content: &quot; &quot;;"></span>
+					
+											<a href="https://zwischenzugs.com/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); display: block; text-decoration: none; color: rgb(0, 135, 190);">
+							<img src="Goodbye Docker Purging is Such Sweet Sorrow_files/Image.jpg" type="image/jpeg" data-filename="Image.jpg" alt="" height="80" style="max-width: 100%; height: auto; border: 0px; display: block; max-width: 80px; height: 80px; margin: auto; border-top-left-radius: 80px; border-top-right-radius: 80px; border-bottom-right-radius: 80px; border-bottom-left-radius: 80px;" width="80"/>
+						</a>
+													<p style="margin-bottom: 0.875em; margin: 0.4375em 0px 0px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 38px; font-weight: 700; line-height: 1.2; color: rgb(51, 51, 50);"><a href="https://zwischenzugs.com/" rel="home" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: inherit;">zwischenzugs</a></p>
+										<span style="display: table; content: &quot; &quot;; clear: both;"></span></div>
+
+				
+				
+			</div>
+		</div>
+	</div>
+
+		
+	
+	
+	<div style="box-sizing: content-box; max-width: 740px; margin: 0px auto; padding: 3.5em 1.75em 0px;"><span style="display: table; content: &quot; &quot;;"></span>
+		<div style="margin: 0px auto;"><span style="display: table; content: &quot; &quot;;"></span>
+
+	<div>
+		<div style="display: block;">
+
+		
+			
+<div style="display: block; position: relative;">
+			<div style="display: block; word-wrap: break-word;">
+			<h1 style="margin: 0px; clear: both; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 32px; line-height: 1.3; color: rgb(51, 51, 50); -webkit-font-smoothing: antialiased; word-wrap: break-word;">Goodbye Docker: Purging is Such Sweet Sorrow</h1>		</div>		<div style="word-wrap: break-word; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; margin: 0.4375em 0px 3.5em; color: rgb(179, 179, 177);">
+			<span style="clip: rect(1px, 1px, 1px, 1px); height: 1px; position: absolute; overflow: hidden; width: 1px; top: 3px; display: inline-block; margin-right: 1.3125em; vertical-align: middle; margin-top: 0px;"><span style="position: relative; top: -1px; display: inline-block; font-family: Genericons; font-size: 16px; line-height: 1; vertical-align: middle; transform: scale(1.25); -webkit-font-smoothing: antialiased;"></span>
+				<a href="https://zwischenzugs.com/author/zwischenzugs/" rel="author" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); transition: color 0.14s ease-in-out; line-height: inherit; text-decoration: none; color: rgb(179, 179, 177);" title="Posts by zwischenzugs">zwischenzugs</a>			</span>
+							<span style="clip: rect(1px, 1px, 1px, 1px); height: 1px; position: absolute; overflow: hidden; width: 1px; top: 3px; display: inline-block; margin-right: 1.3125em; vertical-align: middle;"><span style="position: relative; top: -1px; display: inline-block; font-family: Genericons; font-size: 16px; line-height: 1; vertical-align: middle; transform: scale(1.25); -webkit-font-smoothing: antialiased;"></span>
+					<a href="https://zwischenzugs.com/category/uncategorized/" rel="category tag" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); transition: color 0.14s ease-in-out; line-height: inherit; text-decoration: none; color: rgb(179, 179, 177);">Uncategorized</a>				</span>
+			
+			
+			<span style="clip: rect(1px, 1px, 1px, 1px); height: 1px; position: absolute; overflow: hidden; width: 1px; top: 3px; display: inline-block; margin-right: 1.3125em; vertical-align: middle;"><span style="position: relative; top: -1px; display: inline-block; font-family: Genericons; font-size: 16px; line-height: 1; vertical-align: middle; transform: scale(1.25); -webkit-font-smoothing: antialiased;"></span>
+				<div>July 27, 2019</div><div style="display: none;">July 27, 2019</div>			</span>
+
+			<span style="top: 3px; display: inline-block; margin-right: 1.3125em; vertical-align: middle; margin-right: 0px; margin-bottom: 0px;"><span style="position: relative; top: -1px; display: inline-block; font-family: Genericons; font-size: 16px; line-height: 1; vertical-align: middle; -webkit-font-smoothing: antialiased; margin-right: 4px; transform: scale(1.5);"></span>3 Minutes</span>		</div>
+	
+	<div style="margin: 0px 0px 0.875em; font-size: 17px; font-family: Georgia, &quot;Times New Roman&quot;, serif; word-wrap: break-word;"><span style="display: table; content: &quot; &quot;;"></span>
+		
+<p style="margin-bottom: 0.875em; margin-top: 0px;">After 6 years, I removed Docker from all my home servers.</p>
+
+
+
+<p style="margin-bottom: 0.875em;"><code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">apt purge -y docker-ce</code></p>
+
+
+
+<h2 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 24px; margin-bottom: 0.4375em;">Why?</h2>
+
+
+
+<p style="margin-bottom: 0.875em;">This was triggered by a recurring incident I faced where the Docker daemon was using 100% CPU on multiple cores that made the host effectively unusable.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">This had happened a few times before, and was likely due to a script that had got out of hand starting up too many containers. I’d never really got to the bottom of it, as I had to run a command to kill off all the containers and restart the daemon. This time, the daemon wouldn’t restart without a <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">kill -9</code>, so I figured enough was enough. </p>
+
+
+
+<p style="margin-bottom: 0.875em;">Anyway, I didn’t necessarily blame Docker for it, but it did add force to an argument I’d heard before: </p>
+
+
+
+<p style="margin-bottom: 0.875em;"><em style="font-style: italic;">Why does Docker need a daemon at all?</em></p>
+
+
+
+<h2 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 24px; margin-bottom: 0.4375em;">Podman, Skopeo, and Buildah</h2>
+
+
+
+<p style="margin-bottom: 0.875em;">These three tools are an effort mostly pushed by RedHat that do everything I need Docker to do. They don’t require a daemon or access to a group with root privileges.</p>
+
+
+
+<h3 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 19px;">Podman</h3>
+
+
+
+<p style="margin-bottom: 0.875em;"><a href="https://podman.io/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Podman</a> replaces the Docker command for most of its sub-commands (<code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">run</code>, <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">push</code>, <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">pull</code> etc). Because it doesn’t need a daemon, and uses <a href="http://man7.org/linux/man-pages/man7/user_namespaces.7.html" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">user namespacing</a> to simulate root in the container, there’s no need to attach to a socket with root privileges, which was a long-standing concern with Docker.</p>
+
+
+
+<p style="margin-bottom: 0.875em; display: block; height: 60px; margin-left: auto; margin-right: auto; overflow: hidden; width: 320px;"></p><div style="height: 50px; width: 320px;"><div style="max-width: 100%; border: none; margin: 0px; overflow: hidden; width: 320px; height: 50px;"></div></div><div style="text-align: right; line-height: 10px; height: 10px; height: 10px; width: 320px;"><span style="font-size: 6px; vertical-align: middle; font-family: Verdana, sans-serif; color: rgb(200, 199, 204); text-transform: uppercase; letter-spacing: 0.3px; cursor: pointer; display: inline;">Report this ad</span></div><p style="margin-bottom: 0.875em;"></p>
+
+
+
+<h3 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 19px;">Buildah</h3>
+
+
+
+<p style="margin-bottom: 0.875em;"><a href="https://buildah.io/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Buildah</a> builds OCI images. Confusingly, <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">podman build</code> can also be used to build Docker images also, but it’s incredibly slow and used up a lot of disk space by using the vfs storage driver by default. <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">buildah bud</code> (‘build using Dockerfile’) was much faster for me, and uses the overlay storage driver.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">The user namespacing allowing rootless builds was the other killer feature that made me want to move. I wrote a <a href="https://zwischenzugs.com/2018/04/23/unprivileged-docker-builds-a-proof-of-concept/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">piece</a> about trying to get rootless builds going <a href="https://github.com/containers/buildah/issues/171" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">last year</a>, and now it comes <a href="https://github.com/containers/buildah/issues/386" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">out of the box</a> with <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">/etc/subuid</code> and <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">/etc/subgid</code> set up for you, on Ubuntu at least.</p>
+
+
+
+<h3 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 19px;">Skopeo</h3>
+
+
+
+<p style="margin-bottom: 0.875em;"><a href="http://github.com/containers/skopeo" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Skopeo</a> is a tool that allows you to work with Docker and OCI images by pushing, pulling, and copying images.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">The code for these three are open source and available here:<br/><br/><a href="https://github.com/containers/libpod" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Podman</a><br/><br/><a href="https://github.com/containers/buildah" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Buildah</a><br/><br/><a href="https://github.com/containers/skopeo" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Skopeo</a></p>
+
+
+
+<div style="display: block; margin: 0px 0px 1em;"><div>
+<blockquote style="margin: 1.75em 0.875em 1.75em -1.9em; padding: 0px 0px 0px 1.75em; font-family: Georgia, &quot;Times New Roman&quot;, serif; font-style: italic; border-style: solid; border-color: rgb(0, 135, 190); border-width: 0px 0px 0px 3px;"><a href="http://saharsh.org/2019/01/18/buildah_podman_skopeo/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); margin-top: 0px; margin-bottom: 0px;">Buildah, Podman, and Skopeo</a></blockquote><div style="max-width: 100%; position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="“Buildah, Podman, and Skopeo” — the BIT that matters"></div>
+</div></div>
+
+
+
+<div style="display: block; margin: 0px 0px 1em;"><div>
+<blockquote style="margin: 1.75em 0.875em 1.75em -1.9em; padding: 0px 0px 0px 1.75em; font-family: Georgia, &quot;Times New Roman&quot;, serif; font-style: italic; border-style: solid; border-color: rgb(0, 135, 190); border-width: 0px 0px 0px 3px;"><a href="http://saharsh.org/2019/01/18/buildah_podman_skopeo/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); margin-top: 0px; margin-bottom: 0px;">Buildah, Podman, and Skopeo</a></blockquote><div style="max-width: 100%; position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="“Buildah, Podman, and Skopeo” — the BIT that matters"></div>
+</div></div>
+
+
+
+<h2 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 24px; margin-bottom: 0.4375em;">Steps to Move</h2>
+
+
+
+<p style="margin-bottom: 0.875em;">Installing these tools on <a href="https://github.com/containers/libpod/blob/master/install.md#ubuntu" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Ubuntu</a> was a lot easier than it was 6 months ago.</p>
+
+
+
+<p style="margin-bottom: 0.875em; display: block; height: 60px; margin-left: auto; margin-right: auto; overflow: hidden; width: 320px;"></p><div style="height: 50px; width: 320px;"><div style="max-width: 100%; border: none; margin: 0px; overflow: hidden; width: 320px; height: 50px;"></div></div><div style="text-align: right; line-height: 10px; height: 10px; height: 10px; width: 320px;"><span style="font-size: 6px; vertical-align: middle; font-family: Verdana, sans-serif; color: rgb(200, 199, 204); text-transform: uppercase; letter-spacing: 0.3px; cursor: pointer; display: inline;">Report this ad</span></div><p style="margin-bottom: 0.875em;">I did seem to have to install <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">runc</code> independently of those instructions. Not sure why it wasn’t a pre-existing dependency.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">First, I replaced all instances of <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">docker</code> in my  <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">cron</code> and CI jobs with <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">podman</code>. That was relatively easy as it’s all in my Ansible scripts, and anything else was a quick search through my GitHub repos.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">Once that was bedded in, I could see if anything else was calling <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">docker</code> by using <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">sysdig</code> to catch any references to it: </p>
+
+
+
+<p style="margin-bottom: 0.875em;"><code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">sysdig | grep -w docker</code></p>
+
+
+
+<p style="margin-bottom: 0.875em;">This may slow down your system considerably if you’re performance-sensitive.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">Once happy that nothing was trying to run <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">docker</code>, I could run:</p>
+
+
+
+<p style="margin-bottom: 0.875em;"><code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">apt remove -y docker-ce</code></p>
+
+
+
+<p style="margin-bottom: 0.875em;">I didn’t <em style="font-style: italic;">actually</em> purge in case there was some config I needed.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">Once everything was deemed stable, the final cleanup could take place:</p>
+
+
+
+<ul style="margin: 0px 0px 1.75em 2em; padding: 0px; list-style-position: outside; list-style-type: disc;"><li style="margin-top: 0.4375em;">Remove any left-over sources in <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">/etc/apt/*</code> that point to Docker apt repos</li><li style="margin-top: 0.4375em;">Remove the docker group from the system with <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">delgroup docker</code></li><li style="margin-top: 0.4375em;">Remove any left-over files in <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">etc/docker</code>/*, <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">/etc/default/docker</code> and <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">/var/lib/docker</code></li></ul>
+
+
+
+<p style="margin-bottom: 0.875em; display: block; height: 260px; margin-left: auto; margin-right: auto; overflow: hidden; width: 300px;"></p><div style="height: 250px; width: 300px;"><div style="max-width: 100%; border: none; margin: 0px; overflow: hidden; width: 300px; height: 250px;"></div></div><div style="text-align: right; line-height: 10px; height: 10px; height: 10px; width: 300px;"><span style="font-size: 6px; vertical-align: middle; font-family: Verdana, sans-serif; color: rgb(200, 199, 204); text-transform: uppercase; letter-spacing: 0.3px; cursor: pointer;">Report this ad</span></div><p style="margin-bottom: 0.875em;">A few people asked what I did about Docker Compose, but I don’t use it, so that wasn’t an issue for me.</p>
+
+
+
+<h2 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 24px; margin-bottom: 0.4375em;">Differences?</h2>
+
+
+
+<p style="margin-bottom: 0.875em;">So far, and aside from the ‘no daemon’ and ‘no sudo access required’, I haven’t noticed many differences.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">Builds are local to my user (in <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">~/.local/containers</code>) rather than global (in <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">/var/lib/docker</code>), in keeping with the general philosophy of these tools as user-oriented rather than daemon-oriented. But since my home servers have only one user using Docker, that wasn’t much of an issue.</p>
+
+
+
+<p style="margin-bottom: 0.875em;">The other big difference I noticed was that <code style="font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; font-size: 1em; font-size: 18px; padding: 2px 5px; font-family: Monaco, Consolas, &quot;Andale Mono&quot;, &quot;DejaVu Sans Mono&quot;, monospace; background-color: rgb(238, 238, 238); background-position: initial initial; background-repeat: initial initial;">podman pull</code> downloads get all layers in parallel, in contrast to Docker’s. I don’t know if this causes problems if too many images are being pulled at once, but that wasn’t a concern for me.</p>
+
+
+
+<hr style="box-sizing: content-box; height: 1px; margin: 1.75em auto; background-color: rgb(204, 204, 204); border: 0px; max-width: 100px;"/>
+
+
+
+<div style="display: block; margin: 0px 0px 1em;"><div>
+<blockquote style="margin: 1.75em 0.875em 1.75em -1.9em; padding: 0px 0px 0px 1.75em; font-family: Georgia, &quot;Times New Roman&quot;, serif; font-style: italic; border-style: solid; border-color: rgb(0, 135, 190); border-width: 0px 0px 0px 3px;"><a href="http://saharsh.org/2019/01/18/buildah_podman_skopeo/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); margin-top: 0px; margin-bottom: 0px;">Buildah, Podman, and Skopeo</a></blockquote><div style="max-width: 100%; position: absolute; clip: rect(1px, 1px, 1px, 1px);" title="“Buildah, Podman, and Skopeo” — the BIT that matters"></div>
+</div></div>
+
+
+
+<p style="margin-bottom: 0.875em; text-align: center;"><em style="font-style: italic;"><strong style="font-weight: 700; font-weight: 700;">If you like this, you might like one of my books:<br/><a href="https://leanpub.com/learnbashthehardway?p=4369" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Learn Bash the Hard Way</a></strong></em><br/><em style="font-style: italic;"><strong style="font-weight: 700; font-weight: 700;"><a href="https://leanpub.com/learngitthehardway?p=4369" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Learn Git the Hard Way</a></strong></em><br/><em style="font-style: italic;"><strong style="font-weight: 700; font-weight: 700;"><a href="https://leanpub.com/learnterraformthehardway" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Learn Terraform the Hard Way</a></strong></em></p>
+
+
+
+<div style="max-width: 100%; margin-bottom: 1em; margin-left: 0px; margin-right: 0px;"><div style="clear: both; margin: 0.875em auto; display: table;"><a href="https://leanpub.com/b/learngitbashandterraformthehardway" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);"><img src="Goodbye Docker Purging is Such Sweet Sorrow_files/Image.png" type="image/png" data-filename="Image.png" alt="LearnGitBashandTerraformtheHardWay" style="max-width: 100%; height: auto; border: 0px; max-width: 100%; vertical-align: middle; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;"/></a></div></div>
+
+
+
+<div style="max-width: 100%; margin-bottom: 1em; margin-left: 0px; margin-right: 0px;"><div style="clear: both; margin: 0.875em auto; display: table;"><img src="Goodbye Docker Purging is Such Sweet Sorrow_files/Image [1].jpg" type="image/jpeg" data-filename="Image.jpg" alt="" style="max-width: 100%; height: auto; border: 0px; max-width: 100%; vertical-align: middle; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;"/></div></div>
+
+
+
+<p style="margin-bottom: 0.875em;"><strong style="font-weight: 700; font-weight: 700;"><em style="font-style: italic;"><a href="https://www.manning.com/books/docker-in-practice-second-edition?a_aid=zwischenzugs&amp;a_bid=550032fc" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">Get 39% off Docker in Practice with the code: 39miell2</a></em></strong><br/></p>
+		<div style="text-align: center; line-height: 0;">
+			<div style="position: relative; max-width: 100%; text-align: left; transform: translate3d(0px, 0px, 0px); display: inline-block !important; min-width: 300px;">
+				<span style="position: absolute; top: 5px; left: 0px; right: 0px; display: block; min-width: 160px; opacity: 0.85; border-bottom-style: none !important; font-style: normal !important; font-variant-caps: normal !important; font-weight: normal !important; font-stretch: normal !important; font-size: 10px !important; line-height: 1 !important; font-family: &quot;Open Sans&quot;, Arial, sans-serif !important; text-align: left !important; text-decoration: none !important;">Advertisements</span>
+				<div style="margin-top: 20px;">		<div style="display: block; margin-top: 5px; margin-bottom: 20px; box-sizing: content-box; padding-bottom: 15px; width: 300px; height: 250px; float: left; margin-right: 5px; margin-top: 0px;">
+			<div><div style="height: 250px; width: 300px;"><div style="max-width: 100%; border: none; margin: 0px; overflow: hidden; width: 300px; height: 250px;"></div></div><div style="text-align: right; line-height: 10px; height: 10px; height: 10px; width: 300px;"><span style="font-size: 6px; vertical-align: middle; font-family: Verdana, sans-serif; color: rgb(200, 199, 204); text-transform: uppercase; letter-spacing: 0.3px; cursor: pointer; display: inline;">Report this ad</span></div></div>
+		</div>		<div style="display: block; margin-top: 5px; margin-bottom: 20px; box-sizing: content-box; padding-bottom: 15px; width: 300px; height: 250px; float: left; margin-top: 0px;">
+			<div><div style="height: 250px; width: 300px;"><div style="max-width: 100%; border: none; margin: 0px; overflow: hidden; width: 300px; height: 250px;"></div></div><div style="text-align: right; line-height: 10px; height: 10px; height: 10px; width: 300px;"><span style="font-size: 6px; vertical-align: middle; font-family: Verdana, sans-serif; color: rgb(200, 199, 204); text-transform: uppercase; letter-spacing: 0.3px; cursor: pointer; display: inline;">Report this ad</span></div></div>
+		</div></div>
+				
+			</div>
+		</div><div style="margin: 1.75em 0px 0px; padding-top: 0.5em; clear: both;"><div style="margin: 0px 0px 1.75em; clear: both;"><div><h3 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 19px; margin: 0px 0px 1em; display: inline-block; line-height: 1.2; font-size: 9pt; font-weight: 700; margin: 0px 0px 1em; display: inline-block; line-height: 1.2; font-size: 9pt; font-weight: 700;"><span style="content: &quot;&quot;; display: block; width: 100%; min-width: 30px; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); margin-bottom: 1em;"></span>Share this:</h3><div><ul style="margin: 0px 0px 1.75em 2em; padding: 0px; list-style-position: outside; list-style-type: disc; padding: 0px !important; margin: 0px 0px 0.7em !important; list-style: none !important; line-height: 25px !important;"><li style="padding: 0px 0px 0px 10px; display: block; float: left; height: 25px; line-height: 25px !important; margin: 0px 10px 5px 0px !important;"><a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/?share=email&amp;nb=1" rel="nofollow noopener noreferrer" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); display: inline-block; font-size: 12px; font-family: &quot;Open Sans&quot;, sans-serif; font-weight: 400; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(248, 248, 248); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 0px; text-shadow: none; line-height: 23px; padding: 1px 8px 0px 5px; text-decoration: none !important; color: rgb(84, 84, 84) !important; background-position: initial initial; background-repeat: initial initial; position: relative; top: 0px; display: inline-block; font-size: 12px; font-family: &quot;Open Sans&quot;, sans-serif; font-weight: 400; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(248, 248, 248); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.0784314) 0px 1px 0px; text-shadow: none; line-height: 23px; padding: 1px 8px 0px 5px; text-decoration: none !important; color: rgb(84, 84, 84) !important; background-position: initial initial; background-repeat: initial initial; line-height: 17px; box-shadow: none; vertical-align: top;" target="_blank" title="Click to email this to a friend"><span style="margin-bottom: -1px; display: inline-block; -webkit-font-smoothing: antialiased; font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 18px; line-height: 1; font-family: social-logos; vertical-align: top; text-align: center; position: relative; top: -2px;"></span><span style="line-height: 23px; line-height: 23px; line-height: 17px; margin-left: 3px; line-height: 1;">Email</span></a></li><li style="padding: 0px 0px 0px 10px; display: block; float: left; height: 25px; line-height: 25px !important; margin: 0px 10px 5px 0px !important;"><div><span style="margin: 0px !important; display: block !important; display: inline-block; line-height: 1; vertical-align: bottom; padding: 0px; margin: 0px; text-indent: 0px; text-align: center;"><span style="padding: 0px !important; margin: 0px !important; text-indent: 0px !important; display: inline-block !important; vertical-align: bottom !important; font-size: 1px !important;"><span style="margin: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; color: inherit; overflow: visible; text-transform: none; cursor: pointer; -webkit-appearance: button; font-family: Georgia, &quot;Times New Roman&quot;, serif; font-size: 18px; line-height: 1.75; color: rgb(56, 56, 56); max-width: 100%; margin: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: middle; background-color: rgb(0, 115, 177) !important; border: 0px !important; border-top-left-radius: 2px !important; border-top-right-radius: 2px !important; border-bottom-right-radius: 2px !important; border-bottom-left-radius: 2px !important; box-sizing: border-box !important; color: rgb(255, 255, 255) !important; cursor: pointer !important; display: inline-block !important; font-family: -apple-system, system-ui, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, &quot;Fira Sans&quot;, Ubuntu, Oxygen, &quot;Oxygen Sans&quot;, Cantarell, &quot;Droid Sans&quot;, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Lucida Grande&quot;, Helvetica, Arial, sans-serif !important; font-weight: 600 !important; overflow: hidden !important; outline-width: 2px !important; position: relative !important; text-align: center !important; text-decoration: none !important; vertical-align: middle !important; white-space: nowrap !important; font-size: 11px !important; height: 20px !important; line-height: 20px !important; padding: 0px 7px !important; display: inline-block; box-sizing: content-box; padding: 0.4375em 0.875em; cursor: pointer; transition: background 0.12s ease-in-out, box-shadow 0.12s ease-in-out; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; font-weight: 400; font-style: normal; text-decoration: none; color: rgb(255, 255, 255); border: 1px solid transparent; border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; background-color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased; background-position: initial initial; background-repeat: initial initial;"><div style="display: inline-block !important; vertical-align: top !important; margin-left: -7px !important; margin-right: 3.5px !important;"><div style="overflow: hidden; pointer-events: none !important; height: 20px !important; width: 20px !important;">
+      <div style="fill: currentcolor;">
+        <div style="fill: none;"></div>
+        <div style=""></div>
+      </div>
+    </div></div>Share</span></span></span></div></li><li style="padding: 0px 0px 0px 10px; display: block; float: left; height: 25px; line-height: 25px !important; margin: 0px 10px 5px 0px !important;"><div><div style="max-width: 100%; margin-top: 1px;"></div></div></li><li style="padding: 0px 0px 0px 10px; display: block; float: left; height: 25px; line-height: 25px !important; margin: 0px 10px 5px 0px !important;"><div style="max-width: 100%; position: static; visibility: visible; width: 61px; height: 20px;" title="Twitter Tweet Button"></div></li><li style="padding: 0px 0px 0px 10px; display: block; float: left; height: 25px; line-height: 25px !important; margin: 0px 10px 5px 0px !important;"><div style="max-width: 100%; visibility: visible;"></div></li><li style="padding: 0px 0px 0px 10px; display: block; float: left; height: 25px; line-height: 25px !important; margin: 0px 10px 5px 0px !important;"><div><div><div style="max-width: 100%; margin: 0px !important; width: 98px;"></div></div></div></li><li style="padding: 0px 0px 0px 10px; display: block; float: left; height: 25px; line-height: 25px !important; margin: 0px 10px 5px 0px !important;"><div></div></li><li style="padding: 0px 0px 0px 10px; display: block; float: left; height: 25px; line-height: 25px !important; margin: 0px 10px 5px 0px !important;"></li><span style="content: &quot;.&quot;; display: block; height: 0px; clear: both; visibility: hidden;"></span></ul></div></div></div><div style="clear: both; width: 100%; min-height: 50px; position: relative; clear: both; margin: 1.75em 0px; clear: both; clear: both; clear: both; clear: both;"><h3 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 19px; margin: 0px 0px 1em; display: inline-block; line-height: 1.2; font-size: 9pt; font-weight: 700; margin: 0px 0px 1em; display: inline-block; line-height: 1.2; font-size: 9pt; font-weight: 700; display: none;"><span style="content: &quot;&quot;; display: block; width: 100%; min-width: 30px; border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221); margin-bottom: 1em;"></span>Like this:</h3><div style="max-width: 100%; margin: 0px; border-width: 0px; display: block; margin: 0px; border-width: 0px; display: block; width: 100%; float: none; position: absolute; top: 0px;"></div><span></span><a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); font-size: 12px;"></a></div>
+<div style="padding-top: 1em; margin: 1em 0px 0px; position: relative; clear: both; display: block;">
+	<h3 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 19px; margin: 0px 0px 1em; display: inline-block; float: left; font-size: 9pt; font-weight: 700; font-family: inherit; font-size: 19px; margin: 0px 0px 0.875em;"><em style="font-style: italic; font-style: normal; font-weight: 700; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif;"><span style="content: &quot;&quot;; width: 100%; min-width: 30px; border-top-width: 1px; border-top-style: solid; border-top-color: rgba(0, 0, 0, 0.2); margin-bottom: 1em; display: none;"></span>Related</em></h3>
+<div style="clear: left;"><p style="margin-bottom: 0.875em; font-size: 14px; line-height: 20px; margin: 0px; margin-bottom: 0px; font-size: 15px; line-height: 1.75; margin-bottom: 0.4375em; float: left; width: 33%; margin: 0px 0px 1em; box-sizing: border-box; width: 50%;"><span style="display: block; max-width: 90%; overflow: hidden; text-overflow: ellipsis;"><a href="https://zwischenzugs.com/2018/04/23/unprivileged-docker-builds-a-proof-of-concept/" rel="nofollow" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: inherit; font-weight: 400; text-decoration: none; opacity: 1; font-weight: 700; font-size: 17px;" title="Unprivileged Docker Builds - A Proof of Concept
+
+I work at a very 'locked-down' enterprise, where direct access to Docker is effectively verboten. This, fundamentally, is because access to Docker is effectively giving users root. From Docker's own pages: First of all, only trusted users should be allowed to control your Docker daemon. Most home users get permissions in…">Unprivileged Docker Builds - A Proof of Concept</a></span><span style="display: block; max-width: 90%; overflow: hidden; text-overflow: ellipsis; opacity: 0.6;">With 20 comments</span></p><p style="margin-bottom: 0.875em; font-size: 14px; line-height: 20px; margin: 0px; margin-bottom: 0px; font-size: 15px; line-height: 1.75; margin-bottom: 0.4375em; float: left; width: 33%; margin: 0px 0px 1em; box-sizing: border-box; width: 50%;"><span style="display: block; max-width: 90%; overflow: hidden; text-overflow: ellipsis;"><a href="https://zwischenzugs.com/2015/05/21/a-field-guide-to-docker-security-measures/" rel="nofollow" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: inherit; font-weight: 400; text-decoration: none; opacity: 1; font-weight: 700; font-size: 17px;" title="A Field Guide to Docker Security Measures
+
+This post is based on material from Docker in Practice, available on Manning's Early Access Program. Get 39% off with the code: 39miell Introduction If you're unsure of how to secure Docker for your organisation (given that security wasn't part of its design), I thought it would be useful to…">A Field Guide to Docker Security Measures</a></span><span style="display: block; max-width: 90%; overflow: hidden; text-overflow: ellipsis; opacity: 0.6;">With 4 comments</span></p><p style="margin-bottom: 0.875em; font-size: 14px; line-height: 20px; margin: 0px; margin-bottom: 0px; font-size: 15px; line-height: 1.75; margin-bottom: 0.4375em; float: left; width: 33%; margin: 0px 0px 1em; box-sizing: border-box; width: 50%; clear: left;"><span style="display: block; max-width: 90%; overflow: hidden; text-overflow: ellipsis;"><a href="https://zwischenzugs.com/2016/01/30/ci-as-code-part-ii-stateless-jenkins-with-dynamic-docker-slaves/" rel="nofollow" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: inherit; font-weight: 400; text-decoration: none; opacity: 1; font-weight: 700; font-size: 17px;" title="CI as Code Part II: Stateless Jenkins With Dynamic Docker Slaves
+
+Introduction This article continues on from part one of this series, which looks at 'CI as code' using Docker to set up isolated and reproducible phoenix deployments of Jenkins deployments Here I add dynamic Docker containers as on-demand Jenkins nodes in a Docker cloud. Code This is now baked into v2.0 of the git…">CI as Code Part II: Stateless Jenkins With Dynamic Docker Slaves</a></span><span style="display: block; max-width: 90%; overflow: hidden; text-overflow: ellipsis; opacity: 0.6;">With 6 comments</span></p></div><span style="content: &quot;&quot;; display: block; clear: both;"></span></div></div>	<span style="display: table; content: &quot; &quot;; clear: both;"></span></div>
+
+	<div style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 14px; font-weight: 400; font-style: normal; margin: 1.75em 0px 3.5em; color: rgb(179, 179, 177);"><span style="display: table; content: &quot; &quot;;"></span>
+			<span style="display: table; content: &quot; &quot;; clear: both;"></span></div>
+
+	<div style="position: relative; margin: 1.75em 0px 0px; padding: 1.75em 0px 0px;">
+			<div><span style="display: table; content: &quot; &quot;;"></span>
+				<div style="position: relative; z-index: 2; display: block; float: right; margin-left: 0.875em; width: 80px;">
+			<img src="Goodbye Docker Purging is Such Sweet Sorrow_files/Image [2].jpg" type="image/jpeg" data-filename="Image.jpg" alt="" height="80" style="max-width: 100%; height: auto; border: 0px; position: relative; display: block; float: right; width: 80px; height: auto; border-top-left-radius: 80px; border-top-right-radius: 80px; border-bottom-right-radius: 80px; border-bottom-left-radius: 80px;" width="80"/>		</div>
+		
+		<div style="position: relative; z-index: 1; display: block; clear: none; box-sizing: border-box;">
+			<h2 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 24px; margin-bottom: 0.4375em; clear: none; margin: 0px; font-size: 19px; font-weight: 700; line-height: 1.4; color: rgb(51, 51, 50);">Published by <span>zwischenzugs</span></h2>
+		</div>
+
+		<p style="margin-bottom: 0.875em; position: relative; z-index: 1; display: block; clear: none; box-sizing: border-box; margin-top: 0px; font-size: 15px; font-style: italic; color: rgb(146, 146, 146);">
+						<a href="https://zwischenzugs.com/author/zwischenzugs/" rel="author" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+				View all posts by zwischenzugs			</a>
+		</p>
+	<span style="display: table; content: &quot; &quot;; clear: both;"></span></div>
+		<div style="position: relative; display: none; margin-left: 100px; clip: rect(1px, 1px, 1px, 1px); height: 1px; position: absolute; overflow: hidden; width: 1px;"><span style="display: none;"></span>
+			<strong style="display: block; clear: right; margin: 0px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 15px; font-weight: 700; font-style: normal; line-height: 1.4; color: rgb(51, 51, 50);">Published</strong>
+			<div style="display: block; margin: 0px; font-family: Georgia, &quot;Times New Roman&quot;, serif; font-size: 15px; font-weight: inherit; font-style: normal; line-height: 2; color: rgb(146, 146, 146);">July 27, 2019</div><div style="display: block; margin: 0px; font-family: Georgia, &quot;Times New Roman&quot;, serif; font-size: 15px; font-weight: inherit; font-style: normal; line-height: 2; color: rgb(146, 146, 146); display: none; display: none;">July 27, 2019</div>		</div>
+	</div>
+</div>
+
+			
+	<div style="display: block; margin-top: 2.675em; padding: 0.4375em 0px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; border-top-color: rgb(221, 221, 221);">
+		<h2 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 24px; margin-bottom: 0.4375em; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; position: absolute !important; position: absolute; left: -1000em;">Post navigation</h2>
+		<div style="font-size: 15px;"><span style="display: table; content: &quot; &quot;;"></span><div style="float: left; clear: both; margin: 0px 0px 0px -0.21875em; width: 100%;"><a href="https://zwischenzugs.com/2019/05/11/seven-surprising-bash-variables/" rel="prev" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); display: inline-block; padding: 0.21875em 0px; transition: color 0.14s ease-in-out; font-weight: 400; vertical-align: middle; color: rgb(182, 182, 180);"><span style="position: relative; display: inline-block; margin: 0px 0.21875em 0px 0px; font-family: Genericons; vertical-align: middle; -webkit-font-smoothing: antialiased; transform: rotate(90deg);"></span><span style="overflow: hidden; clip: rect(1px, 1px, 1px, 1px); width: 1px; height: 1px; position: absolute !important; position: absolute; left: -1000em;">Previous Post</span> Seven Surprising Bash Variables</a></div><span style="display: table; content: &quot; &quot;; clear: both;"></span></div>
+	</div>
+			
+<div style="padding-top: 2.675em; font-family: Georgia, &quot;Times New Roman&quot;, serif;">
+
+	
+			<h2 style="clear: both; line-height: 1.1; color: rgb(51, 51, 50); display: inline-block; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 32px; font-weight: 700; margin: 0px 0px 1.75em;">
+			5 thoughts on “<span>Goodbye Docker: Purging is Such Sweet Sorrow</span>”		</h2>
+
+		
+		<ol style="margin: 0px 0px 1.75em 2em; padding: 0px; list-style-position: outside; list-style-type: decimal; margin: 0px; padding: 0px; list-style: none;">
+					<li style="font-size: 17px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(232, 232, 232); padding: 0px 0px 0px 0.875em; list-style: none inside; margin: 0px;"><span style="position: relative; top: 2px; float: left; font-size: 24px; line-height: 1; color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased;"></span>
+			<div>
+				Pingback: <a href="https://hckrnews.wordpress.com/2019/07/27/new-top-story-on-hacker-news-goodbye-docker-purging-is-such-sweet-sorrow/" rel="external nofollow" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); margin: 0px 0px 0px 0.21875em;">New top story on Hacker News: Goodbye Docker: Purging Is Such Sweet Sorrow – Hckr News</a> 			</div>
+		</li>
+		<li style="font-size: 17px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(232, 232, 232); margin: 1.75em 0px 0px; padding: 0px 0px 0px 0.875em; list-style: none inside;"><span style="position: relative; top: 2px; float: left; font-size: 24px; line-height: 1; color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased;"></span>
+			<div>
+				Pingback: <a href="https://outsidetheknow.wordpress.com/2019/07/28/new-top-story-on-hacker-news-goodbye-docker-purging-is-such-sweet-sorrow/" rel="external nofollow" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); margin: 0px 0px 0px 0.21875em;">New top story on Hacker News: Goodbye Docker: Purging Is Such Sweet Sorrow – Outside The Know</a> 			</div>
+		</li>
+		<li style="font-size: 17px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(232, 232, 232); margin: 1.75em 0px 0px; padding: 0px 0px 0px 0.875em; list-style: none inside;"><span style="position: relative; top: 2px; float: left; font-size: 24px; line-height: 1; color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased;"></span>
+			<div>
+				Pingback: <a href="https://myindianews1.wordpress.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" rel="external nofollow" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); margin: 0px 0px 0px 0.21875em;">Goodbye Docker: Purging Is Such Sweet Sorrow – INDIA NEWS</a> 			</div>
+		</li>
+		<li style="font-size: 17px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(232, 232, 232); margin: 1.75em 0px 0px; padding: 0px 0px 0px 0.875em; list-style: none inside;"><span style="position: relative; top: 2px; float: left; font-size: 24px; line-height: 1; color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased;"></span>
+			<div>
+				Pingback: <a href="https://indian215720559.wordpress.com/2019/07/27/new-top-story-on-hacker-news-goodbye-docker-purging-is-such-sweet-sorrow-2/" rel="external nofollow" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); margin: 0px 0px 0px 0.21875em;">New top story on Hacker News: Goodbye Docker: Purging Is Such Sweet Sorrow – Golden News</a> 			</div>
+		</li>
+		<li style="font-size: 17px; border-left-width: 1px; border-left-style: solid; border-left-color: rgb(232, 232, 232); margin: 1.75em 0px 0px; padding: 0px 0px 0px 0.875em; list-style: none inside;"><span style="position: relative; top: 2px; float: left; font-size: 24px; line-height: 1; color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased;"></span>
+			<div>
+				Pingback: <a href="https://hackernewsrobot.wordpress.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" rel="external nofollow" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); margin: 0px 0px 0px 0.21875em;">Goodbye Docker: Purging Is Such Sweet Sorrow – Hacker News Robot</a> 			</div>
+		</li>
+		</ol>
+
+		
+	
+	
+		<div style="margin-top: 1.75em; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; margin-bottom: 0px;">
+		<h3 style="clear: both; margin-top: 0.875em; margin-bottom: 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1.1; color: rgb(51, 51, 50); font-size: 19px; display: inline-block; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 32px; font-weight: 700; margin: 0px 0px 0.875em;">Leave a Reply <small style="font-size: 80%; font-size: 75%; visibility: hidden; vertical-align: middle;"><span style="margin: 0px 0.875em; content: &quot;|&quot;; font-size: 15px; opacity: 0.35; -webkit-font-smoothing: antialiased;"></span></small></h3>			<div>
+				<p style="margin-bottom: 0.875em; margin: 0px; font-size: 17px;"><span>Your email address will not be published.</span> Required fields are marked <span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; line-height: 0; vertical-align: middle; color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased;">*</span></p><p style="margin-bottom: 0.875em; margin: 0px;"><span style="display: block; margin-bottom: 0.21875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 17px; color: rgb(179, 179, 177);">Comment</span> <span style="overflow: auto; max-width: 100%; margin: 0px; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: middle; box-sizing: border-box; transition: color 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease; font-family: Georgia, &quot;Times New Roman&quot;, serif; color: rgb(64, 64, 64); border: 1px solid rgb(204, 204, 204); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; -webkit-appearance: none; -webkit-font-smoothing: antialiased; padding: 0.4375em 0.875em; font-size: 18px; box-shadow: rgba(0, 0, 0, 0.0588235) 0px 1px 5px; display: block; width: 100%; resize: vertical;"></span></p><p style="margin-bottom: 0.875em;"><span style="display: block; margin-bottom: 0.21875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 17px; color: rgb(179, 179, 177);">Name <span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; line-height: 0; vertical-align: middle; color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased;">*</span></span> </p>
+<p style="margin-bottom: 0.875em;"><span style="display: block; margin-bottom: 0.21875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 17px; color: rgb(179, 179, 177);">Email <span style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 20px; line-height: 0; vertical-align: middle; color: rgb(0, 135, 190); -webkit-font-smoothing: antialiased;">*</span></span> </p>
+<p style="margin-bottom: 0.875em;"><span style="display: block; margin-bottom: 0.21875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 17px; color: rgb(179, 179, 177);">Website</span> </p>
+<p style="margin-bottom: 0.875em; margin: 1.75em 0px 0px;"> 
+
+</p>
+
+<p style="margin-bottom: 0.875em;"> <span style="display: block; margin-bottom: 0.21875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 17px; color: rgb(179, 179, 177); display: inline;">Notify me of new comments via email.</span></p><p style="margin-bottom: 0.875em;"> <span style="display: block; margin-bottom: 0.21875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 17px; color: rgb(179, 179, 177); display: inline;">Notify me of new posts via email.</span></p>			</div>
+			</div>
+	
+</div>
+
+		
+		</div>
+	</div>
+
+<div style="margin-top: 3.5em; font-size: 16px; margin-top: 3.75em;">
+	<div style="display: block; word-wrap: break-word; margin-top: 0px; word-wrap: break-word;"><h1 style="clear: both; line-height: 1.1; color: rgb(51, 51, 50); margin: 0px 0px 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-weight: 700; font-size: 17px;">Follow me on Twitter</h1><div style="max-width: 100%; margin-bottom: 0px; position: static; visibility: visible; display: inline-block; width: 100%; height: 400px; padding: 0px; border: none; max-width: 100%; min-width: 180px; margin-top: 0px; margin-bottom: 0px; min-height: 200px;" title="Twitter Timeline"></div></div><div style="display: block; word-wrap: break-word; margin-top: 0px; margin-top: 3.5em; word-wrap: break-word;"><h1 style="clear: both; line-height: 1.1; color: rgb(51, 51, 50); margin: 0px 0px 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-weight: 700; font-size: 17px;">Top Posts &amp; Pages</h1><ul style="margin: 0px; padding: 0px; list-style: none;">				<li style="margin: 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						Goodbye Docker: Purging is Such Sweet Sorrow					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2018/01/26/how-and-why-i-run-my-own-dns-servers/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						How (and Why) I Run My Own DNS Servers					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2017/04/23/things-i-wish-i-knew-before-using-jenkins-pipelines/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						Ten Things I Wish I'd Known Before Using Jenkins Pipelines					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						Ten Things I Wish I'd Known About bash					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2016/08/29/bash-to-python-converter/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						Bash to Python Converter					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2019/03/25/aws-vs-k8s-is-the-new-windows-vs-linux/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						'AWS vs K8s' is the new 'Windows vs Linux'					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2017/11/25/ten-things-i-wish-id-known-about-chef/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						Ten Things I Wish I'd Known About Chef					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2018/06/08/anatomy-of-a-linux-dns-lookup-part-i/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						Anatomy of a Linux DNS Lookup - Part I					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2019/05/11/seven-surprising-bash-variables/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						Seven Surprising Bash Variables					</a>
+										</li>
+								<li style="margin-top: 0.4375em; margin: 0.875em 0px 0px; line-height: 1.2;">
+										<a href="https://zwischenzugs.com/2018/04/23/unprivileged-docker-builds-a-proof-of-concept/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">
+						Unprivileged Docker Builds - A Proof of Concept					</a>
+										</li>
+				</ul></div>		<div style="display: block; word-wrap: break-word; margin-top: 0px; font-size: 15px; color: rgb(147, 147, 147); margin-top: 3.5em; word-wrap: break-word;">		<h1 style="clear: both; line-height: 1.1; color: rgb(51, 51, 50); margin: 0px 0px 0.875em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-weight: 700; font-size: 17px;">Recent Posts</h1>		<ul style="margin: 0px; padding: 0px; list-style: none;">
+											<li style="margin: 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Goodbye Docker: Purging is Such Sweet Sorrow</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/05/11/seven-surprising-bash-variables/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Seven Surprising Bash Variables</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/04/23/the-missing-readline-primer/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">The Missing Readline Primer</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/04/12/apples-hq-ruskin-gothic-architecture-and-agile/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Apple’s HQ, Ruskin, Gothic Architecture, and Agile</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/04/03/eight-obscure-bash-options-you-might-want-to-know-about/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Eight Obscure Bash Options You Might Want to Know About</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/03/25/aws-vs-k8s-is-the-new-windows-vs-linux/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">‘AWS vs K8s’ is the new ‘Windows vs Linux’</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/03/16/pranking-the-bash-binary/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Pranking the Bash Binary</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/02/27/bash-startup-explained/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Bash Startup Explained</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/01/09/git-hooks-the-hard-way/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Git Hooks the Hard Way</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2019/01/02/notes-on-books-read-in-2018/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Notes on Books Read in 2018</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/11/25/six-ways-to-level-up-your-nmap-game/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Six Ways to Level Up Your nmap Game</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/10/30/five-things-i-wish-id-known-about-git/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Five Things I Wish I’d Known About Git</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/10/12/eleven-bash-tips-you-might-want-to-know/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Eleven bash Tips You Might Want to Know</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/10/09/learn-bash-debugging-techniques-the-hard-way/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Learn Bash Debugging Techniques the Hard Way</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/10/02/why-are-enterprises-so-slow/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Why Are Enterprises So Slow?</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/09/13/anatomy-of-a-linux-dns-lookup-part-v-two-debug-nightmares/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Anatomy of a Linux DNS Lookup – Part V – Two Debug Nightmares</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/08/06/anatomy-of-a-linux-dns-lookup-part-iv/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Anatomy of a Linux DNS Lookup – Part IV</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/07/06/anatomy-of-a-linux-dns-lookup-part-iii/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Anatomy of a Linux DNS Lookup – Part III</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/06/18/anatomy-of-a-linux-dns-lookup-part-ii/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Anatomy of a Linux DNS Lookup – Part II</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/06/08/anatomy-of-a-linux-dns-lookup-part-i/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Anatomy of a Linux DNS Lookup – Part I</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/05/22/a-docker-image-in-less-than-1000-bytes/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A Docker Image in Less Than 1000 Bytes</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/05/21/autotrace-debug-on-steroids/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Autotrace – Debug on Steroids</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/05/14/beyond-punk-rock-git-in-eleven-steps/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Beyond ‘Punk Rock Git’ in Eleven Steps</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/05/05/sandboxing-docker-with-googles-gvisor/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Sandboxing Docker with Google’s gVisor</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/04/23/unprivileged-docker-builds-a-proof-of-concept/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Unprivileged Docker Builds – A Proof of Concept</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/04/05/learn-git-rebase-interactively/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Learn Git Rebase Interactively</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/03/27/terminal-perf-graphs-in-one-command/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Terminal Perf Graphs in one Command</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/03/26/git-log-the-good-parts/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">git log – the Good Parts</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/03/14/five-key-git-concepts-explained-the-hard-way/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Five Key Git Concepts Explained the Hard Way</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/03/08/create-your-own-git-diagrams/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Create Your Own Git Diagrams</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/02/24/5-things-i-did-to-change-a-teams-culture/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Five Things I Did to Change a Team’s Culture</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/02/05/centralise-your-bash-history/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Centralise Your Bash History</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/01/26/how-and-why-i-run-my-own-dns-servers/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">How (and Why) I Run My Own DNS Servers</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/01/21/ten-more-things-i-wish-id-known-about-bash/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Ten More Things I Wish I'd Known About bash</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/01/18/download-a-free-sample-of-learn-bash-the-hard-way/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Download a Free Sample of Learn Bash the Hard Way</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2018/01/06/ten-things-i-wish-id-known-about-bash/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Ten Things I Wish I’d Known About bash</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/12/18/project-management-as-code-with-graphviz/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Project Management as Code with Graphviz</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/12/11/how-to-manually-clear-locks-in-jenkins/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">How to Manually Clear Locks in Jenkins</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/12/03/how-i-manage-my-time/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">How I Manage My Time</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/11/25/ten-things-i-wish-id-known-about-chef/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Ten Things I Wish I’d Known About Chef</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/11/18/__trashed-4/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Vagrant and Ohai / Chef IP Address Hack</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/11/11/towards-a-national-computer-grid-electronic-computers-1965/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">‘Towards a National Computer Grid’ – Electronic Computers, 1965</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/10/31/a-complete-chef-infrastructure-on-your-laptop/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A Complete Chef Infrastructure on Your Laptop</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/10/27/ten-things-i-wish-id-known-before-using-vagrant/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Ten Things I Wish I’d Known Before Using Vagrant</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/10/23/a-checklist-for-docker-in-the-enterprise-updated/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A Checklist for Docker in the Enterprise (Updated)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/10/21/openshift-3-6-dns-in-pictures/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">OpenShift 3.6 DNS In Pictures</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/10/16/puppeteer-headless-chrome-in-a-container/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Puppeteer – Headless Chrome in a Container</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/10/15/my-20-year-experience-of-software-development-methodologies/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">My 20-Year Experience of Software Development Methodologies</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/08/07/a-non-cloud-serverless-application-pattern-using-git-and-docker/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A Non-Cloud Serverless Application Pattern Using Git and Docker</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/07/31/run-your-own-aws-apis-on-openshift/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Run Your Own AWS APIs on OpenShift</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/07/15/dockerized-headless-chrome-example/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Dockerized Headless Chrome Example</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/06/18/convert-any-server-to-a-docker-container-update-ii/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Convert a Server to a Docker Container (Update II)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/05/06/automating-dockerized-jenkins-upgrades/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Automating Dockerized Jenkins Upgrades</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/04/23/things-i-wish-i-knew-before-using-jenkins-pipelines/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Ten Things I Wish I’d Known Before Using Jenkins Pipelines</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/04/11/five-books-i-advise-every-devops-engineer-to-read/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Five Books I Advise Every DevOps Engineer to Read</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/04/04/things-i-learned-managing-site-reliability-for-some-of-the-worlds-busiest-gambling-sites/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Things I Learned Managing Site Reliability for Some of the World’s Busiest Gambling Sites</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/03/18/clustered-vm-testing-how-to/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Clustered VM Testing How-To</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/03/04/easy-shell-automation/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Easy Shell Automation</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/03/04/1-minute-multi-node-vm-setup/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">1-Minute Multi-Node VM Setup</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/03/04/migrating-an-openshift-etcd-cluster/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Migrating an OpenShift etcd Cluster</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/03/04/a-complete-openshift-cluster-on-vagrant-step-by-step/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A Complete OpenShift Cluster on Vagrant, Step by Step</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/03/04/learn-kubernetes-the-hard-way-the-easy-and-cheap-way/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Learn Kubernetes the Hard Way (the Easy and Cheap Way)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/03/04/docker-in-the-enterprise/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker in the Enterprise</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2017/02/21/terraform-and-dynamic-environments/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Terraform and Dynamic Environments</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/08/29/bash-to-python-converter/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Bash to Python Converter</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/07/22/hello-world-unikernel-walkthrough/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Hello world Unikernel Walkthrough</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/07/08/a-checklist-for-docker-in-the-enterprise/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A checklist for Docker in the Enterprise</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/06/23/a-quick-tour-of-docker-1-12/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A Quick Tour of Docker 1.12</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/06/04/power-git-log-graphing/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Power ‘git log’ graphing</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/05/21/ssh-r-reverse-tunnel-man-page-hell/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">ssh -R (reverse tunnel) man page hell</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/05/15/writing-a-technical-book/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Writing a Technical Book</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/04/24/interactive-git-tutorials-rebase-and-bisect/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Interactive Git Tutorials – Rebase and Bisect</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/04/12/hitler-uses-docker-annotated/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Hitler Uses Docker, Annotated</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/04/05/linux-scales/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Linux Scales</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/04/05/play-with-kubernetes-quickly-using-docker-updated/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Play With Kubernetes Quickly Using Docker (Updated)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/04/04/convert-any-server-to-a-docker-container-updated/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Convert Any Server to a Docker Container (Updated)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/02/25/922/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">CI as Code Part III: Dynamic Jenkins-Swarm Example</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/02/06/docker-1-10-highlights/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker 1.10 Highlights – Updated</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/01/30/ci-as-code-part-ii-stateless-jenkins-with-dynamic-docker-slaves/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">CI as Code Part II: Stateless Jenkins With Dynamic Docker Slaves</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2016/01/24/ci-as-code-stateless-jenkins-deployments-using-docker/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">CI as Code Part I: Stateless Jenkins Deployments Using Docker</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/12/22/docker-ecosystem-rosetta-stones/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker Ecosystem Rosetta Stones</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/12/17/understanding-docker-a-tour-of-logical-volume-management/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Understanding Docker – A Tour of Logical Volume Management</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/12/17/888/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Automating Docker Security Validation</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/11/26/the-it-crowd-was-right-what-i-learned-by-reading-a-lot-of-rfcs/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">The IT Crowd Was Right – What I learned by reading a lot of RFCs</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/11/21/understanding-docker-network-namespaces/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Understanding Docker – Network Namespaces</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/11/17/dockerconeu-2015-talk-you-know-more-than-you-think/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">DockerConEU 2015 Talk – You Know More Than You Think</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/10/11/docker-migration-in-flight-criu/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker Migration In-Flight CRIU</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/08/26/a-high-availability-phoenix-and-ab-deployment-framework-using-docker/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A High Availability Phoenix and A/B Deployment Framework using Docker</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/08/06/quick-intro-to-kubernetes/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Quick Intro to Kubernetes</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/07/18/take-openshift-for-a-spin-in-four-commands/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Take OpenShift for a spin in four commands</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/07/04/redhats-docker-build-method-s2i-2/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">RedHat's Docker Build Method – S2I</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/07/04/redhats-docker-build-method-s2i/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">RedHat’s Docker Build Method – S2I</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/07/01/bash-shortcuts-gem/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Bash Shortcuts Gem</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/06/28/a-coreos-cluster-in-two-minutes-with-four-commands/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A CoreOS Cluster in Two Minutes With Four Commands</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/06/24/the-most-pointless-docker-command-ever/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">The Most Pointless Docker Command Ever</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/06/14/my-favourite-docker-tip/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">My Favourite Docker Tip</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/05/24/convert-any-server-to-a-docker-container/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Convert Any Server to a Docker Container</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/05/21/a-field-guide-to-docker-security-measures/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">A Field Guide to Docker Security Measures</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/04/29/docker-selinux-experimentation-with-reduced-pain/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker SELinux Experimentation with Reduced Pain</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/04/20/storage-drivers-and-docker/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Storage Drivers and Docker</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/04/06/play-with-kubernetes-quickly-using-docker/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Play With Kubernetes Quickly Using Docker</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/04/01/play-with-an-openshift-paas-using-docker/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Play with an OpenShift PaaS using Docker</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/03/19/scale-your-jenkins-compute-with-your-dev-team-use-docker-and-jenkins-swarm/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Scale Your Jenkins Compute With Your Dev Team: Use Docker and Jenkins Swarm</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/03/14/docker-in-practice-a-guide-for-engineers/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker in Practice – A Guide for Engineers</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/02/21/fight-docker-package-drift/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Fight Docker Package Drift!</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/02/01/win-at-2048-with-docker-and-shutit-redux/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Win at 2048  with Docker and ShutIt (Redux)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/01/26/set-up-a-deis-docker-friendly-paas-on-digital-ocean-for-0-18-per-hour-in-six-easy-steps-using-shutit/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Set Up a Deis (Docker-Friendly) Paas on Digital Ocean for $0.18 Per Hour in Six Easy Steps Using ShutIt</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/01/14/create-your-own-coreos-cluster-in-6-easy-steps-for-0-03/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Create your own CoreOS cluster in 6 easy steps for $0.03</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2015/01/12/make-your-own-bespoke-docker-image/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Make Your Own Bespoke Docker Image</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/11/08/taming-slaves-with-docker-and-shutit/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Taming Slaves with Docker and ShutIt</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/10/27/docker-one-year-on/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker – One Year On</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/10/07/using-shutit-to-build-your-own-taiga-server/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Using ShutIt to Build Your Own Taiga Server</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/09/15/using-shutit-and-docker-to-play-with-aws-part-two/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Using ShutIt and Docker to play with AWS (Part Two)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/09/04/talk-on-docker-and-shutit/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Talk on Docker and ShutIt</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/08/09/using-shutit-and-docker-to-play-with-aws-part-one/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Using ShutIt and Docker to play with AWS (Part One)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/07/16/phoenix-deployment-pain-and-win/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Phoenix deployment pain (and win)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/06/07/phoenix-deployment-with-docker-and-shutit/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Phoenix Deployment with Docker and ShutIt</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/05/27/docker-shutit-and-the-perfect-2048-game-videos/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker, ShutIt and the Perfect 2048 Game (Videos)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/05/23/docker-shutit-and-the-perfect-2048-game-4-halfway-there/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker, ShutIt and the Perfect 2048 Game (4 – Halfway There)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/05/21/docker-shutit-and-the-perfect-2048-game-3-brute-force-escapes/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker, ShutIt and the Perfect 2048 Game (3 – Brute Force Escapes)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/05/20/docker-shutit-and-the-perfect-2048-game-2/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker, ShutIt and the Perfect 2048 Game (2)</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2014/05/09/docker-shutit-and-the-perfect-2048-game/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Docker, ShutIt, and The Perfect 2048 Game</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2011/08/29/my-favourite-secret-weapon-strace/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">My Favourite Secret Weapon – strace</a>
+									</li>
+											<li style="margin: 1.3125em 0px 0px; line-height: 1.4;">
+					<a href="https://zwischenzugs.com/2011/03/06/shakespeare_unexceptional_vocabulary/" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); font-size: 17px; font-weight: 700; color: rgb(56, 56, 56);">Shakespeare’s Vocabulary Considered Unexceptional</a>
+									</li>
+					</ul>
+		</div><div style="display: block; word-wrap: break-word; margin-top: 0px; margin-top: 3.5em; word-wrap: break-word;">
+		<div style="max-width: 100%; margin-top: 0px;"></div>
+		
+
+		</div></div>
+
+		<span style="display: table; content: &quot; &quot;; clear: both;"></span></div>
+
+		<div style="display: block; clear: both; padding: 2.625em 0px 1.75em; word-wrap: break-word;">
+						<div style="padding: 5.25em 0px 1.75em; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; font-size: 14px; text-align: center; color: rgb(141, 141, 138); -webkit-font-smoothing: antialiased;">
+				<a href="https://wordpress.com/?ref=footer_custom_com" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190);">WordPress.com</a>.
+				
+							</div>
+		</div>
+	<span style="display: table; content: &quot; &quot;; clear: both;"></span></div>
+</div>
+
+
+
+	<div style="background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(rgb(34, 34, 34)), to(rgb(51, 51, 51))); padding: 3px 0px 0px; display: none; margin: 5px auto 0px; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; -webkit-box-shadow: rgba(0, 0, 0, 0.901961) 0px 0px 20px; box-shadow: rgba(0, 0, 0, 0.901961) 0px 0px 20px; height: 74px; width: 565px; background-position: initial initial; background-repeat: initial initial;">
+		<div>
+			<span style="margin: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; color: inherit; overflow: auto; font-family: Georgia, &quot;Times New Roman&quot;, serif; font-size: 18px; line-height: 1.75; color: rgb(56, 56, 56); overflow: auto; width: 95%; padding-left: 3px; vertical-align: top; max-width: 100%; margin: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: middle; box-sizing: border-box; transition: color 0.16s ease, border-color 0.16s ease, box-shadow 0.16s ease; font-family: Georgia, &quot;Times New Roman&quot;, serif; color: rgb(64, 64, 64); border: 1px solid rgb(161, 161, 161); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; -webkit-appearance: none; -webkit-font-smoothing: antialiased; padding: 0.4375em 0.875em; background-color: rgb(153, 153, 153); color: rgb(68, 68, 68); padding: 3px 6px; width: 370px; height: 48px; float: left; margin: 6px 9px 0px; border: 1px solid rgb(102, 102, 102); -webkit-box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px inset; box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px inset; border-top-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; border-bottom-left-radius: 2px; font-style: normal !important; font-variant-caps: normal !important; font-weight: normal !important; font-stretch: normal !important; font-size: 13px !important; line-height: 1.4 !important; font-family: &quot;Helvetica Neue&quot;, sans-serif !important; background-position: initial initial; background-repeat: initial initial;"></span>
+			<span style="color: rgb(170, 170, 170); font-size: 11px; padding-right: 2px; padding-left: 2px; display: inline; font-weight: normal;">Post to</span>
+			<div style="display: inline-block; box-sizing: border-box; white-space: pre; -webkit-appearance: menulist-button; align-items: center; text-transform: none; max-width: 100%; margin: 5px 0px 0px; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; vertical-align: middle; width: 110px; padding: 0px; font-size: 12px; background-color: rgb(51, 51, 51); color: rgb(238, 238, 238); border: 1px solid rgb(68, 68, 68); font-family: &quot;Helvetica Neue&quot;, sans-serif !important;"></div>
+
+			<div style="float: left; width: 154px; padding-top: 0px; padding-left: 1px; overflow: hidden; height: 34px; margin: 3px 0px 0px 2px !important;">
+				<span style="color: rgb(170, 170, 170); font-size: 11px; line-height: 24px;"><a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/#" style="background-color: transparent; text-decoration: none; color: rgb(0, 135, 190); text-decoration: none; color: rgb(0, 135, 190); color: rgb(255, 255, 255);">Cancel</a></span>
+				
+				
+				
+				
+				
+				
+			</div>
+
+					</div>
+
+		<div></div>
+	</div>
+
+	
+					
+			
+					
+		<div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><div style="max-width: 100%; border: none;" title="Facebook Cross Domain Communication Frame"></div></div></div></div>
+			
+			
+			
+
+
+
+<div style="background-color: rgb(255, 255, 255); position: absolute; border: 1px solid rgb(200, 215, 225); opacity: 0.98; margin: 0px; box-sizing: border-box; line-height: 1; z-index: 50000; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; transform: translate3d(0px, 0px, 0px); transition: all 0.2s ease-in-out; -webkit-backface-visibility: hidden; perspective: 1000px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); bottom: 16456.96875px; right: 0px; padding: 5px 13px; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; width: 100%; height: 44px;"><ul style="list-style-position: outside; list-style-type: disc; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; padding: 0px; line-height: 1; text-align: right;"><li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; display: inline-block; min-width: 30px; padding: 0px; vertical-align: middle; line-height: 1; margin: 0px 2px 0px 6px;"><span style="display: none;"></span> 			    	<a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" style="background-color: transparent; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); display: block; color: rgb(46, 68, 83); font-size: 13px; font-weight: 400; text-decoration: none; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; line-height: 1; vertical-align: middle; transition: none; position: relative; padding: 10px 8px 10px 32px; border: none; box-shadow: none;"><div style="overflow: hidden; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill: rgb(135, 166, 188); position: absolute; top: 6px; left: 5px;"><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></div></div><span style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Follow</span></a> 			    	<div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 14px; padding: 10px; z-index: 1000; margin-left: 15px; position: absolute; max-width: 320px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; display: none; bottom: 47px; right: -3px;"> 			    		<div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-width: 10px; border-style: solid dashed none; border-color: rgb(200, 215, 225) transparent; height: 0px; line-height: 0; position: absolute; width: 0px; bottom: 0px; margin-left: -7px; right: 17px; left: 53%;"><span style="bottom: 2px; border-top-width: 10px; border-right-width: 10px; border-left-width: 10px; border-style: solid solid none; border-top-color: rgb(255, 255, 255); content: &quot; &quot;; position: absolute; left: 50%; margin-left: -10px; border-left-color: transparent; border-right-color: transparent;"></span></div> 			    		<div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); background-color: rgb(255, 255, 255); border: 1px solid rgb(200, 215, 225); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 5px, rgba(0, 0, 0, 0.0745098) 0px 0px 56px; text-align: center; padding: 0px;"></div> 			    	</div> 			    </li><li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; display: inline-block; min-width: 30px; margin: 0px; vertical-align: middle; line-height: 1; position: relative; top: 1px; right: 2px; cursor: pointer; padding: 3px 5px 0px 8px;"><span style="display: none;"></span> 			  <div style="overflow: hidden; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); transition: all 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275); fill: rgb(135, 166, 188); transform: rotate(0deg);"><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></div></div> 			  <div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); font-size: 14px; padding: 10px; z-index: 1000; margin-left: 15px; position: absolute; bottom: 40px; max-width: 320px; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; right: -10px; display: none;"> 			  	<div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); border-width: 10px; border-style: solid dashed none; border-color: rgb(200, 215, 225) transparent; height: 0px; line-height: 0; position: absolute; width: 0px; bottom: 0px; margin-left: -7px; right: 17px;"><span style="bottom: 2px; border-top-width: 10px; border-right-width: 10px; border-left-width: 10px; border-style: solid solid none; border-top-color: rgb(255, 255, 255); content: &quot; &quot;; position: absolute; left: 50%; margin-left: -10px; border-left-color: transparent; border-right-color: transparent;"></span></div> 			  	<div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); background-color: rgb(255, 255, 255); border: 1px solid rgb(200, 215, 225); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; box-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 5px, rgba(0, 0, 0, 0.0745098) 0px 0px 56px; text-align: center;"> 				  <ul style="list-style-position: outside; list-style-type: disc; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px 0px 10px; padding: 0px; line-height: 1; text-align: left;"> 				    <li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 0px 0px 10px; padding: 0px; vertical-align: middle; line-height: 1; display: block; border-style: none none solid; border-bottom-width: 1px; border-bottom-color: rgb(240, 240, 240);"><span style="display: none;"></span><a href="https://zwischenzugs.com/" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; cursor: pointer; display: block; margin: 0px; padding: 10px 16px; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; font-size: 14px; font-weight: 700; font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen-Sans, Ubuntu, Cantarell, &quot;Helvetica Neue&quot;, sans-serif; color: rgb(46, 68, 83); text-decoration: none; text-align: left; border: none; vertical-align: middle; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.7;"><img src="Goodbye Docker Purging is Such Sweet Sorrow_files/Image [1].png" type="image/png" data-filename="Image.png" alt="" height="50" style="max-width: 100%; border: 0px; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); width: 25px; height: 25px; vertical-align: middle; margin: -1px 5px 0px 0px; display: inline; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; padding: 0px;" width="50"/> zwischenzugs</a></li> 				   	<li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 0px; padding: 0px; vertical-align: middle; line-height: 1; border: none; display: none;"><span style="display: none;"></span><a href="https://zwischenzugs.wordpress.com/wp-admin/customize.php?url=https://zwischenzugs.wordpress.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; border: none; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(46, 68, 83); cursor: pointer; display: block; font-size: 14px; font-weight: 400; margin: 0px; padding: 10px 16px; text-align: left; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; text-decoration: none;"><div style="overflow: hidden; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px 5px 0px 0px; vertical-align: middle; position: relative;"><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></div></div><span style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Customize<span style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></span></span></a></li> 				    <li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 0px 0px 10px; padding: 0px 0px 10px; vertical-align: middle; line-height: 1; border-style: none none solid; border-bottom-width: 1px; border-bottom-color: rgb(240, 240, 240); display: none;"><span style="display: none;"></span><a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; border: none; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(46, 68, 83); cursor: pointer; display: block; font-size: 14px; font-weight: 400; margin: 0px; padding: 10px 16px; text-align: left; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; text-decoration: none;"><div style="overflow: hidden; box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px 5px 0px 0px; vertical-align: middle; position: relative;"><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><div style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></div></div></div><span style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Follow</span></a></li> 					<li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 0px; padding: 0px; vertical-align: middle; line-height: 1; display: block; border: none;"><span style="display: none;"></span><a href="https://wordpress.com/start/" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; border: none; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(46, 68, 83); cursor: pointer; display: block; font-size: 14px; font-weight: 400; margin: 0px; padding: 10px 16px; text-align: left; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; text-decoration: none;">Sign up</a></li> 				    <li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 0px; padding: 0px; vertical-align: middle; line-height: 1; display: block; border: none;"><span style="display: none;"></span><a href="https://wordpress.com/log-in?redirect_to=https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/&amp;signup_flow=account&amp;domain=zwischenzugs.com" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; border: none; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(46, 68, 83); cursor: pointer; display: block; font-size: 14px; font-weight: 400; margin: 0px; padding: 10px 16px; text-align: left; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; text-decoration: none;">Log in</a></li> 				     				    <li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 0px; padding: 0px; vertical-align: middle; line-height: 1; display: block; border: none;"><span style="display: none;"></span><a href="https://wp.me/p1pzsW-1d8" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; border: none; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(46, 68, 83); cursor: pointer; display: block; font-size: 14px; font-weight: 400; margin: 0px; padding: 10px 16px; text-align: left; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; text-decoration: none;">Copy shortlink</a></li> 				    <li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 0px; padding: 0px; vertical-align: middle; line-height: 1; display: block; border: none;"><span style="display: none;"></span><a href="http://en.wordpress.com/abuse/" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; border: none; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(46, 68, 83); cursor: pointer; display: block; font-size: 14px; font-weight: 400; margin: 0px; padding: 10px 16px; text-align: left; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; text-decoration: none;">Report this content</a></li> 				     				     				    <li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 0px; padding: 0px; vertical-align: middle; line-height: 1; display: block; border: none;"><span style="display: none;"></span><a href="https://subscribe.wordpress.com/" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; border: none; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(46, 68, 83); cursor: pointer; display: block; font-size: 14px; font-weight: 400; margin: 0px; padding: 10px 16px; text-align: left; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; text-decoration: none;">Manage subscriptions</a></li> 				    <li style="box-sizing: border-box; outline: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); list-style-type: none; min-width: 30px; margin: 10px 0px 0px; padding: 10px 0px 0px; vertical-align: middle; line-height: 1; display: block; border-style: solid none none; border-top-width: 1px; border-top-color: rgb(240, 240, 240);"><span style="display: none;"></span><a href="https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/" style="box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; border: none; box-shadow: none; border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px; color: rgb(46, 68, 83); cursor: pointer; display: block; font-size: 14px; font-weight: 400; margin: 0px; padding: 10px 16px; text-align: left; transition: all 0.05s ease-in-out; min-width: 250px; outline: none; text-decoration: none;">Collapse this bar</a></li> 			      </ul> 			    </div> 		      </div> 		    </li> 	      </ul></div>
+
+		
+		<div style="display: none; position: absolute; padding: 10px 10px 12px; background-color: rgb(46, 68, 83); border-width: 0px; box-shadow: rgba(46, 68, 83, 0.6) 0px 0px 10px; min-width: 130px; z-index: 1000;"><div style="line-height: normal; color: rgb(255, 255, 255); font-size: 12px; padding-bottom: 8px;"><span style="line-height: normal;">%d</span> bloggers like this:</div><ul style="margin: 0px 0px 1.75em 2em; padding: 0px; list-style-position: outside; list-style-type: disc; line-height: normal; margin: 0px; padding: 0px; text-indent: 0px; list-style-type: none; overflow: auto; display: block; max-height: 190px;"></ul></div>
+
+
+
+
+
+
+
+<img src="Goodbye Docker Purging is Such Sweet Sorrow_files/Image.gif" type="image/gif" data-filename="Image.gif" alt=":)" style="max-width: 100%; height: auto; border: 0px; display: none;"/><div style="visibility: hidden; position: absolute; width: 100%; top: -10000px; left: 0px; right: 0px; transition: visibility 0s linear 0.3s, opacity 0.3s linear; opacity: 0;"><div style="width: 100%; position: absolute; top: 10000px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.5;"></div><div style="margin: 0px auto; top: 0px; left: 0px; right: 0px; position: absolute; border: 1px solid rgb(204, 204, 204); z-index: 2000000000; background-color: rgb(255, 255, 255); overflow: hidden;"><div style="max-width: 100%; width: 100%;" title="recaptcha challenge"></div></div></div><div style="position: absolute; left: 0px; right: 414px; text-align: center; background-color: rgb(138, 138, 143); z-index: 16777271; box-shadow: rgba(51, 51, 51, 0.247059) 0px 1px 4px 0px, rgba(200, 199, 204, 0.498039) 0px 0px 1px 0px; display: none; animation: adtags-move-in 0.5s ease forwards; height: 60px; top: 0px;">
+        <div style="margin: 0px auto; height: 60px; width: 320px;"><div style="height: 50px; width: 320px;"><div style="max-width: 100%; border: none; margin: 0px; overflow: hidden; width: 320px; height: 50px;"></div></div><div style="text-align: right; line-height: 10px; height: 10px; height: 10px; width: 320px;"><span style="font-size: 6px; vertical-align: middle; font-family: Verdana, sans-serif; color: rgb(200, 199, 204); text-transform: uppercase; letter-spacing: 0.3px; cursor: pointer; display: inline;">Report this ad</span></div></div>
+        <div style="width: 76px; height: 36px; position: absolute; left: 50%; bottom: -28px; margin-left: -36px;">
+            <div style="width: 56px; height: 16px; top: 8px; background-color: rgb(138, 138, 143); position: absolute; left: 50%; margin-left: -28px; border-bottom-right-radius: 24px; border-bottom-left-radius: 24px; box-shadow: rgba(51, 51, 51, 0.247059) 0px 1px 1px 0px; cursor: pointer;">
+                <div style="position: absolute; top: 6px; left: 50%; width: 13px; height: 2px; background-color: rgb(255, 255, 255); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; animation: 1s; margin-left: -12px;"></div>
+                <div style="position: absolute; top: 6px; left: 50%; width: 13px; height: 2px; background-color: rgb(255, 255, 255); border-top-left-radius: 1px; border-top-right-radius: 1px; border-bottom-right-radius: 1px; border-bottom-left-radius: 1px; animation: 1s; margin-left: -1px;"></div>
+            </div>
+        </div>
+    </div></div>
+</span>
+</div></body></html> 
