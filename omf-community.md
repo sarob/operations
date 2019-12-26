@@ -7,6 +7,8 @@
 1. TBD
 
 # Projects Roadmap
+<div class="datatable-begin"></div>
+
 project        | version | release date | features
 -------------- | ------- | ------------ | ----------------
 OMF            | x.y.z   | DD MMMM YYYY | [features](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf)
@@ -16,6 +18,8 @@ mds provider   | 0.4.1   | DD MMMM YYYY | link, link, link
 mds all?       | 0.5.0   | DD MMMM YYYY | link, link, link
 mds core       | x.y.z   | DD MMMM YYYY | link, link, link
 mds compliance | x.y.z   | DD MMMM YYYY | link, link, link
+
+<div class="datatable-end"></div>
 
 # Projects (teams, working groups, and projects)
 project            | ML      | code         | meetings
