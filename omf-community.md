@@ -18,7 +18,7 @@ mds compliance | x.y.z   | DD MMMM YYYY | link, link, link
 
 # Projects (teams, working groups, and projects)
 
-project            | ML      | code         | meetings
+teams            | ML      | code         | meetings
 ------------------ | ------- | ------------ | ----------------
 provider services  | [mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-provider-services)| [code](https://github.com/openmobilityfoundation/mobility-data-specification) | [meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
 city services      | [mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-city-services) | [code](https://github.com/openmobilityfoundation/mobility-data-specification) | [meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
