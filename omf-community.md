@@ -22,6 +22,8 @@ mds compliance | x.y.z   | DD MMMM YYYY | link, link, link
 <div class="datatable-end"></div>
 
 # Projects (teams, working groups, and projects)
+<div class="datatable-begin"></div>
+
 project            | ML      | code         | meetings
 ------------------ | ------- | ------------ | ----------------
 provider services  | [mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-provider-services)| [code](https://github.com/openmobilityfoundation/mobility-data-specification) | [meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
@@ -32,6 +34,8 @@ WG Operations      | [mailing list](https://groups.google.com/a/openmobilityfoun
 BoD                | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/board-all) |  |
 Technology Council | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/techcouncil) |  |  |
 Privacy Committee
+
+<div class="datatable-end"></div>
 
 # Documentation
 1. [bylaws](https://members.openmobilityfoundation.org/wp-content/uploads/2019/08/OMF-Bylaws-CURRENT-1.pdf)
