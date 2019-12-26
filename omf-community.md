@@ -7,27 +7,27 @@
 1. TBD
 
 # Projects Roadmap
-project        | version | release date | features         | 
--------------- | ------- | ------------ | ---------------- |
-OMF            | x.y.z   | DD MMMM YYYY | [features](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) |
-mds provider   | 0.3.0   | DD MMMM YYYY | link, link, link |
-mds provider   | 0.4.0   | DD MMMM YYYY | link, link, link |
-mds provider   | 0.4.1   | DD MMMM YYYY | link, link, link |
-mds all?       | 0.5.0   | DD MMMM YYYY | link, link, link |
-mds core       | x.y.z   | DD MMMM YYYY | link, link, link |
-mds compliance | x.y.z   | DD MMMM YYYY | link, link, link |
+project        | version | release date | features
+-------------- | ------- | ------------ | ----------------
+OMF            | x.y.z   | DD MMMM YYYY | [features](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf)
+mds provider   | 0.3.0   | DD MMMM YYYY | link, link, link
+mds provider   | 0.4.0   | DD MMMM YYYY | link, link, link
+mds provider   | 0.4.1   | DD MMMM YYYY | link, link, link
+mds all?       | 0.5.0   | DD MMMM YYYY | link, link, link
+mds core       | x.y.z   | DD MMMM YYYY | link, link, link
+mds compliance | x.y.z   | DD MMMM YYYY | link, link, link
 
 # Projects (teams, working groups, and projects)
-project            | ML      | code         | meetings         | 
------------------- | ------- | ------------ | ---------------- |
-provider services  | [mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-provider-services)| [code](https://github.com/openmobilityfoundation/mobility-data-specification) | [meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki) |
-city services      | [mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-city-services) | [code](https://github.com/openmobilityfoundation/mobility-data-specification) | [meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki) |
-Lacuna mds-core    |  | [code](https://github.com/lacuna-tech/mds-core) |  |
-OMF Operations     | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/omf-admin) |  |  |
-WG Operations      | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/wg-ops) |  |  |
-BoD                | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/board-all) |  |  |
+project            | ML      | code         | meetings
+------------------ | ------- | ------------ | ----------------
+provider services  | [mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-provider-services)| [code](https://github.com/openmobilityfoundation/mobility-data-specification) | [meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
+city services      | [mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-city-services) | [code](https://github.com/openmobilityfoundation/mobility-data-specification) | [meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
+Lacuna mds-core    |  | [code](https://github.com/lacuna-tech/mds-core) |
+OMF Operations     | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/omf-admin) |  |
+WG Operations      | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/wg-ops) |  |
+BoD                | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/board-all) |  |
 Technology Council | [mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/techcouncil) |  |  |
-Privacy Committee  |
+Privacy Committee
 
 # Documentation
 1. [bylaws](https://members.openmobilityfoundation.org/wp-content/uploads/2019/08/OMF-Bylaws-CURRENT-1.pdf)
