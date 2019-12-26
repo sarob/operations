@@ -16,10 +16,7 @@ mds all?       | 0.5.0   | DD MMMM YYYY | link, link, link
 mds core       | x.y.z   | DD MMMM YYYY | link, link, link
 mds compliance | x.y.z   | DD MMMM YYYY | link, link, link
 
-<div class="datatable-end"></div>
-
 # Projects (teams, working groups, and projects)
-<div class="datatable-begin"></div>
 
 project            | ML      | code         | meetings
 ------------------ | ------- | ------------ | ----------------
