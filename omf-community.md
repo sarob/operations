@@ -6,9 +6,9 @@
 # Projects Roadmap
 <div class="datatable-begin"></div>
 
-project        | version | release date | features
--------------- | ------- | ------------ | ----------------
-OMF            | x.y.z   | DD MMMM YYYY | [features](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf)
+project        | version | release date | features | ML      | code         | meetings
+-------------- | ------- | ------------ | ---------------- | ------- | ------------ | ----------------
+OMF            | x.y.z   | DD MMMM YYYY | [features](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) | [mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-provider-services)| [code](https://github.com/openmobilityfoundation/mobility-data-specification) | [meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
 mds provider   | 0.3.0   | DD MMMM YYYY | link, link, link
 mds provider   | 0.4.0   | DD MMMM YYYY | link, link, link
 mds provider   | 0.4.1   | DD MMMM YYYY | link, link, link
