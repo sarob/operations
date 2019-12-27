@@ -47,8 +47,8 @@ Privacy Committee | N/A  |  N/A |  N/A | N/A | N/A | adhoc
 1. [Analysts say Alphabet, UPS have early edge in delivery's next frontier: drones](https://www.cnbc.com/2019/12/21/analysts-alphabet-ups-have-edge-in-deliverys-next-frontier-drones.html)
 1. [The Last Mile: Companies are testing radical new technologies to cut the cost of home deliveries](https://www.cbsnews.com/news/delivering-the-goods-drones-and-robots-are-making-their-way-to-your-door/?ftag=CNM-00-10aag7e)
 1. [X-1 Maximum Security Drone: Does it come in black?](https://www.wabcradio.com/episode/x-1-maximum-security-drone-does-it-come-in-black-yes-dana-wheeler-plymouth-rock-technologies-can-prt-nasdaqotc-pltrf-plyrotechinc/)
-1. [Uber Challenges Suspension of Its Scooters - WSJ](../source/Uber%20Challenges%20Los%20Angeles%20Suspension%20of%20I.html)
-1. [UPS completes first residential drone deliveries from a CVS Pharmacy](https://www.wsj.com/articles/uber-challenges-los-angeless-suspension-of-its-scooters-11573727400)
+1. [Uber Challenges Suspension of Its Scooters - WSJ](https://www.wsj.com/articles/uber-challenges-los-angeless-suspension-of-its-scooters-11573727400)
+1. [UPS completes first residential drone deliveries from a CVS Pharmacy](https://www.zdnet.com/article/ups-completes-first-residential-drone-deliveries-from-a-cvs-pharmacy/)
 1. [OMF Showcase &amp; Developer Day 2019](http://www.openmobilityfoundation.org/devday-2019/)
 1. [Sidewalk Toronto](https://medium.com/radical-urbanist/sidewalk-toronto/home)
 
