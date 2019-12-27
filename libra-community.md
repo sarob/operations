@@ -1,12 +1,21 @@
-# [Libra Documentation](https://developers.libra.org/docs/welcome-to-libra)
+# Libra Association
+* [About](https://libra.org/en-US/vision/#how_it_works)
+* [Marketplace, Products](https://libra.org/en-US/becoming-founding-member/#overview)
+* [User Forum](https://community.libra.org/)
+* [Documentation](https://developers.libra.org/docs/welcome-to-libra)
 
-# [User Forum](https://community.libra.org/)
+# Projects Overloaded
+<div class="datatable-begin"></div>
+
+project        | version | release date | features | ML      | code         | meetings
+-------------- | ------- | ------------ | -------- | ------- | ------------ | --------
+Libra core | ??? | ??? | [project issues and PRs](https://github.com/orgs/libra/projects/1) | ??? | under development [master branch](https://github.com/libra/libra) | ???
+Libra Net | ??? | ??? | [project issues and PRs](https://github.com/orgs/libra/projects/4) | ??? | under development [master branch](https://github.com/libra/libra) | ???
+Libra Perf | ??? | ??? | [project issues and PRs](https://github.com/orgs/libra/projects/3) | ??? | under development [master branch](https://github.com/libra/libra) | ???
+Libra BFT | ??? | ??? | [project issues and PRs](https://github.com/orgs/libra/projects/2) | ??? | under development [master branch](https://github.com/libra/libra) | ???
 
 # Reports
 1. [OpenHub comparision of Bitcoin, Ethereum, and Libra](https://www.openhub.net/p/_compare?project_0=Bitcoin&project_1=Ethereum&project_2=Libra+Association)
-
-# Libra Teams
-1. 
 
 # News
 1. [U.S. authorities arrest Ethereum research scientist Virgil Griffith for allegedly assisting North Korea in evading sanctions]
