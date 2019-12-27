@@ -50,5 +50,6 @@ Privacy Committee | N/A  |  N/A |  N/A | N/A | N/A | adhoc
 1. [Uber Challenges Suspension of Its Scooters - WSJ](../source/Uber%20Challenges%20Los%20Angeles%20Suspension%20of%20I.html)
 1. [UPS completes first residential drone deliveries from a CVS Pharmacy](../source/UPS%20completes%20first%20residential%20drone%20deliver.html)
 1. [OMF Showcase &amp; Developer Day 2019](../source/OMF%20Showcase%20%26%20Developer%20Day%202019.html)
+1. [Sidewalk Toronto](https://medium.com/radical-urbanist/sidewalk-toronto/home)
 
 This page [https://sarob.github.io/operations/omf-community](https://sarob.github.io/operations/omf-community)
