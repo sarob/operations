@@ -35,7 +35,8 @@ CfA OpenElections Project | ??? | ??? | ??? | ??? | ??? | ???
 1. [Black Hat Asia 2020, Singapore: March 31-April 3 ](https://www.blackhat.com/asia-20/)
 
 # News
-1. [Your guide to top tech conferences 2019 - 2020](https://www.cio.com/article/3344362/your-guide-to-top-tech-conferences-2019-2020.html)
+1. [Code for America 2019 in review](https://medium.com/code-for-america/the-year-in-review-at-code-for-america-b52b2726aad8)
+1. [CfA brigade congress Nov 2019](https://medium.com/code-for-america/growing-the-civic-tech-movement-68f5ab5ac2ae)
 1. [Protecting democratic elections through secure, verifiable voting](https://blogs.microsoft.com/on-the-issues/2019/05/06/protecting-democratic-elections-through-secure-verifiable-voting/)
 1. [Election security isn't that hard](../source/Election%20security%20isn't%20that%20hard.html)
 1. [Enigma 2020 Call for Participation | USENIX](../source/Enigma%202020%20Call%20for%20Participation%20%20USENIX.html)
