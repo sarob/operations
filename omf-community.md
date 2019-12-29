@@ -42,6 +42,16 @@ Privacy Committee | N/A  |  N/A |  N/A | N/A | N/A | adhoc
 # Reports
 1. [OpenHub comparison of OMF, UCF, and Lacuna](https://www.openhub.net/p/_compare?project_0=Open+Mobility+Foundation&project_1=kepler.gl&project_2=Lacuna-tech)
 
+# Events
+1. Jan 2020 BoD Meeting
+1. [Microsoft Ignite, Washington, D.C.: Feb. 6-7](https://www.microsoft.com/en-us/ignite-the-tour/washington-dc)
+1. [Strata Data & AI Conference, San Jose, Calif.: March 15-18 ](https://conferences.oreilly.com/strata-data-ai/stai-ca)
+1. [Gartner Data & Analytics Summit, Grapevine, Tex.: March 23-26 ](https://www.gartner.com/en/conferences/na/data-analytics-us)
+1. [Open Data Science Conference East, Boston, Mass.: April 13-17 ](https://odsc.com/boston/)
+1. [Open Source Software Conference, Portland, Ore.: July 13-16 ](https://conferences.oreilly.com/oscon/oscon-or)
+1. [Open Data Science Conference West, San Francisco, Calif.: Oct. 26-30 ](https://odsc.com/california/)
+1. [Mobile World Congress Americas, Los Angeles, Calif.: Oct. 28 ](https://www.mwclosangeles.com/)
+
 # News
 1. [Your guide to top tech conferences 2019 - 2020](https://www.cio.com/article/3344362/your-guide-to-top-tech-conferences-2019-2020.html)
 1. [Analysts say Alphabet, UPS have early edge in delivery's next frontier: drones](https://www.cnbc.com/2019/12/21/analysts-alphabet-ups-have-edge-in-deliverys-next-frontier-drones.html)
