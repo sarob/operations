@@ -29,6 +29,11 @@ CfA OpenElections Project | ??? | ??? | ??? | ??? | ??? | ???
 1. [Compare VotingWorks, Galois Free & Fair, and Code for America's open elections project](https://www.openhub.net/p/_compare?project_0=VotingWorks&project_1=Free+and+Fair&project_2=openelections-project)
 1. [Compare ElectionGuard, VotingWorks, and Galois Free & Fair](https://www.openhub.net/p/_compare?project_0=ElectionGuard&project_1=VotingWorks&project_2=Free+and+Fair)
 
+# Events
+1. [Microsoft Ignite, Washington, D.C.: Feb. 6-7](https://www.microsoft.com/en-us/ignite-the-tour/washington-dc)
+1. [RSA Conference 2020, San Francisco, Calif.: Feb. 24-28 ](https://www.rsaconference.com/usa)
+1. [Black Hat Asia 2020, Singapore: March 31-April 3 ](https://www.blackhat.com/asia-20/)
+
 # News
 1. [Your guide to top tech conferences 2019 - 2020](https://www.cio.com/article/3344362/your-guide-to-top-tech-conferences-2019-2020.html)
 1. [Protecting democratic elections through secure, verifiable voting](https://blogs.microsoft.com/on-the-issues/2019/05/06/protecting-democratic-elections-through-secure-verifiable-voting/)
