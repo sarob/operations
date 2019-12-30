@@ -53,6 +53,7 @@ Privacy Committee | N/A  |  N/A |  N/A | N/A | N/A | adhoc
 1. [Mobile World Congress Americas, Los Angeles, Calif.: Oct. 28 ](https://www.mwclosangeles.com/)
 
 # News
+1. [Uber's massive data play](https://medium.com/s/story/ubers-new-vision-is-a-massive-data-play-b7e59ec59d42)
 1. [Your guide to top tech conferences 2019 - 2020](https://www.cio.com/article/3344362/your-guide-to-top-tech-conferences-2019-2020.html)
 1. [Analysts say Alphabet, UPS have early edge in delivery's next frontier: drones](https://www.cnbc.com/2019/12/21/analysts-alphabet-ups-have-edge-in-deliverys-next-frontier-drones.html)
 1. [The Last Mile: Companies are testing radical new technologies to cut the cost of home deliveries](https://www.cbsnews.com/news/delivering-the-goods-drones-and-robots-are-making-their-way-to-your-door/?ftag=CNM-00-10aag7e)
