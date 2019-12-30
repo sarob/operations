@@ -17,11 +17,11 @@ Henri |	Jouhard	| MDS city services | Blue Systems | | <henri.jouhaud@polyconsei
 Christophe | Arnaud | MDS city services	| Blue Systems | | <christophe.arnaud@bluesystems.ai>
 Boris |	Chan |	MDS provider services |	Roundtrip | CEO	| <boris@roundtrip.ai>
 Andrew | Scherkus | MDS provider services | Roundtrip | CTO | <andrew@roundtrip.ai>
- | | OMF Operations | OMF | | | <omf-admin@openmobilityfoundation.org>
- | | WG Operations | OMF |  | |  <wg-ops@openmobilityfoundation.org>
- | | BoD | OMF | | | <board-all@openmobilityfoundation.org>
- | | Technology Council | OMF | | | <techncouncil@openmobilityfoundation.org>
- | | Privacy Committee | OMF | | |
+ | | | OMF Operations | OMF | | <omf-admin@openmobilityfoundation.org>
+ | | | WG Operations | OMF | |  <wg-ops@openmobilityfoundation.org>
+ | | | BoD | OMF | | <board-all@openmobilityfoundation.org>
+ | | | Technology Council | OMF | | <techncouncil@openmobilityfoundation.org>
+ | | | Privacy Committee | OMF | |
 
 <div class="datatable-end"></div>
 
