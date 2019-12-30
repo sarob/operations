@@ -52,8 +52,8 @@ CfA OpenElections additional 125 repositories | ??? | ??? | ??? | [all 125 repos
 <div class="datatable-end"></div>
 
 # Reports
-1. [Compare VotingWorks, Galois Free & Fair, and Code for America's open elections project](https://www.openhub.net/p/_compare?project_0=VotingWorks&project_1=Free+and+Fair&project_2=openelections-project)
-1. [Compare ElectionGuard, VotingWorks, and Galois Free & Fair](https://www.openhub.net/p/_compare?project_0=ElectionGuard&project_1=VotingWorks&project_2=Free+and+Fair)
+1. Largest organizations: [Compare ElectionGuard, Galois Free & Fair, and Code for America's open elections project](https://www.openhub.net/p/_compare?project_1=Free+and+Fair&project_2=openelections-project&project_0=ElectionGuard)
+1. Largest codebases: [Compare ElectionGuard, VotingWorks, and Galois Free & Fair](https://www.openhub.net/p/_compare?project_0=ElectionGuard&project_1=VotingWorks&project_2=Free+and+Fair)
 
 # Events
 1. [Microsoft Ignite, Washington, D.C.: Feb. 6-7](https://www.microsoft.com/en-us/ignite-the-tour/washington-dc)
