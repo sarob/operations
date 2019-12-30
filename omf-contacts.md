@@ -25,4 +25,4 @@ Andrew | Scherkus | MDS provider services | Roundtrip | CTO | <andrew@roundtrip.
 
 <div class="datatable-end"></div>
 
-# [Full list of OMF teams with mailing lists](https://sarob.github.io/operations/omf-community#projects-overloaded)
+# [Full list of OMF teams with archived mailing lists](https://sarob.github.io/operations/omf-community#projects-overloaded)
