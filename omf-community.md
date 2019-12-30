@@ -3,6 +3,22 @@
 * Marketplace, Products (TBD)
 * User Forum (TBD)
 
+# OMF Documentation
+1. [OMF Bylaws 2019](https://members.openmobilityfoundation.org/wp-content/uploads/2019/08/OMF-Bylaws-CURRENT-1.pdf)
+1. [OMF Mission/Vision 2019](https://www.openmobilityfoundation.org/wp-content/uploads/2019/06/OpenMobilityFoundation_Principles.pdf)
+1. [OMF Plans 2019](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf)
+1. [MDS release guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseGuidelines.md)
+1. [MDS release notes](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseNotes.md)
+1. [MDS Contributor guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md)
+
+## OMF Ops Documentation
+1. Mailing List operations
+1. OMF staff onboarding
+1. [How-to working groups](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
+1. [How-to project issues, PRs labels and milestones](omf-labels.md)
+1. [City services first meeting notes, 19 Dec 2019](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
+1. [OMF operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
+
 # Projects Overloaded
 <div class="datatable-begin"></div>
 
@@ -28,16 +44,6 @@ Technology Council | N/A   |  N/A |  N/A | [techcouncil mailing list](https://gr
 Privacy Committee | N/A  |  N/A |  N/A | N/A | N/A | adhoc
 
 <div class="datatable-end"></div>
-
-# Documentation
-1. [Bylaws](https://members.openmobilityfoundation.org/wp-content/uploads/2019/08/OMF-Bylaws-CURRENT-1.pdf)
-1. [MDS release guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseGuidelines.md)
-1. [MDS release notes](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseNotes.md)
-1. [Contributor guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md)
-1. [How-to project issues, PRs labels and milestones](omf-labels.md)
-1. [How-to working groups](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
-1. [City services first meeting notes, 19 Dec 2019](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
-1. [OMF operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
 
 # Reports
 1. [OpenHub comparison of OMF, UCF, and Lacuna](https://www.openhub.net/p/_compare?project_0=Open+Mobility+Foundation&project_1=kepler.gl&project_2=Lacuna-tech)
