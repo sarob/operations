@@ -22,8 +22,8 @@
 # Projects Overloaded
 <div class="datatable-begin"></div>
 
-project        | version | release date | features | ML      | code         | meetings
--------------- | ------- | ------------ | -------- | ------- | ------------ | --------
+project        | version | release date | features | ML archive | code         | meetings
+-------------- | ------- | ------------ | -------- | ---------- | ------------ | --------
 OMF            | ??? | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) | [mds-announce mailing list](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-announce) | N/A | N/A
 mds provider services - city services | 0.3.1   | 21 May 2019 | [0.3.1 feature plans](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/0.3.1-Release-Recommendations) -  [release notes](https://github.com/openmobilityfoundation/mobility-data-specification/wiki) - [28 milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/7?closed=1) | N/A | [0.3.x branch](https://github.com/openmobilityfoundation/mobility-data-specification/tree/0.3.x) | N/A
 mds provider services - city services | 0.3.2   | 27 Jun 2019 | [release notes](https://github.com/openmobilityfoundation/mobility-data-specification/wiki) - [11 milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/8?closed=1) | N/A | [0.3.x branch](https://github.com/openmobilityfoundation/mobility-data-specification/tree/0.3.x) | N/A
@@ -37,11 +37,6 @@ mds core       | 0.0.4   | 03 Oct 2019 | ??? | N/A | [master branch](https://git
 mds core       | ??? | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) | [mds city services ML](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-city-services)| under development [develop branch](https://github.com/openmobilityfoundation/mds-core) | [bi-weekly meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
 mds compliance mobile | ??? | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) |  [mds city services ML](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-city-services) | under development [master branch](https://github.com/openmobilityfoundation/mds-compliance-mobile) | [bi-weekly meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
 Lacuna mds-core | ??? | ??? | ??? | N/A | under development [develop branch](https://github.com/lacuna-tech/mds-core) | N/A
-OMF Operations | N/A   |  N/A |  N/A  |  [omf-admin mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/omf-admin) | N/A | bi-weekly meetings 
-WG Operations | N/A   |  N/A |  N/A | [wp-ops mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/wg-ops) | N/A | N/A 
-BoD | N/A   |  N/A |  N/A | [board mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/board-all) | N/A | monthly meetings
-Technology Council | N/A   |  N/A |  N/A | [techcouncil mailing list](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/techcouncil) | N/A | monthly meetings
-Privacy Committee | N/A  |  N/A |  N/A | N/A | N/A | adhoc
 
 <div class="datatable-end"></div>
 
