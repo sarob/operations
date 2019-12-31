@@ -45,16 +45,16 @@ Lacuna mds-core | ??? | ??? | N/A | under development [develop branch](https://g
 
 # Events
 1. COMFIRMED OMF Event, Jan 2020 BoD Meeting
-1. Seleta Reunolds LA DOT is speaking at [CES 2020 Las Vegas, NV, 07-10 Jan 2020](https://www.ces.tech/conference/speaker-directory/882559.aspx)
-1. Seleta Reunolds LA DOT is speaking at [VerdExchange Conference 26-28 Jan 2020 Los Angeles, CA](https://www.verdexchange.org/)
-1. Seleta Reunolds LA DOT is speaking at [Active Living Conference 2-5 Feb 2020, Orlando, FL](http://www.alr-conference.com/)
+1. Seleta Reynolds LA DOT is speaking at [CES 2020 Las Vegas, NV, 07-10 Jan 2020](https://www.ces.tech/conference/speaker-directory/882559.aspx)
+1. Seleta Reynolds LA DOT is speaking at [VerdExchange Conference 26-28 Jan 2020 Los Angeles, CA](https://www.verdexchange.org/)
+1. Seleta Reynolds LA DOT is speaking at [Active Living Conference 2-5 Feb 2020, Orlando, FL](http://www.alr-conference.com/)
 1. [Microsoft Ignite, Washington, D.C.: Feb. 6-7 2020](https://www.microsoft.com/en-us/ignite-the-tour/washington-dc)
-1. Seleta Reunolds LA DOT is speaking at [MOVE Models Technology Sustainability 11-12 Feb 2020 ExCel London, UK](https://www.terrapinn.com/exhibition/move/index.stm)
+1. Seleta Reynolds LA DOT is speaking at [MOVE Models Technology Sustainability 11-12 Feb 2020 ExCel London, UK](https://www.terrapinn.com/exhibition/move/index.stm)
 1. [Strata Data & AI Conference, San Jose, Calif.: March 15-18 2020](https://conferences.oreilly.com/strata-data-ai/stai-ca)
 1. [Gartner Data & Analytics Summit, Grapevine, Tex.: March 23-26 2020](https://www.gartner.com/en/conferences/na/data-analytics-us)
-1. Seleta Reunolds LA DOT is speaking at [3 Revolutions Policy Conference 2020, 24-25 March 2020,, UC Davis, CA](https://3rev.ucdavis.edu/events/3-revolutions-policy-conference-2020)
+1. Seleta Reynolds LA DOT is speaking at [3 Revolutions Policy Conference 2020, 24-25 March 2020,, UC Davis, CA](https://3rev.ucdavis.edu/events/3-revolutions-policy-conference-2020)
 1. [Open Data Science Conference East, Boston, Mass.: April 13-17 ](https://odsc.com/boston/)
-1. Seleta Reunolds LA DOT is speaking at [TechCrunch Sessions: Mobility 2020 San Jose, 14 May 2020](https://techcrunch.com/events/tc-sessions-mobility-2020/)
+1. Seleta Reynolds LA DOT is speaking at [TechCrunch Sessions: Mobility 2020 San Jose, 14 May 2020](https://techcrunch.com/events/tc-sessions-mobility-2020/)
 1. [Open Source Software Conference, Portland, Ore.: July 13-16 2020](https://conferences.oreilly.com/oscon/oscon-or)
 1. [Disrupt SF 2019, San Francisco, 14-16 September 2020](https://techcrunch.com/events/disrupt-sf-2020/)
 1. [Open Data Science Conference West, San Francisco, Calif.: Oct. 26-30 2020](https://odsc.com/california/)
