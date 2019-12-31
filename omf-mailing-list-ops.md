@@ -9,8 +9,6 @@ View all OMF lists at [https://groups.google.com/a/openmobilityfoundation.org/fo
 ## Configuration
 Default authorization to manage a group is ...
 
-Group settings changed from default are
-
 ### Information: General Information
 * Group Name: Long form name with spaces, e.g. Working Group Operations
 * Group email address: Short form name with no spaces, e.g. wg-ops
