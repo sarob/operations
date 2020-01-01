@@ -56,6 +56,7 @@ CfA OpenElections additional 125 repositories | ??? | ??? | ??? | [all 125 repos
 1. Largest codebases: [Compare ElectionGuard, VotingWorks, and Galois Free & Fair](https://www.openhub.net/p/_compare?project_0=ElectionGuard&project_1=VotingWorks&project_2=Free+and+Fair)
 
 # Events
+1. [NASS/NASED conference, Washington DC, 30 Jan - 02 Feb 2020](https://www.nass.org/events/nass-2020-winter-conference)
 1. [Microsoft Ignite, Washington, D.C.: Feb. 6-7](https://www.microsoft.com/en-us/ignite-the-tour/washington-dc)
 1. [RSA Conference 2020, San Francisco, Calif.: Feb. 24-28 ](https://www.rsaconference.com/usa)
 1. [Black Hat Asia 2020, Singapore: March 31-April 3 ](https://www.blackhat.com/asia-20/)
@@ -64,11 +65,11 @@ CfA OpenElections additional 125 repositories | ??? | ??? | ??? | [all 125 repos
 1. [Code for America 2019 in review](https://medium.com/code-for-america/the-year-in-review-at-code-for-america-b52b2726aad8)
 1. [CfA brigade congress Nov 2019](https://medium.com/code-for-america/growing-the-civic-tech-movement-68f5ab5ac2ae)
 1. [Protecting democratic elections through secure, verifiable voting](https://blogs.microsoft.com/on-the-issues/2019/05/06/protecting-democratic-elections-through-secure-verifiable-voting/)
-1. [Election security isn't that hard](../source/Election%20security%20isn't%20that%20hard.html)
-1. [Enigma 2020 Call for Participation | USENIX](../source/Enigma%202020%20Call%20for%20Participation%20%20USENIX.html)
-1. [DHS cyber agency to prioritize election security, Chinese threats | TheHill](../source/DHS%20cyber%20agency%20to%20prioritize%20election%20secur.html)
-1. [Hackers Take on Darpa's $10 Million Voting Machine](../source/Hackers%20Take%20on%20Darpa's%20$10%20Million%20Voting%20Ma.html)
-1. [Microsoft demos its bid at creating 'secure' voting systems](../source/Microsoft%20demos%20its%20bid%20at%20creating%20'secure'%20.html)
-1. [Swing State Voting Systems Were Left Connected to the Internet for Months, Report Says](../source/Swing%20State%20Voting%20Systems%20Were%20Left%20Connecte.html)
+1. [Election security isn't that hard](https://www.politico.com/agenda/story/2019/09/10/election-security-000954)
+1. [Enigma 2020 Call for Participation](https://www.usenix.org/conference/enigma2020/call-for-participation)
+1. [DHS cyber agency to prioritize election security, Chinese threats](https://thehill.com/policy/cybersecurity/458487-dhs-cyber-agency-to-prioritize-election-security-chinese-threats)
+1. [Hackers Take on Darpa's $10 Million Voting Machine](https://www.wired.com/story/darpa-voting-machine-defcon-voting-village-hackers)
+1. [Microsoft demos its bid at creating 'secure' voting systems](https://www.engadget.com/2019/07/17/microsoft-demos-electionguard/)
+1. [Swing State Voting Systems Were Left Connected to the Internet for Months, Report Says](https://fortune.com/2019/08/08/swing-state-voting-systems-connected-internet-vice-report/)
 
 This page [https://sarob.github.io/operations/oe-community](https://sarob.github.io/operations/oe-community)

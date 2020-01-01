@@ -7,7 +7,7 @@ Jascha | Franklin-Hodge | OMF | OMF | ED | <jascha@openmobilityfoundation.org> |
 Sean | Roberts | OMF | OMF | Operations | <sean@openmobilityfoundation.org> |
 Kegan | Maher | MDS provider services | Santa Monica DOT | | <kegan.maher@smgov.net> |
 Hunter | Owens | MDS provider services | Los Angeles Data Services | | <hunter.owens@lacity.org> |
-Seleta | Reynolds | BoD	| Los Angeles DOT | Managing Director | <seleta.reynolds@lacity.org> |
+Seleta | Reynolds | BoD	| Los Angeles DOT | General Manager | <seleta.reynolds@lacity.org> |
 John | Ellis | OMF | Ellis & Assoc | CEO | <john@ellis-and-associates.com> |
 Sean | Holman | OMF | Lacuna | Product Management | <sean.holman@lacuna.ai> |
 Todd | Petersen | OMF | Ellis & Assoc | Business Development | <todd@ellis-and-associates.com> |
