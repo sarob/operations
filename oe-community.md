@@ -56,6 +56,7 @@ CfA OpenElections additional 125 repositories | ??? | ??? | ??? | [all 125 repos
 1. Largest codebases: [Compare ElectionGuard, VotingWorks, and Galois Free & Fair](https://www.openhub.net/p/_compare?project_0=ElectionGuard&project_1=VotingWorks&project_2=Free+and+Fair)
 
 # Events
+1. [NASS/NASED conference, Washington DC, 30 Jan - 02 Feb 2020](https://www.nass.org/events/nass-2020-winter-conference)
 1. [Microsoft Ignite, Washington, D.C.: Feb. 6-7](https://www.microsoft.com/en-us/ignite-the-tour/washington-dc)
 1. [RSA Conference 2020, San Francisco, Calif.: Feb. 24-28 ](https://www.rsaconference.com/usa)
 1. [Black Hat Asia 2020, Singapore: March 31-April 3 ](https://www.blackhat.com/asia-20/)
