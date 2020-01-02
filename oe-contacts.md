@@ -21,7 +21,7 @@ N/A | N/A | VotingWorks | N/A | N/A | ??? | ???
 N/A | N/A | VSAP | N/A | N/A | ??? | ???
 N/A | N/A | OSVTAC  | N/A | N/A | ??? | ??? 
 N/A | N/A | Free & Fair | N/A  | N/A | ??? | ???
-N/A | N/A | OpenElections  | N/A | N/A | ??? | ??? 
+N/A | N/A | OpenElections  | N/A | N/A | [Code for America Brigade Contact Directory](https://docs.google.com/spreadsheets/d/1zglhAKDUNnvKindAhb6K_DJaLQ_myRYGKvE2DTYolAQ/edit#gid=0) | ??? 
 
 <div class="datatable-end"></div>
 
