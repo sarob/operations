@@ -12,6 +12,7 @@
 1. [MDS Contributor guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md)
 
 ## OMF Ops Documentation
+1. How-to Documentation
 1. [Mailing List operations](omf-mailing-list-ops.md)
 1. OMF staff onboarding
 1. [How-to working groups](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
