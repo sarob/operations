@@ -29,3 +29,5 @@ N/A | N/A  | Privacy Committee | OMF | N/A | ??? | ???
 <div class="datatable-end"></div>
 
 # [Full list of OMF teams](https://sarob.github.io/operations/omf-community#projects-overloaded)
+
+This page [https://sarob.github.io/operations/omf-contacts](https://sarob.github.io/operations/omf-contacts)
