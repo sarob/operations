@@ -5,16 +5,16 @@ First     | Last       |   Project    |   Company    | Role      | email        
 --------- | ---------- | ------------ | ------------ | --------- | ------------ | -----------
 Jascha | Franklin-Hodge | OMF | OMF | ED | <jascha@openmobilityfoundation.org> |
 Sean | Roberts | OMF | OMF | Operations | <sean@openmobilityfoundation.org> |
-Kegan | Maher | MDS provider services | Santa Monica DOT | | <kegan.maher@smgov.net> |
-Hunter | Owens | MDS provider services | Los Angeles Data Services | | <hunter.owens@lacity.org> |
+Kegan | Maher | MDS provider services | Santa Monica DOT | ??? | <kegan.maher@smgov.net> |
+Hunter | Owens | MDS provider services | Los Angeles Data Services | ??? | <hunter.owens@lacity.org> |
 Seleta | Reynolds | BoD	| Los Angeles DOT | General Manager | <seleta.reynolds@lacity.org> |
 John | Ellis | OMF | Ellis & Assoc | CEO | <john@ellis-and-associates.com> |
 Sean | Holman | OMF | Lacuna | Product Management | <sean.holman@lacuna.ai> |
 Todd | Petersen | OMF | Ellis & Assoc | Business Development | <todd@ellis-and-associates.com> |
-Mark |	Maxham	| MDS city services | Lacuna | | <mark.maxham@lacuna.ai> |
+Mark |	Maxham	| MDS city services | Lacuna | ??? | <mark.maxham@lacuna.ai> |
 Geoff |	Arnold	| MDS city services | Lacuna | CIO | <geoff.arnold@lacuna.ai> |
-Henri |	Jouhard	| MDS city services | Blue Systems | | <henri.jouhaud@polyconseil.fr> |
-Christophe | Arnaud | MDS city services	| Blue Systems | | <christophe.arnaud@bluesystems.ai> |
+Henri |	Jouhard	| MDS city services | Blue Systems | ??? | <henri.jouhaud@polyconseil.fr> |
+Christophe | Arnaud | MDS city services	| Blue Systems | ??? | <christophe.arnaud@bluesystems.ai> |
 Boris |	Chan |	MDS provider services |	Roundtrip | CEO	| <boris@roundtrip.ai> |
 Andrew    | Scherkus   | MDS provider services | Roundtrip  | CTO       | <andrew@roundtrip.ai> |
 N/A | N/A | OMF    | OMF    | N/A | <mds-announce@openmobilityfoundation.org> | [mds-announce archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-announce) 
