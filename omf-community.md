@@ -84,8 +84,20 @@ Lacuna mds-core | ??? | ??? | N/A | under development [develop branch](https://g
 1. How do I test code changes?
 1. How do I set up a API?
 1. When OR where are the governance meetings?
+
+# Operations Procedures
 1. How to configure mailing lists?
 1. How to configure repositories?
 1. How to configure github organization?
+1. Monitor OMF mailing lists as a backup maintainer
+1. Monitor OMF repositories as a backup administrator
+1. Assist in the development and maintainence of the OMF Architecture Landscape document as needed
+1. Assist the Technology Council as needed
+1. Daily Jira activities
+1. Weekly sprint retrospectives and planning
+1. Documenting community requests into the sprint backlog
+1. How and when to publish community requests? Something like a service desk?
+1. Running working group chair elecctions
+1. Diagram the organization governance workflow. Who, when decision is required. 
 
 ### This page [https://sarob.github.io/operations/omf-community](https://sarob.github.io/operations/omf-community)
