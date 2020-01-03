@@ -11,6 +11,8 @@
 # OE Research
 1. [Briefing on Open Source Election systems](https://osvtac.github.io/files/meetings/2019/2019-05-14/packet/OSV_State_of_the_Art_Brief_for_TAC_Review.pdf)
 1. [Open Source Elections Systems, history and references](Reference-Materials_944079170.html)
+    1. Additional VSAP: [Los Angeles County 2018 Blended Use Procedures](https://votingsystems.cdn.sos.ca.gov/vendors/LAC/lac-vsap-use-proc.pdf)
+    1. Additional Security around RLA: [Orange County, CA, June 2018 RLA](https://www.ocvote.com/results/risk-limiting-audit/)
 
 ## OE Operations Documentation
 1. [OE staff HR zenefits](https://secure.zenefits.com/)
