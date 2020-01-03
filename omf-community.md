@@ -74,4 +74,14 @@ Lacuna mds-core | ??? | ??? | N/A | under development [develop branch](https://g
 1. [OMF Showcase &amp; Developer Day 2019](http://www.openmobilityfoundation.org/devday-2019/)
 1. [Sidewalk Toronto](https://medium.com/radical-urbanist/sidewalk-toronto/home)
 
-This page [https://sarob.github.io/operations/omf-community](https://sarob.github.io/operations/omf-community)
+# Procedures
+1. When OR where are the working group meetings? 
+    1. You need to join the mailing list(s) https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-announce and monitor the mds wiki https://github.com/openmobilityfoundation/mobility-data-specification/wiki for the next meeting information. We do not yet have a shared calendar that can give you access to. 
+1. Where is the documentation?
+1. How do I contribute?
+1. How do I configure the tools to contribute?
+1. How do I test code changes?
+1. How do I set up a API?
+1. When OR where are the governance meetings?
+
+### This page [https://sarob.github.io/operations/omf-community](https://sarob.github.io/operations/omf-community)
