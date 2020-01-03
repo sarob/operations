@@ -14,6 +14,7 @@
 1. [MDS Contributor guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md)
 
 ## OMF Ops Documentation
+1. [How-to OMF operations](#procedures)
 1. How-to Documentation
 1. [Mailing List operations](omf-mailing-list-ops.md)
 1. OMF staff onboarding
@@ -83,5 +84,8 @@ Lacuna mds-core | ??? | ??? | N/A | under development [develop branch](https://g
 1. How do I test code changes?
 1. How do I set up a API?
 1. When OR where are the governance meetings?
+1. How to configure mailing lists?
+1. How to configure repositories?
+1. How to configure github organization?
 
 ### This page [https://sarob.github.io/operations/omf-community](https://sarob.github.io/operations/omf-community)
