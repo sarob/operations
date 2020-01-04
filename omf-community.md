@@ -8,8 +8,7 @@
 1. [OMF Mission/Vision 2019](https://www.openmobilityfoundation.org/wp-content/uploads/2019/06/OpenMobilityFoundation_Principles.pdf)
 1. [OMF Plans 2019](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf)
 1. [MDS release guidelines wiki](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseGuidelines.md)
-1. [MDS City Services Release Guidelines slidedeck](https://docs.google.com/presentation/d/1iw3Y6kSDnSUEUNLGlc07ARQlcunYVYCd05P2RkTTNnc/edit?usp=sharing)
-1. [MDS Provider Release Guidelines slidedeck](https://drive.google.com/open?id=1CEIQfKRbd1mTe5krDqNusA0PAMYotv7L)
+1. [MDS Release Guidelines slidedeck](https://docs.google.com/presentation/d/1iw3Y6kSDnSUEUNLGlc07ARQlcunYVYCd05P2RkTTNnc/edit?usp=sharing)
 1. [MDS release notes, all releases](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseNotes.md)
 1. [MDS Contributor guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md)
 
