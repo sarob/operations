@@ -15,9 +15,11 @@
     1. Additional Security around RLA: [Orange County, CA, June 2018 RLA](https://www.ocvote.com/results/risk-limiting-audit/)
 
 ## OE Operations Documentation
-1. [OE staff HR zenefits](https://secure.zenefits.com/)
-1. [OE staff slack](https://lincoln-labs.slack.com/)
-1. [OE staff invoicing, AR](http://bill.com/)
+1. [Public Open Elections meetings](https://docs.google.com/document/d/19dnBvyUCzGZkBKKSkeLVnRktHQ_OpHdTIthmnxWcWLU/edit?usp=sharing)
+1. [Lincoln meetings](https://docs.google.com/document/d/1Ayc5zLKnqbVlv90jlSaASlEhG5U7XSOapHKnVEWa9FI/edit?usp=sharing)
+1. [Lincoln staff HR zenefits](https://secure.zenefits.com/)
+1. [Lincoln staff slack](https://lincoln-labs.slack.com/)
+1. [Lincoln staff invoicing, AR](http://bill.com/)
 
 # Projects Overloaded
 <div class="datatable-begin"></div>
