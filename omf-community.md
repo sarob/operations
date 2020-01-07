@@ -16,7 +16,7 @@
 1. [How-to OMF operations](#procedures)
 1. How-to Documentation
 1. [Mailing List operations](omf-mailing-list-ops.md)
-1. OMF staff onboarding
+1. [OMF staff onboarding](https://docs.google.com/document/d/1fRN5uBtcPy3OdcKNjqs4eWxW6Ydgii0xo1V3oFDt4k0/edit?usp=sharing)
 1. [How-to working groups](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
 1. [How-to project issues, PRs labels and milestones](omf-labels.md)
 1. [City services first meeting notes, 19 Dec 2019](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
