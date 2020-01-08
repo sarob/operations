@@ -17,13 +17,13 @@ Henri |	Jouhard	| MDS city services | Blue Systems | ??? | <henri.jouhaud@polyco
 Christophe | Arnaud | MDS city services	| Blue Systems | ??? | <christophe.arnaud@bluesystems.ai> |
 Boris |	Chan |	MDS provider services |	Roundtrip | CEO	| <boris@roundtrip.ai> |
 Andrew    | Scherkus   | MDS provider services | Roundtrip  | CTO       | <andrew@roundtrip.ai> |
-N/A | N/A | OMF    | OMF    | N/A | <mds-announce@openmobilityfoundation.org> | [mds-announce archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-announce) 
-N/A | N/A | MDS Provider Services | OMF    | N/A | <mds-provider-services@openmobilityfoundation.org> | [mds-provider-services archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-provider-services) 
-N/A | N/A | MDS City Services     | OMF    | N/A | <mds-city-services@openmobilityfoundation.org> | [mds-city-services archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-city-services) 
-N/A | N/A  | OMF Operations | OMF | N/A | <omf-admin@openmobilityfoundation.org> | [omf-admin archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/omf-admin) 
-N/A | N/A  | WG Operations | OMF | N/A | <wg-ops@openmobilityfoundation.org> | [wg-ops archive](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/wg-ops)
-N/A | N/A  | BoD | OMF | N/A | <board-all@openmobilityfoundation.org> | [board-all archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/board-all)
-N/A | N/A  | Technology Council | OMF | N/A | <techncouncil@openmobilityfoundation.org> | [techcouncil archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/techcouncil)
+N/A | N/A | OMF    | OMF    | N/A | <mds-announce@groups.openmobilityfoundation.org> | [mds-announce archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-announce) 
+N/A | N/A | MDS Provider Services | OMF    | N/A | <mds-provider-services@groups.openmobilityfoundation.org> | [mds-provider-services archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-provider-services) 
+N/A | N/A | MDS City Services     | OMF    | N/A | <mds-city-services@groups.openmobilityfoundation.org> | [mds-city-services archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-city-services) 
+N/A | N/A  | OMF Operations | OMF | N/A | <omf-admin@groups.openmobilityfoundation.org> | [omf-admin archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/omf-admin) 
+N/A | N/A  | WG Operations | OMF | N/A | <wg-ops@groups.openmobilityfoundation.org> | [wg-ops archive](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/wg-ops)
+N/A | N/A  | BoD | OMF | N/A | <board-all@groups.openmobilityfoundation.org> | [board-all archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/board-all)
+N/A | N/A  | Technology Council | OMF | N/A | <techncouncil@groups.openmobilityfoundation.org> | [techcouncil archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/techcouncil)
 N/A | N/A  | Privacy Committee | OMF | N/A | ??? | ???
 
 <div class="datatable-end"></div>
