@@ -27,9 +27,9 @@
 
 <div class="datatable-begin"></div>
 
-key	|	assigned	|	summary
-------------	|	------------	|	------------
-OMF-96	|		|	BlueSystems 19dec19: Henri wants to survey the cities on what services are needed
+key  | assigned | summary
+------- | ----- | ------------
+OMF-96	| Sean  |	BlueSystems 19dec19: Henri wants to survey the cities on what services are needed
 OMF-106	|		|	Lacuna 16dec19: provider wg chair election
 OMF-105	|		|	Lacuna 16dec19: how to get Cornell involved?
 OMF-104	|		|	Lacuna 16dec19: spec is not accessible enough sean can help.
