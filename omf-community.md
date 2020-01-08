@@ -11,18 +11,19 @@
 1. [MDS Release Guidelines slidedeck](https://docs.google.com/presentation/d/1iw3Y6kSDnSUEUNLGlc07ARQlcunYVYCd05P2RkTTNnc/edit?usp=sharing)
 1. [MDS release notes, all releases](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseNotes.md)
 1. [MDS Contributor guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md)
+1. [OMF New Contributor FAQ](#new-contributor-faq)
 
 ## OMF Ops Documentation
-1. [How-to OMF operations](#procedures)
+1. [OMF Operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
+1. [OMF Operations Procedures](https://docs.google.com/document/d/1yHHTCKcXe46vF2KoYknOE0CgAPhRNNRhuned02pbPTY/edit?usp=sharing)
 1. How-to Documentation
-1. [Mailing List operations](omf-mailing-list-ops.md)
-1. [OMF staff onboarding](https://docs.google.com/document/d/1fRN5uBtcPy3OdcKNjqs4eWxW6Ydgii0xo1V3oFDt4k0/edit?usp=sharing)
+1. [OMF staff Onboarding](https://docs.google.com/document/d/1fRN5uBtcPy3OdcKNjqs4eWxW6Ydgii0xo1V3oFDt4k0/edit?usp=sharing)
 1. [How-to working groups](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
-1. [How-to project issues, PRs labels and milestones](omf-labels.md)
-1. [City services first meeting notes, 19 Dec 2019](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
-1. [OMF operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
+1. [How-to manage project issues, PRs labels and milestones](omf-labels.md)
+1. [City services prep for first meeting notes, 19 Dec 2019](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
+1. OMF Working Group meeting and project information, see below
 
-# Projects Overloaded
+# Projects Overloaded ([moved to wg-ops wiki page](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded))
 <div class="datatable-begin"></div>
 
 project        | version | release date | features | code         | meetings
@@ -74,7 +75,7 @@ Lacuna mds-core | ??? | ??? | N/A | under development [develop branch](https://g
 1. [OMF Showcase &amp; Developer Day 2019](http://www.openmobilityfoundation.org/devday-2019/)
 1. [Sidewalk Toronto](https://medium.com/radical-urbanist/sidewalk-toronto/home)
 
-# Procedures
+# New Contributor FAQ
 1. When OR where are the working group meetings? 
     1. You need to join the mailing list(s) https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-announce and monitor the mds wiki https://github.com/openmobilityfoundation/mobility-data-specification/wiki for the next meeting information. We do not yet have a shared calendar that can give you access to. 
 1. Where is the documentation?
@@ -83,20 +84,5 @@ Lacuna mds-core | ??? | ??? | N/A | under development [develop branch](https://g
 1. How do I test code changes?
 1. How do I set up a API?
 1. When OR where are the governance meetings?
-
-# Operations Procedures
-1. How to configure mailing lists?
-1. How to configure repositories?
-1. How to configure github organization?
-1. Monitor OMF mailing lists as a backup maintainer
-1. Monitor OMF repositories as a backup administrator
-1. Assist in the development and maintainence of the OMF Architecture Landscape document as needed
-1. Assist the Technology Council as needed
-1. Daily Jira activities
-1. Weekly sprint retrospectives and planning
-1. Documenting community requests into the sprint backlog
-1. How and when to publish community requests? Something like a service desk?
-1. Running working group chair elecctions
-1. Diagram the organization governance workflow. Who, when decision is required. 
 
 ### This page [https://sarob.github.io/operations/omf-community](https://sarob.github.io/operations/omf-community)
