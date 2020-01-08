@@ -59,8 +59,10 @@ OMF-82	|		|	Ellis 20dec19: Support the creation of OMF open source office commit
 1. [OpenHub comparison of OMF, UCF, and Lacuna](https://www.openhub.net/p/_compare?project_0=Open+Mobility+Foundation&project_1=kepler.gl&project_2=Lacuna-tech)
 
 # Events
-1. COMFIRMED OMF Event, Jan 2020 BoD Meeting
+1. [OMF Showcase & Developer Day, Los Angeles, CA, 13 Nov 2019](https://www.eventbrite.com/e/omf-showcase-developer-day-tickets-76854980315#)
 1. Seleta Reynolds LA DOT is speaking at [CES 2020 Las Vegas, NV, 07-10 Jan 2020](https://www.ces.tech/conference/speaker-directory/882559.aspx)
+1. OMF Board of Directors meeting, Jan 2020, Washington DC
+1. [Transportation Research Board (TRB) 99th Annual Meeting will be held January 12–16, 2020, at the Walter E. Washington Convention Center, in Washington, D.C](http://www.trb.org/AnnualMeeting/AnnualMeeting.aspx)
 1. Seleta Reynolds LA DOT is speaking at [VerdExchange Conference 26-28 Jan 2020 Los Angeles, CA](https://www.verdexchange.org/)
 1. Seleta Reynolds LA DOT is speaking at [Active Living Conference 2-5 Feb 2020, Orlando, FL](http://www.alr-conference.com/)
 1. [Microsoft Ignite, Washington, D.C.: Feb. 6-7 2020](https://www.microsoft.com/en-us/ignite-the-tour/washington-dc)
