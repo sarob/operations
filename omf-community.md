@@ -14,14 +14,8 @@
 1. [OMF New Contributor FAQ](#new-contributor-faq)
 
 ## OMF Ops Documentation
-1. [OMF Operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
-1. [OMF Operations Procedures](https://docs.google.com/document/d/1yHHTCKcXe46vF2KoYknOE0CgAPhRNNRhuned02pbPTY/edit?usp=sharing)
-1. How-to Documentation
-1. [OMF staff Onboarding](https://docs.google.com/document/d/1fRN5uBtcPy3OdcKNjqs4eWxW6Ydgii0xo1V3oFDt4k0/edit?usp=sharing)
-1. [How-to working groups](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
-1. [How-to triage the project backlog](omf-triage-backlog.md)
-1. [City services prep for first meeting notes, 19 Dec 2019](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
 1. [OMF Working Group meeting and project information](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded)
+1. [OMF Operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
 
 # Sprint Community Requests
 
@@ -76,17 +70,6 @@ OMF-82	|		|	Ellis 20dec19: Support the creation of OMF open source office commit
 1. [Disrupt SF 2019, San Francisco, 14-16 September 2020](https://techcrunch.com/events/disrupt-sf-2020/)
 1. [Open Data Science Conference West, San Francisco, Calif.: Oct. 26-30 2020](https://odsc.com/california/)
 1. [Mobile World Congress Americas, Los Angeles, Calif.: Oct. 28 2020](https://www.mwclosangeles.com/)
-
-# News
-1. [Uber's massive data play](https://medium.com/s/story/ubers-new-vision-is-a-massive-data-play-b7e59ec59d42)
-1. [Your guide to top tech conferences 2019 - 2020](https://www.cio.com/article/3344362/your-guide-to-top-tech-conferences-2019-2020.html)
-1. [Analysts say Alphabet, UPS have early edge in delivery's next frontier: drones](https://www.cnbc.com/2019/12/21/analysts-alphabet-ups-have-edge-in-deliverys-next-frontier-drones.html)
-1. [The Last Mile: Companies are testing radical new technologies to cut the cost of home deliveries](https://www.cbsnews.com/news/delivering-the-goods-drones-and-robots-are-making-their-way-to-your-door/?ftag=CNM-00-10aag7e)
-1. [X-1 Maximum Security Drone: Does it come in black?](https://www.wabcradio.com/episode/x-1-maximum-security-drone-does-it-come-in-black-yes-dana-wheeler-plymouth-rock-technologies-can-prt-nasdaqotc-pltrf-plyrotechinc/)
-1. [Uber Challenges Suspension of Its Scooters - WSJ](https://www.wsj.com/articles/uber-challenges-los-angeless-suspension-of-its-scooters-11573727400)
-1. [UPS completes first residential drone deliveries from a CVS Pharmacy](https://www.zdnet.com/article/ups-completes-first-residential-drone-deliveries-from-a-cvs-pharmacy/)
-1. [OMF Showcase &amp; Developer Day 2019](http://www.openmobilityfoundation.org/devday-2019/)
-1. [Sidewalk Toronto](https://medium.com/radical-urbanist/sidewalk-toronto/home)
 
 # New Contributor FAQ
 1. When OR where are the working group meetings? 
