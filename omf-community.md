@@ -21,7 +21,7 @@
 1. [How-to working groups](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
 1. [How-to triage the project backlog](omf-triage-backlog.md)
 1. [City services prep for first meeting notes, 19 Dec 2019](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
-1. [OMF Working Group meeting and project information]((https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded)
+1. [OMF Working Group meeting and project information](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded)
 
 # Sprint Community Requests
 
