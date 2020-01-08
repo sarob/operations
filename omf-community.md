@@ -21,26 +21,37 @@
 1. [How-to working groups](https://docs.google.com/document/d/11ym1ssmnavCtYkVxVtvFELHWGqv3T_gwUKWl2WsgfnE/edit?usp=sharing)
 1. [How-to triage the project backlog](omf-triage-backlog.md)
 1. [City services prep for first meeting notes, 19 Dec 2019](https://docs.google.com/document/d/13EHvCPkbaWtGaTZNWqFPnQEAa3yz91MU7gc2nwYs3os/edit?usp=sharing)
-1. OMF Working Group meeting and project information, see below
+1. [OMF Working Group meeting and project information]((https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded)
 
-# Projects Overloaded ([moved to wg-ops wiki page](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded))
+# Sprint Community Requests
+
 <div class="datatable-begin"></div>
 
-project        | version | release date | features | code         | meetings
--------------- | ------- | ------------ | -------- | ------------ | ------------
-OMF            | ??? | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) | N/A | N/A
-mds provider services - city services | 0.3.1   | 21 May 2019 | [0.3.1 feature plans](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/0.3.1-Release-Recommendations) -  [release notes](https://github.com/openmobilityfoundation/mobility-data-specification/wiki) - [28 milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/7?closed=1) | [0.3.x branch](https://github.com/openmobilityfoundation/mobility-data-specification/tree/0.3.x) | N/A
-mds provider services - city services | 0.3.2   | 27 Jun 2019 | [release notes](https://github.com/openmobilityfoundation/mobility-data-specification/wiki) - [11 milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/8?closed=1) | [0.3.x branch](https://github.com/openmobilityfoundation/mobility-data-specification/tree/0.3.x) | N/A
-mds provider services - city services | 0.4.0   | 31 Oct 2019 | [release notes](https://github.com/openmobilityfoundation/mobility-data-specification/wiki) - [55 milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/6?closed=1) | [MDS master branch](https://github.com/openmobilityfoundation/mobility-data-specification/tree/master) | N/A
-mds provider services | 0.4.1   | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) - [milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/10) | under development [MDS dev branch](https://github.com/openmobilityfoundation/mobility-data-specification) | [bi-weekly meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
-mds city services   | 0.4.1   | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf)  - [milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/10) | under development [MDS dev branch](https://github.com/openmobilityfoundation/mobility-data-specification) | [bi-weekly meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
-mds provider services  | 0.5.0   | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf)  - [milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/9) | under development [MDS dev branch](https://github.com/openmobilityfoundation/mobility-data-specification) | [bi-weekly meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
-mds city services   | 0.5.0   | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) - [milestone issues and PRs](https://github.com/openmobilityfoundation/mobility-data-specification/milestone/9) | under development [MDS dev branch](https://github.com/openmobilityfoundation/mobility-data-specification) | [bi-weekly meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
-mds core       | 0.0.3   | 10 Sept 2019 | N/A | [release/0.0.3 branch](https://github.com/openmobilityfoundation/mds-core/tree/release/0.0.3) | N/A
-mds core       | 0.0.4   | 03 Oct 2019 | N/A | [master branch](https://github.com/openmobilityfoundation/mds-core/tree/master) | N/A
-mds core       | ??? | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) | under development [develop branch](https://github.com/openmobilityfoundation/mds-core) | [bi-weekly meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
-mds compliance mobile | ??? | ??? | [arch landscape](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf) | under development [master branch](https://github.com/openmobilityfoundation/mds-compliance-mobile) | [bi-weekly meetings](https://github.com/openmobilityfoundation/mobility-data-specification/wiki)
-Lacuna mds-core | ??? | ??? | N/A | under development [develop branch](https://github.com/lacuna-tech/mds-core) | N/A
+key	|	assigned	|	summary
+------------	|	------------	|	------------
+OMF-96	|		|	BlueSystems 19dec19: Henri wants to survey the cities on what services are needed
+OMF-106	|		|	Lacuna 16dec19: provider wg chair election
+OMF-105	|		|	Lacuna 16dec19: how to get Cornell involved?
+OMF-104	|		|	Lacuna 16dec19: spec is not accessible enough sean can help.
+OMF-103	|		|	Lacuna 16dec19: get more people involved through improving the documentation
+OMF-102	|		|	Lacuna 16dec19: Need to openly discuss the product feature to project development process
+OMF-101	|		|	Lacuna 16dec19: architecture landscape developed in github repo
+OMF-100	|		|	Lacuna 16dec19: working groups are waiting for direction from the architecture decisions from the landscape document
+OMF-99	|		|	Lacuna 16dec19: product management OMF role needs to happen, can lacuna contribute to it
+OMF-98	|		|	Lacuna 09dec19: What is the plan for the OMF first release
+OMF-97	|		|	BlueSystems 19dec19: Henri wants to provide cities insight to other cities practices
+OMF-95	|		|	BlueSystems/Lacuna 19dec19: Existing unit tests can be broken out into a seperate repository
+OMF-94	|		|	BlueSystems 19dec19: Henri wants clarity on validation tools
+OMF-93	|		|	BlueSystems 19dec19: Chrisophe want to bring strategic city policy and agency issues into City Services wg
+OMF-92	|		|	Roundtrip 17dec19: Roundtrip wants to contribute more to the community
+OMF-91	|		|	Roundtrip 17dec19: OMF needs to explain how code testing works today
+OMF-90	|		|	Roundtrip 17dec19: OMF needs test infrastructure
+OMF-89	|		|	Ellis 20dec19: John Ellis wants to meet f2f in DC during BoD Jan 2020 meeting
+OMF-88	|		|	Ellis 20dec19: OMF needs to create OMF releases that cities can adopt to break the vendor procurement model
+OMF-87	|		|	Ellis 20dec19: OMF needs to create a marketplace
+OMF-86	|		|	Ellis 20dec19: Cities need to manage their right of ways
+OMF-85	|		|	Ellis 20dec19: Cities need to break their procurement models
+OMF-82	|		|	Ellis 20dec19: Support the creation of OMF open source office committee
 
 <div class="datatable-end"></div>
 
