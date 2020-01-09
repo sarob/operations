@@ -21,32 +21,32 @@
 
 <div class="datatable-begin"></div>
 
-Key	|	Status	|	Assignee	|	Created	|	Summary
----	|	---	|	---	|	---	|	---
-OMF-93	|	BACKLOG	|	Unassigned	|	31/Dec/19	|	BlueSystems 19dec19: Chrisophe want to bring strategic city policy and agency issues into City Services wg
-OMF-94	|	BACKLOG	|	Unassigned	|	31/Dec/19	|	BlueSystems 19dec19: Henri wants clarity on validation tools
-OMF-97	|	BACKLOG	|	Unassigned	|	31/Dec/19	|	BlueSystems 19dec19: Henri wants to provide cities insight to other cities practices
-OMF-96	|	BACKLOG	|	Unassigned	|	31/Dec/19	|	BlueSystems 19dec19: Henri wants to survey the cities on what services are needed
-OMF-95	|	BACKLOG	|	Unassigned	|	31/Dec/19	|	BlueSystems/Lacuna 19dec19: Existing unit tests can be broken out into a seperate repository
-OMF-85	|	BACKLOG	|	Unassigned	|	30/Dec/19	|	Ellis 20dec19: Cities need to break their procurement models
-OMF-86	|	BACKLOG	|	Unassigned	|	30/Dec/19	|	Ellis 20dec19: Cities need to manage their right of ways
-OMF-89	|	BLOCKED	|	sean roberts	|	30/Dec/19	|	Ellis 20dec19: John Ellis wants to meet f2f in DC during BoD Jan 2020 meeting
-OMF-87	|	BACKLOG	|	Unassigned	|	30/Dec/19	|	Ellis 20dec19: OMF needs to create a marketplace
-OMF-88	|	BACKLOG	|	Unassigned	|	30/Dec/19	|	Ellis 20dec19: OMF needs to create OMF releases that cities can adopt to break the vendor procurement model
-OMF-82	|	BACKLOG	|	Unassigned	|	30/Dec/19	|	Ellis 20dec19: Support the creation of OMF open source office committee
-OMF-98	|	BACKLOG	|	sean roberts	|	31/Dec/19	|	Lacuna 09dec19: What is the plan for the OMF first release
-OMF-101	|	BACKLOG	|	Unassigned	|	31/Dec/19	|	Lacuna 16dec19: architecture landscape developed in github repo
-OMF-103	|	BACKLOG	|	sean roberts	|	31/Dec/19	|	Lacuna 16dec19: get more people involved through improving the documentation
-OMF-105	|	BACKLOG	|	Unassigned	|	31/Dec/19	|	Lacuna 16dec19: how to get Cornell involved?
-OMF-102	|	BACKLOG	|	sean roberts	|	31/Dec/19	|	Lacuna 16dec19: Need to openly discuss the product feature to project development process
-OMF-99	|	BACKLOG	|	sean roberts	|	31/Dec/19	|	Lacuna 16dec19: product management OMF role needs to happen, can lacuna contribute to it
-OMF-106	|	DONE	|	sean roberts	|	31/Dec/19	|	Lacuna 16dec19: provider wg chair election
-OMF-104	|	BACKLOG	|	sean roberts	|	31/Dec/19	|	Lacuna 16dec19: spec is not accessible enough sean can help.
-OMF-100	|	BACKLOG	|	Unassigned	|	31/Dec/19	|	Lacuna 16dec19: working groups are waiting for direction from the architecture decisions from the landscape document
-OMF-110	|	WORKING	|	sean roberts	|	03/Jan/20	|	LADOT 02jan20 Hunter: email to mds-announce on wiki updates
-OMF-90	|	BACKLOG	|	sean roberts	|	30/Dec/19	|	Roundtrip 17dec19: OMF needs test infrastructure
-OMF-91	|	BACKLOG	|	Unassigned	|	30/Dec/19	|	Roundtrip 17dec19: OMF needs to explain how code testing works today
-OMF-92	|	BACKLOG	|	Unassigned	|	30/Dec/19	|	Roundtrip 17dec19: Roundtrip wants to contribute more to the community
+Key	|	Status	|	Assignee	|	Summary
+---	|	---	|	---	|	---
+OMF-93	|	BACKLOG	|	Unassigned	|	BlueSystems 19dec19: Chrisophe want to bring strategic city policy and agency issues into City Services wg
+OMF-94	|	BACKLOG	|	Unassigned	|	BlueSystems 19dec19: Henri wants clarity on validation tools
+OMF-97	|	BACKLOG	|	Unassigned	|	BlueSystems 19dec19: Henri wants to provide cities insight to other cities practices
+OMF-96	|	BACKLOG	|	Unassigned	|	BlueSystems 19dec19: Henri wants to survey the cities on what services are needed
+OMF-95	|	BACKLOG	|	Unassigned	|	BlueSystems/Lacuna 19dec19: Existing unit tests can be broken out into a seperate repository
+OMF-85	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: Cities need to break their procurement models
+OMF-86	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: Cities need to manage their right of ways
+OMF-89	|	BLOCKED	|	sean roberts	|	Ellis 20dec19: John Ellis wants to meet f2f in DC during BoD Jan 2020 meeting
+OMF-87	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: OMF needs to create a marketplace
+OMF-88	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: OMF needs to create OMF releases that cities can adopt to break the vendor procurement model
+OMF-82	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: Support the creation of OMF open source office committee
+OMF-98	|	BACKLOG	|	sean roberts	|	Lacuna 09dec19: What is the plan for the OMF first release
+OMF-101	|	BACKLOG	|	Unassigned	|	Lacuna 16dec19: architecture landscape developed in github repo
+OMF-103	|	BACKLOG	|	sean roberts	|	Lacuna 16dec19: get more people involved through improving the documentation
+OMF-105	|	BACKLOG	|	Unassigned	|	Lacuna 16dec19: how to get Cornell involved?
+OMF-102	|	BACKLOG	|	sean roberts	|	Lacuna 16dec19: Need to openly discuss the product feature to project development process
+OMF-99	|	BACKLOG	|	sean roberts	|	Lacuna 16dec19: product management OMF role needs to happen, can lacuna contribute to it
+OMF-106	|	DONE	|	sean roberts	|	Lacuna 16dec19: provider wg chair election
+OMF-104	|	BACKLOG	|	sean roberts	|	Lacuna 16dec19: spec is not accessible enough sean can help.
+OMF-100	|	BACKLOG	|	Unassigned	|	Lacuna 16dec19: working groups are waiting for direction from the architecture decisions from the landscape document
+OMF-110	|	WORKING	|	sean roberts	|	LADOT 02jan20 Hunter: email to mds-announce on wiki updates
+OMF-90	|	BACKLOG	|	sean roberts	|	Roundtrip 17dec19: OMF needs test infrastructure
+OMF-91	|	BACKLOG	|	Unassigned	|	Roundtrip 17dec19: OMF needs to explain how code testing works today
+OMF-92	|	BACKLOG	|	Unassigned	|	Roundtrip 17dec19: Roundtrip wants to contribute more to the community
 
 <div class="datatable-end"></div>
 
