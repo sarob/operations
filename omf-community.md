@@ -18,6 +18,7 @@
 1. [OMF Operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
 
 # Sprint Community Requests
+List gets updated at least once a week. 
 
 <div class="datatable-begin"></div>
 
