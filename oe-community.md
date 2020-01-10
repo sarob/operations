@@ -4,9 +4,12 @@
 * User Forum (TBD)
 
 # OE Documentation
-1. [Open Elections: Planning the Organization](https://docs.google.com/document/d/1mEeXGE0sRmKXX3RnAbf4gXgaKp3X4WRWiJ1G0JUkh1c/edit?usp=sharing)
-1. [Outline of Election Security Needs for 2020](https://docs.google.com/document/d/1GNWMvz-dliDvWp4uR392-415c71R-11WZK4xnrlGX98/edit?usp=sharing)
-1. [Open Elections Grant Funding Drafts](https://drive.google.com/open?id=17R4Ibhv7djAByH5U_yuP5C5zy7MHXswuML6tRyjCPmw)
+1. [Public Open Elections meetings](https://docs.google.com/document/d/19dnBvyUCzGZkBKKSkeLVnRktHQ_OpHdTIthmnxWcWLU/edit?usp=sharing)
+1. [Lincoln meetings](https://docs.google.com/document/d/1Ayc5zLKnqbVlv90jlSaASlEhG5U7XSOapHKnVEWa9FI/edit?usp=sharing)
+1. [Jan 2020: Election Security Grant Funding Proposal 2020](https://docs.google.com/document/d/1CP1bWHd1jGUM2PL8DNemZ2YxqqNlVTfAL3KLiXV9etk/edit?usp=sharing)
+1. [Dec 2019: Planning the Organization](https://docs.google.com/document/d/1mEeXGE0sRmKXX3RnAbf4gXgaKp3X4WRWiJ1G0JUkh1c/edit?usp=sharing)
+1. [Dec 2019: Planning: Outline of Election Security Needs for 2020](https://docs.google.com/document/d/1GNWMvz-dliDvWp4uR392-415c71R-11WZK4xnrlGX98/edit?usp=sharing)
+1. [Sept 2019: Open Elections Grant Funding Drafts](https://drive.google.com/open?id=17R4Ibhv7djAByH5U_yuP5C5zy7MHXswuML6tRyjCPmw)
 
 # OE Research
 1. [Briefing on Open Source Election systems](https://osvtac.github.io/files/meetings/2019/2019-05-14/packet/OSV_State_of_the_Art_Brief_for_TAC_Review.pdf)
@@ -15,9 +18,7 @@
     1. Additional Security around RLA: [Orange County, CA, June 2018 RLA](https://www.ocvote.com/results/risk-limiting-audit/)
 1. [Brennan Center 19 Dec 2019, Preparing for Cyberattacks and Technical Failures: A Guide for Election Officials](https://www.brennancenter.org/our-work/policy-solutions/preparing-cyberattacks-and-technical-failures-guide-election-officials)
 
-## OE Operations Documentation
-1. [Public Open Elections meetings](https://docs.google.com/document/d/19dnBvyUCzGZkBKKSkeLVnRktHQ_OpHdTIthmnxWcWLU/edit?usp=sharing)
-1. [Lincoln meetings](https://docs.google.com/document/d/1Ayc5zLKnqbVlv90jlSaASlEhG5U7XSOapHKnVEWa9FI/edit?usp=sharing)
+## Lincon staff ops Documentation
 1. [Lincoln staff HR zenefits](https://secure.zenefits.com/)
 1. [Lincoln staff slack](https://lincoln-labs.slack.com/)
 1. [Lincoln staff invoicing, AR](http://bill.com/)
