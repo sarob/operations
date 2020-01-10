@@ -13,6 +13,7 @@
 1. [Open Source Elections Systems, history and references](Reference-Materials_944079170.html)
     1. Additional VSAP: [Los Angeles County 2018 Blended Use Procedures](https://votingsystems.cdn.sos.ca.gov/vendors/LAC/lac-vsap-use-proc.pdf)
     1. Additional Security around RLA: [Orange County, CA, June 2018 RLA](https://www.ocvote.com/results/risk-limiting-audit/)
+1. [Brennan Center 19 Dec 2019, Preparing for Cyberattacks and Technical Failures: A Guide for Election Officials](https://www.brennancenter.org/our-work/policy-solutions/preparing-cyberattacks-and-technical-failures-guide-election-officials)
 
 ## OE Operations Documentation
 1. [Public Open Elections meetings](https://docs.google.com/document/d/19dnBvyUCzGZkBKKSkeLVnRktHQ_OpHdTIthmnxWcWLU/edit?usp=sharing)
