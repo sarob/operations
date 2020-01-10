@@ -4,8 +4,8 @@
 * User Forum (TBD)
 
 # OE Documentation
-1. [Public Open Elections meetings](https://docs.google.com/document/d/19dnBvyUCzGZkBKKSkeLVnRktHQ_OpHdTIthmnxWcWLU/edit?usp=sharing)
-1. [Lincoln meetings](https://docs.google.com/document/d/1Ayc5zLKnqbVlv90jlSaASlEhG5U7XSOapHKnVEWa9FI/edit?usp=sharing)
+1. [Jun 2019 - present: Public Open Elections meetings](https://docs.google.com/document/d/19dnBvyUCzGZkBKKSkeLVnRktHQ_OpHdTIthmnxWcWLU/edit?usp=sharing)
+1. [Dec 2019 - present: Lincoln OE meetings](https://docs.google.com/document/d/1Ayc5zLKnqbVlv90jlSaASlEhG5U7XSOapHKnVEWa9FI/edit?usp=sharing)
 1. [Jan 2020: Election Security Grant Funding Proposal 2020](https://docs.google.com/document/d/1CP1bWHd1jGUM2PL8DNemZ2YxqqNlVTfAL3KLiXV9etk/edit?usp=sharing)
 1. [Dec 2019: Planning the Organization](https://docs.google.com/document/d/1mEeXGE0sRmKXX3RnAbf4gXgaKp3X4WRWiJ1G0JUkh1c/edit?usp=sharing)
 1. [Dec 2019: Planning: Outline of Election Security Needs for 2020](https://docs.google.com/document/d/1GNWMvz-dliDvWp4uR392-415c71R-11WZK4xnrlGX98/edit?usp=sharing)
