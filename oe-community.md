@@ -9,7 +9,10 @@
 1. [Jan 2020: Election Security Grant Funding Proposal 2020](https://docs.google.com/document/d/1CP1bWHd1jGUM2PL8DNemZ2YxqqNlVTfAL3KLiXV9etk/edit?usp=sharing)
 1. [Dec 2019: Planning the Organization](https://docs.google.com/document/d/1mEeXGE0sRmKXX3RnAbf4gXgaKp3X4WRWiJ1G0JUkh1c/edit?usp=sharing)
 1. [Dec 2019: Planning: Outline of Election Security Needs for 2020](https://docs.google.com/document/d/1GNWMvz-dliDvWp4uR392-415c71R-11WZK4xnrlGX98/edit?usp=sharing)
+1. [27 Sep 2019: Roundtable Discussion: The Future of Open Source Elections](https://docs.google.com/document/d/1nJw4EdxlsD8hFZAWOtIrtl9CLx1XrjbGk_njbae7kdo/edit?usp=sharing)
 1. [Sept 2019: Open Elections Grant Funding Drafts](https://drive.google.com/open?id=17R4Ibhv7djAByH5U_yuP5C5zy7MHXswuML6tRyjCPmw)
+1. [May 2019: Planning, Open Elections First Meetings](https://docs.google.com/document/d/1wX7UctI4FiD2FPkM7_iRvvNzMGfRxPh9T1Ij4rvDcQM/edit?usp=sharing)
+1. [Apr 2019: Open Elections Business Plan](https://drive.google.com/open?id=1UzwmzwzxRVY3KtWBnFttjjX0feWXqG5GThJfs1FkHSc)
 
 # OE Research
 1. [Briefing on Open Source Election systems](https://osvtac.github.io/files/meetings/2019/2019-05-14/packet/OSV_State_of_the_Art_Brief_for_TAC_Review.pdf)
