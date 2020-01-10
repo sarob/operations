@@ -1,7 +1,4 @@
 # Open Elections
-* About (TBD)
-* Marketplace, Products (TBD)
-* User Forum (TBD)
 
 # OE Documentation
 1. [Jun 2019 - present: Public Open Elections meetings](https://docs.google.com/document/d/19dnBvyUCzGZkBKKSkeLVnRktHQ_OpHdTIthmnxWcWLU/edit?usp=sharing)
@@ -25,13 +22,14 @@
 1. [Lincoln staff slack](https://lincoln-labs.slack.com/)
 1. [Lincoln staff invoicing, AR](http://bill.com/)
 
-# [Projects Overloaded](oe-projects.md)
+# [Active Projects, mostly open source](oe-projects.md)
 
 # Reports
 1. Largest organizations: [Compare ElectionGuard, Galois Free & Fair, and Code for America's open elections project](https://www.openhub.net/p/_compare?project_1=Free+and+Fair&project_2=openelections-project&project_0=ElectionGuard)
 1. Largest codebases: [Compare ElectionGuard, VotingWorks, and Galois Free & Fair](https://www.openhub.net/p/_compare?project_0=ElectionGuard&project_1=VotingWorks&project_2=Free+and+Fair)
 
 # Events
+1. List a few past events here: Redmond meeting, Blackhat vegas, ...
 1. [09 Jan 2020, Election Security-Perspectives From Voting System Vendors And Experts](https://cha.house.gov/committee-activity/hearings/2020-election-security-perspectives-voting-system-vendors-and-experts)
 1. [30 Jan - 02 Feb 2020 NASS/NASED conference, Washington DC](https://www.nass.org/events/nass-2020-winter-conference)
 1. [06-07 Feb 2020 Microsoft Ignite, Washington, D.C.: ](https://www.microsoft.com/en-us/ignite-the-tour/washington-dc)
