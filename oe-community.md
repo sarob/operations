@@ -23,6 +23,7 @@
 1. [Lincoln staff invoicing, AR](http://bill.com/)
 
 # [Related Work and Contacts](https://docs.google.com/spreadsheets/d/1APMkXIR6LxPS56PcBfgR2F619AZ_ECWsh_eXlkU1Hzo/edit?usp=sharing)
+[![gsheet](oe-data.png "OE data gsheet")](https://docs.google.com/spreadsheets/d/1APMkXIR6LxPS56PcBfgR2F619AZ_ECWsh_eXlkU1Hzo/edit?usp=sharing)
 We should move this into a JSON page and present as a filterable, sortable html table. By being JSON, anyone can contribute and update the source data.
 
 # Reports
