@@ -22,7 +22,8 @@
 1. [Lincoln staff slack](https://lincoln-labs.slack.com/)
 1. [Lincoln staff invoicing, AR](http://bill.com/)
 
-# [Active Projects, mostly open source](oe-projects.md)
+# [Related Work](https://docs.google.com/spreadsheets/d/1APMkXIR6LxPS56PcBfgR2F619AZ_ECWsh_eXlkU1Hzo/edit?usp=sharing)
+We should move this into a JSON page and present as a filterable, sortable html table. By being JSON, anyone can contribute and update the source data.
 
 # Reports
 1. Largest organizations: [Compare ElectionGuard, Galois Free & Fair, and Code for America's open elections project](https://www.openhub.net/p/_compare?project_1=Free+and+Fair&project_2=openelections-project&project_0=ElectionGuard)
