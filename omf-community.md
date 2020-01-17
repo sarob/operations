@@ -12,6 +12,7 @@
 1. [MDS release notes, all releases](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseNotes.md)
 1. [MDS Contributor guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md)
 1. [OMF New Contributor FAQ](#new-contributor-faq)
+1. [![OMF Feature Release workflow](omf-feature-workflow.png "release workflow")](https://docs.google.com/drawings/d/1QvpR7ljkw1-tZHiuqWVNJtwuwg9P2SySscgN3CHkvvo/edit?usp=sharing)
 
 ## OMF Ops Documentation
 1. [OMF Working Group meeting and project information](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded)
