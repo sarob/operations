@@ -3,7 +3,10 @@
 * [Marketplace, Products](https://libra.org/en-US/becoming-founding-member/#overview)
 * [User Forum](https://community.libra.org/)
 * [Documentation](https://developers.libra.org/docs/welcome-to-libra)
-    * [New Contributor process](https://developers.libra.org/blog/2019/12/10/about-the-cla-process)
+    * [Signing up to be a new contributor](https://developers.libra.org/blog/2019/12/10/about-the-cla-process)
+    * [Contribution process](https://developers.libra.org/docs/community/contributing)
+    * [Coding guidelines](https://developers.libra.org/docs/community/coding-guidelines)
+    * [Executing a transaction on testnet chain](https://developers.libra.org/docs/my-first-transaction)
 
 # Timeline of Milestones
 * [17 Dec 2019 Core Roadmap #1 retrospective and Roadmap #2 planning](https://developers.libra.org/blog/2019/12/17/libra-core-roadmap-2)
