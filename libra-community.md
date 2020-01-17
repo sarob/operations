@@ -14,7 +14,7 @@
 * [18 Jun 2019 Retrospective 2018-2019 community building, testnet and core planning](https://developers.libra.org/blog/2019/06/18/the-path-forward)
 * 18 Jun 2019 Libra Association formed as an independent, not-for-profit membership organization, headquartered in Geneva, Switzerland
 * [17 Jun 2019 Initial public commit](https://github.com/libra/libra/commit/5e034dde19a5320d7e2bdc9da25114e816b4454d)
-* 2018 Calibra team starts building Libra
+* 2018 Facebook team starts working on Libra
 
 
 # Members, influencial
