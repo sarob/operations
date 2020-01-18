@@ -2,11 +2,30 @@
 * [About](https://libra.org/en-US/vision/#how_it_works)
 * [Marketplace, Products](https://libra.org/en-US/becoming-founding-member/#overview)
 * [User Forum](https://community.libra.org/)
-* [Documentation](https://developers.libra.org/docs/welcome-to-libra)
-    * [Signing up to be a new contributor](https://developers.libra.org/blog/2019/12/10/about-the-cla-process)
-    * [Contribution process](https://developers.libra.org/docs/community/contributing)
-    * [Coding guidelines](https://developers.libra.org/docs/community/coding-guidelines)
-    * [Executing a transaction on testnet chain](https://developers.libra.org/docs/my-first-transaction)
+
+
+# [Documentation](https://developers.libra.org/docs/welcome-to-libra)
+* Governance https://libra.org/en-US/association-council-principles
+    * 21 member council. Initial membership requirements are to manage a validator node and commit $10M to the project. Responsible for approving the admin budget, admin hires, publish breaking changes recommendations, trigger new libra protocol features, and update the guiding principals.
+    * 5 - 21 member BoD (admin). Members are the Managing Director plus some members of the council. Responsible for preapproval of the admin budget, review executive team quarterly updates, define quarterly update topics, vote on decisions in lieu of the Managing Director, set the agenda for council meetings, call an emergency vote of the council, vote on grant/funding decisions by the Libra Social Impact Advisory Board, vote on social impact partners eligiblity to become nodes
+    * 5 - 7 member Social Impact Advisory Board. Members are the Managing Director, SIPs and adcademic representives elected by the council. Responsible for setting SIAB agenda, recommend grant and social allocations, process for grant submissions and requests.
+    * Managing Director, elected by the council for three terms. Serves the BoD. Responsible for managing the organization.
+    * 5 member Technical Steering Committee (TSC). Members are appointed by the council. Responsible for the technical roadmap, forming Technical Working Groups for research on specific issues, guiding codebase development, and building the developer community. 
+* Release Workflow
+* contribution types
+    * Wallet implementations
+    * Code contribution through Libra GitHub repositories 
+    * Libra R&D operations  
+    * Libra administration operations
+    * Libra organization membership and sponsorships
+    * PR promotion
+    * Documentation
+    * Libra User Groups
+* Code contributions
+   * [Signing up to be a new contributor](https://developers.libra.org/blog/2019/12/10/about-the-cla-process)
+   * [Contribution process](https://developers.libra.org/docs/community/contributing)
+   * [Coding guidelines](https://developers.libra.org/docs/community/coding-guidelines)
+   * [Executing a transaction on testnet chain](https://developers.libra.org/docs/my-first-transaction)
 
 # Milestones
 * [17 Dec 2019 Core Roadmap #1 retrospective and Roadmap #2 planning](https://developers.libra.org/blog/2019/12/17/libra-core-roadmap-2)
