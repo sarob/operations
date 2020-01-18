@@ -8,7 +8,7 @@
     * [Coding guidelines](https://developers.libra.org/docs/community/coding-guidelines)
     * [Executing a transaction on testnet chain](https://developers.libra.org/docs/my-first-transaction)
 
-# Timeline of Milestones
+# Milestones
 * [17 Dec 2019 Core Roadmap #1 retrospective and Roadmap #2 planning](https://developers.libra.org/blog/2019/12/17/libra-core-roadmap-2)
 * [16 Dec 2019 Technical Steering Committee (TSC) established](https://developers.libra.org/blog/2020/01/16/steering-committee-now-governs-libra-technical-development)
 * [09 Nov 2019 Consensus Protocol ver3, overview](https://developers.libra.org/blog/2019/11/09/libra-consensus-protocol)
@@ -34,9 +34,10 @@ Libra Net | ??? | ??? | [project issues and PRs](https://github.com/orgs/libra/p
 Libra Perf | ??? | ??? | [project issues and PRs](https://github.com/orgs/libra/projects/3) | ??? | under development [master branch](https://github.com/libra/libra) | ???
 Libra BFT | ??? | ??? | [project issues and PRs](https://github.com/orgs/libra/projects/2) | ??? | under development [master branch](https://github.com/libra/libra) | ???
 
-# Reports, References
+# Reports, References, News
 1. [OpenHub comparision of Bitcoin, Ethereum, and Libra](https://www.openhub.net/p/_compare?project_0=Bitcoin&project_1=Ethereum&project_2=Libra+Association)
 1. [Libra wikipedia page](https://en.wikipedia.org/wiki/Libra_(digital_currency))
+1. [Libra news feed](https://www.google.com/search?q=libra+association&sxsrf=ACYBGNRvnGFhewhivYLOnmWDRrSR3lFRAA:1579307422542&source=lnms&tbm=nws&sa=X&ved=2ahUKEwj9lKXP8ovnAhUIvJ4KHTYTD68Q_AUoAXoECA8QAw&biw=1086&bih=880&safe=images)
 
 # News
 1. [Facebook's Libra cryptocurrency project has failed in its current form, says Swiss president](https://www.cnbc.com/2019/12/27/swiss-president-says-facebooks-cryptocurrency-project-libra-failed.html)
