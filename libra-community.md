@@ -10,7 +10,18 @@
     * 5 - 21 member BoD (admin). Members are the Managing Director plus some members of the council. Responsible for preapproval of the admin budget, review executive team quarterly updates, define quarterly update topics, vote on decisions in lieu of the Managing Director, set the agenda for council meetings, call an emergency vote of the council, vote on grant/funding decisions by the Libra Social Impact Advisory Board, vote on social impact partners eligiblity to become nodes
     * 5 - 7 member Social Impact Advisory Board. Members are the Managing Director, SIPs and adcademic representives elected by the council. Responsible for setting SIAB agenda, recommend grant and social allocations, process for grant submissions and requests.
     * Managing Director, elected by the council for three terms. Serves the BoD. Responsible for managing the organization.
-    * 5 member Technical Steering Committee (TSC). Commerical members are appointed by the council. Responsible for the technical roadmap, forming Technical Working Groups for research on specific issues, guiding codebase development, and building the developer community. 
+    * 5 member Technical Steering Committee (TSC). Commerical members are appointed by the council. Responsible for the 
+      * technical stewardship is a significant component of self-governance for the Libra project
+        * guiding codebase development
+        * technical roadmap for the Libra network
+        * technical governance framework
+        * process by which the open source community can propose technical changes to the network through a Libra Improvement Proposal (LIP)
+        * transparent process for evaluating those proposals
+      * forming Technical Working Groups for research on specific issues
+      * building the developer community 
+      * Libra project would be self-governing and independent of any one organization's control
+      * Working with the Technical Program Manager, responsible for shepherding the product roadmap alongside the Technical Steering Committee and helping facilitate developer community involvement
+
 * Release Workflow TBD
 * How-To Code contributions
    * [Signing up to be a new contributor](https://developers.libra.org/blog/2019/12/10/about-the-cla-process)
