@@ -1,11 +1,10 @@
 # Libra Association
-* [About](https://libra.org/en-US/vision/#how_it_works)
-* [Marketplace, Products](https://libra.org/en-US/becoming-founding-member/#overview)
-* [User Forum](https://community.libra.org/)
 
+* Organization: [About](https://libra.org/en-US/vision/#how_it_works) - [Governance](#governance)
+* Products: [Marketplace](https://libra.org/en-US/becoming-founding-member/#overview) - [Members](#members-influencial) - [Milestones](#milestones)
+* Projects: [User Forum](https://community.libra.org/) - [Projects Overloaded](#projects-overloaded) - [Documentation](https://developers.libra.org/docs/welcome-to-libra)
 
-# [Documentation](https://developers.libra.org/docs/welcome-to-libra)
-* [Governance](https://libra.org/en-US/association-council-principles)
+# [Governance](https://libra.org/en-US/association-council-principles)
     * 21 member council. Initial membership requirements are to manage a validator node and commit $10M to the project. Responsible for approving the admin budget, admin hires, publish breaking changes recommendations, trigger new libra protocol features, and update the guiding principals.
     * 5 - 21 member BoD (admin). Members are the Managing Director plus some members of the council. Responsible for preapproval of the admin budget, review executive team quarterly updates, define quarterly update topics, vote on decisions in lieu of the Managing Director, set the agenda for council meetings, call an emergency vote of the council, vote on grant/funding decisions by the Libra Social Impact Advisory Board, vote on social impact partners eligiblity to become nodes
     * 5 - 7 member Social Impact Advisory Board. Members are the Managing Director, SIPs and adcademic representives elected by the council. Responsible for setting SIAB agenda, recommend grant and social allocations, process for grant submissions and requests.
