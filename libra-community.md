@@ -23,6 +23,7 @@
       * Working with the Technical Program Manager, responsible for shepherding the product roadmap alongside the Technical Steering Committee and helping facilitate developer community involvement
 
 # Milestones
+* June 2024: Transistion from Permissioned to Permissionless Consensus: There is a PDF that outlines Policy, Governance, and Technical milestones [https://libra.org/en-US/permissionless-blockchain](https://libra.org/en-US/wp-content/uploads/sites/23/2019/08/MovingTowardPermissionlessConsensus_en_US_Rev0814.pdf) .
 * Q1 2020 TSC will publish the technical governance framework. Including the process for submitting a Libra Improvement Proposal (LIP). This will be the process by which the open source community can propose technical changes to the network along with a transparent process for evaluating those proposals.
 * Q1 2020 Technical Program Manager. The staff member that will work directly with the commercial TSC members. Responsible for shepherding the product roadmap alongside the TSC and helping facilitate developer community involvement. [Job Req](https://libra.org/en-US/job-board?gh_jid=4446246002) and [Update](https://developers.libra.org/blog/2020/01/16/steering-committee-now-governs-libra-technical-development#whats-next)
 * [17 Dec 2019 Core Roadmap #1 retrospective and Roadmap #2 planning](https://developers.libra.org/blog/2019/12/17/libra-core-roadmap-2)
