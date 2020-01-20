@@ -1,8 +1,12 @@
 # Libra Association
 
-* Organization: [About](https://libra.org/en-US/vision/#how_it_works) - [Governance](#governance)
-* Products: [Marketplace](https://libra.org/en-US/becoming-founding-member/#overview) - [Members](#members-influencial) - [Milestones](#milestones)
-* Projects: [User Forum](https://community.libra.org/) - [Projects Overloaded](#projects-overloaded) - [Documentation](https://developers.libra.org/docs/welcome-to-libra)
+## Index
+* Organization: [About](https://libra.org/en-US/vision/#how_it_works), [Governance](#governance), [Founders](https://libra.org/en-US/becoming-founding-member/#overview)
+* Products: **Marketplace TBD**, [Members](#members-influencial), [Milestones](#milestones), **Roadmap TBD**
+* Projects: Developer forums [[1]](https://t.me/joinchat/DAQb4RSNpqEok3p-QdmaKQ?fbclid=IwAR09uDlpGbFY3YO7YoS4r0lpXSbcJ0bbXO61lJug3s_nUmhH4R3gJXXmfeI) and [[2]](https://discordapp.com/invite/dZyenBj), [Projects](#projects-overloaded), **project meetings TBD**, **Release schedule TBD**, [Documentation](https://developers.libra.org/docs/welcome-to-libra)
+* Community: [User Forum](https://community.libra.org/), Meetings/Meetups [[1]](https://www.meetup.com/Facebook-Libra-Community/events/262618833/), [[2]]( https://www.meetup.com/Libra-community/), [[3]](https://www.meetup.com/LibraIsrael/), and others
+* **Events TBD**
+* Security: Policy published [https://developers.libra.org/docs/policies/security](https://developers.libra.org/docs/policies/security) with responsiblity handed to [HackerOne](https://hackerone.com/libra) and a email address <security@libra.org> 
 
 # [Governance](https://libra.org/en-US/association-council-principles)
 * 21 member council. Initial membership requirements are to manage a validator node and commit $10M to the project. Responsible for approving the admin budget, admin hires, publish breaking changes recommendations, trigger new libra protocol features, and update the guiding principals.
@@ -22,7 +26,7 @@
     * Working with the Technical Program Manager, responsible for shepherding the product roadmap alongside the Technical Steering Committee and helping facilitate developer community involvement
 
 # Milestones
-* June 2024: Transistion from Permissioned to Permissionless Consensus: There is a PDF that outlines Policy, Governance, and Technical milestones [https://libra.org/en-US/permissionless-blockchain](https://libra.org/en-US/wp-content/uploads/sites/23/2019/08/MovingTowardPermissionlessConsensus_en_US_Rev0814.pdf) .
+* June 2024: Transistion from Permissioned to Permissionless Consensus: PDF that outlines Policy, Governance, and Technical milestones [https://libra.org/en-US/permissionless-blockchain](https://libra.org/en-US/wp-content/uploads/sites/23/2019/08/MovingTowardPermissionlessConsensus_en_US_Rev0814.pdf).
 * Q1 2020 TSC will publish the technical governance framework. Including the process for submitting a Libra Improvement Proposal (LIP). This will be the process by which the open source community can propose technical changes to the network along with a transparent process for evaluating those proposals.
 * Q1 2020 Technical Program Manager. The staff member that will work directly with the commercial TSC members. Responsible for shepherding the product roadmap alongside the TSC and helping facilitate developer community involvement. [Job Req](https://libra.org/en-US/job-board?gh_jid=4446246002) and [Update](https://developers.libra.org/blog/2020/01/16/steering-committee-now-governs-libra-technical-development#whats-next)
 * [17 Dec 2019 Core Roadmap #1 retrospective and Roadmap #2 planning](https://developers.libra.org/blog/2019/12/17/libra-core-roadmap-2)
