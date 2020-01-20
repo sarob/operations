@@ -22,22 +22,6 @@
       * Libra project would be self-governing and independent of any one organization's control
       * Working with the Technical Program Manager, responsible for shepherding the product roadmap alongside the Technical Steering Committee and helping facilitate developer community involvement
 
-* Release Workflow TBD
-* How-To Code contributions
-   * [Signing up to be a new contributor](https://developers.libra.org/blog/2019/12/10/about-the-cla-process)
-   * [Contribution process](https://developers.libra.org/docs/community/contributing)
-   * [Coding guidelines](https://developers.libra.org/docs/community/coding-guidelines)
-   * [Executing a transaction on testnet chain](https://developers.libra.org/docs/my-first-transaction)
-* Contribution types
-    * Wallet implementations
-    * Code contribution through Libra GitHub repositories 
-    * Libra R&D operations  
-    * Libra administration operations
-    * Libra organization membership and sponsorships
-    * PR promotion
-    * Documentation
-    * Libra User Groups
-
 # Milestones
 * Q1 2020 TSC will publish the technical governance framework. Including the process for submitting a Libra Improvement Proposal (LIP). This will be the process by which the open source community can propose technical changes to the network along with a transparent process for evaluating those proposals.
 * Q1 2020 Technical Program Manager. The staff member that will work directly with the commercial TSC members. Responsible for shepherding the product roadmap alongside the TSC and helping facilitate developer community involvement. [Job Req](https://libra.org/en-US/job-board?gh_jid=4446246002) and [Update](https://developers.libra.org/blog/2020/01/16/steering-committee-now-governs-libra-technical-development#whats-next)
