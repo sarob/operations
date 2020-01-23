@@ -24,7 +24,7 @@ N/A | N/A  | OMF Operations | OMF | N/A | <omf-admin@groups.openmobilityfoundati
 N/A | N/A  | WG Operations | OMF | N/A | <wg-ops@groups.openmobilityfoundation.org> | [wg-ops archive](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/wg-ops)
 N/A | N/A  | BoD | OMF | N/A | <board-all@groups.openmobilityfoundation.org> | [board-all archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/board-all)
 N/A | N/A  | Technology Council | OMF | N/A | <techncouncil@groups.openmobilityfoundation.org> | [techcouncil archive](https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/techcouncil)
-N/A | N/A  | Privacy Committee | OMF | N/A | ??? | ???
+N/A | N/A  | Privacy Committee | OMF | N/A | <privcomm@openmobilityfoundation.org> | [Privacy, Security, and Transparency Committee archive](https://groups.google.com/a/openmobilityfoundation.org/forum/#!forum/privcomm)
 
 <div class="datatable-end"></div>
 
