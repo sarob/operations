@@ -72,3 +72,5 @@ Michal
 # sponsors
 
 # contacts
+
+this page https://sarob.github.io/operations/msst-2020-ops
