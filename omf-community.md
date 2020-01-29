@@ -15,6 +15,7 @@
 1. [![OMF Feature Release workflow](omf-feature-workflow.png "release workflow")OMF Feature Release workflow](https://docs.google.com/drawings/d/1QvpR7ljkw1-tZHiuqWVNJtwuwg9P2SySscgN3CHkvvo/edit?usp=sharing)
 
 ## OMF Ops Documentation
+1. [OMF Operations Procedures](https://docs.google.com/document/d/1yHHTCKcXe46vF2KoYknOE0CgAPhRNNRhuned02pbPTY/edit?usp=sharing)
 1. [OMF Working Group meeting and project information](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded)
 1. [OMF Operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
 
