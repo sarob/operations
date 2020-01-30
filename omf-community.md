@@ -76,13 +76,38 @@ OMF-92	|	BACKLOG	|	Unassigned	|	Roundtrip 17dec19: Roundtrip wants to contribute
 1. [Mobile World Congress Americas, Los Angeles, Calif.: Oct. 28 2020](https://www.mwclosangeles.com/)
 
 # New Contributor FAQ
-1. When OR where are the working group meetings? 
-    1. You need to join the mailing list(s) https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-announce and monitor the mds wiki https://github.com/openmobilityfoundation/mobility-data-specification/wiki for the next meeting information. We do not yet have a shared calendar that can give you access to. 
+1. What OMF groups are there?
+    1. Board of Directors
+    1. Technology Council
+    1. Privacy, Security, and Transparency Committee
+    1. Mobility-Data-Specification project with two working groups: Provider and City Services managing the API specifications
+    1. MDS-core project
+    1. MDS compliance mobile project
+    1. Working Group Operations
+1. I am new. What do I do first?
+    1. Join the announce mailing list https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-announce
+    1. Join the Provider Services mailing list https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-provider-services
+    1. Join the City Services mailing list https://groups.google.com/a/groups.openmobilityfoundation.org/forum/#!forum/mds-city-services
+1. When OR where are the meetings? 
+    1. Use the OMF public calendar found here https://github.com/openmobilityfoundation/mobility-data-specification/wiki#omf-public-calendar
 1. Where is the documentation?
+    1. Find all the documentation at https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-documentation 
+    'longer term we use https://openmobilityfoundation.org/documentation'
+1. How the Working Groups function?
+    1. https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#working-group-communication-and-workflow
+1. What is the release schedule?
+    1. For the API specification https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#mobility-data-specification-release-schedule
+    1. For the API implementation ???
 1. How do I contribute?
+    1. For API specifications https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md
+    1. For API implementations ???
 1. How do I configure the tools to contribute?
+    1. ???
 1. How do I test code changes?
+    1. ???
 1. How do I set up a API?
+    1. ???
 1. When OR where are the governance meetings?
+    1. ???
 
 ### This page [https://sarob.github.io/operations/omf-community](https://sarob.github.io/operations/omf-community)
