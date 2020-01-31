@@ -11,8 +11,8 @@
 1. [Apr 2019: Open Elections Business Plan](https://drive.google.com/open?id=1UzwmzwzxRVY3KtWBnFttjjX0feWXqG5GThJfs1FkHSc)
 
 # OE Research
+1. [Open Source Elections Systems, history and references](https://docs.google.com/document/d/1J-sUHg8EyIgPNPFrGlVok6MK1y1DrFDn6OnllC-7HEA/edit?usp=sharing)
 1. [Apr 2019: Briefing on Open Source Election systems, STAR-vote, VSAP, and 6 Open Source Elections Projects](https://osvtac.github.io/files/meetings/2019/2019-05-14/packet/OSV_State_of_the_Art_Brief_for_TAC_Review.pdf)
-1. [Mar 2019: Open Source Elections Systems, history and references](Reference-Materials_944079170.html)
 1. Additional VSAP: [Los Angeles County 2018 Blended Use Procedures](https://votingsystems.cdn.sos.ca.gov/vendors/LAC/lac-vsap-use-proc.pdf)
 1. Additional Security around RLA: [Orange County, CA, June 2018 RLA](https://www.ocvote.com/results/risk-limiting-audit/)
 1. [Brennan Center 19 Dec 2019, Preparing for Cyberattacks and Technical Failures: A Guide for Election Officials](https://www.brennancenter.org/our-work/policy-solutions/preparing-cyberattacks-and-technical-failures-guide-election-officials)
