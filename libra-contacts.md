@@ -6,8 +6,8 @@ N/A   | N/A        | [LibraNet](https://github.com/orgs/libra/projects/4) | Libr
 N/A   | N/A        | [LibraPerf](https://github.com/orgs/libra/projects/3) | Libra Assoc  | N/A       | ???          | ???
 N/A   | N/A        | [LibraBFT](https://github.com/orgs/libra/projects/2) | Libra Assoc  | N/A       | ???          | ???
 N/A   | N/A        | [LibraCore (Roadmap)](https://github.com/orgs/libra/projects/1) | Libra Assoc  | N/A       | ???          | ???
-Diogo | Monica     | Council, TSC member | Anchorage | Co-Founder and President | |
-George | Cabrera III | Council, TSC member | Calibra | Libra Core Product Lead | |
+Diogo | Monica     | Council member?, TSC member | Anchorage | Co-Founder and President | |
+George | Cabrera III | Council member?, TSC member | Calibra | Libra Core Product Lead | |
 Morgan | [Belle](https://www.linkedin.com/in/morganbeller/) | N/A | Libra Assoc | Head of Strategy | | 
 Michael | [Engle](https://www.linkedin.com/in/mnengle/) | N/A | Libra Assoc | Developer Ecosystem | <mnengle@gmail.com> | 
 Bertrand | [Perez](https://www.linkedin.com/in/bertrandperez) | N/A | Libra Assoc | Managing Director and COO | | 
@@ -25,9 +25,9 @@ David Isaac | Wolinsky | Libra | Facebook | contributor | <isaac.wolinsky@gmail.
 Qinfan | Wu | Libra | Facebook | contributor | | 
 François | Garillot | Libra | Facebook | contributor | | 
 Andrey | Chursin | Libra | Facebook | contributor | | 
-Joe   | Lallouz    | Council, TSC member | Bison Trails | CEO and Founder | | 
-Nick  | Grossman   | Council, TSC member | Union Square Ventures | Partner | |
-Ric   | Shreves    | Council, TSC member | Mercy Corps | Director, Emerging Technology | |
+Joe   | Lallouz    | Council member?, TSC member | Bison Trails | CEO and Founder | | 
+Nick  | Grossman   | Council member?, TSC member | Union Square Ventures | Partner | |
+Ric   | Shreves    | Council member?, TSC member | Mercy Corps | Director, Emerging Technology | |
 ??? | ??? | Council member | Andreessen Horowitz | | |
 ??? | ??? | Council member | PayU | | |
 ??? | ??? | Council member | Ribbit Capital | | |
