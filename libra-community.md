@@ -33,6 +33,7 @@
 * [16 Dec 2019 Technical Steering Committee (TSC) established](https://developers.libra.org/blog/2020/01/16/steering-committee-now-governs-libra-technical-development)
 * [09 Nov 2019 Consensus Protocol ver3, overview](https://developers.libra.org/blog/2019/11/09/libra-consensus-protocol)
    * [Consensus Protocol ver3 whitepaper](https://developers.libra.org/docs/assets/papers/libra-consensus-state-machine-replication-in-the-libra-blockchain.pdf)
+* [15 Oct 2019 21 Council members meet, elect 5 member Board of Directors, and appoint 3 Libra Association staff](https://libra.org/wp-content/uploads/2019/10/Libra-Association-Charter-Press-Release-.pdf)
 * [02 Oct 2019 Core Roadmap #1 planning](https://developers.libra.org/blog/2019/10/02/libra-developer-update)
 * [18 Jun 2019 Retrospective 2018-2019 community building, testnet and core planning](https://developers.libra.org/blog/2019/06/18/the-path-forward)
 * 18 Jun 2019 Libra Association formed as an independent, not-for-profit membership organization, headquartered in Geneva, Switzerland
