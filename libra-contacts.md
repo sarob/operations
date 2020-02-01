@@ -2,11 +2,24 @@
 
 First | Last       |   Project    |   Company    | Role      | email        | ML archive
 ----- | ---------- | ------------ | ------------ | --------- | ------------ | -----------
+N/A   | N/A        | [LibraNet](https://github.com/orgs/libra/projects/4) | Libra Assoc  | N/A       | ???          | ???
+N/A   | N/A        | [LibraPerf](https://github.com/orgs/libra/projects/3) | Libra Assoc  | N/A       | ???          | ???
+N/A   | N/A        | [LibraBFT](https://github.com/orgs/libra/projects/2) | Libra Assoc  | N/A       | ???          | ???
+N/A   | N/A        | [LibraCore (Roadmap)](https://github.com/orgs/libra/projects/1) | Libra Assoc  | N/A       | ???          | ???
 Diogo | Monica     | Council, TSC member | Anchorage | Co-Founder and President | |
 George | Cabrera III | Council, TSC member | Calibra | Libra Core Product Lead | |
-Morgan | Belle | Council member | Calibra | Head of Strategy | | 
-Michael | Engle | Council member | Calibra | Developer Ecosystem | <mnengle@gmail.com> | 
-Eric  | Nakagawa   | Council member | Calibra | Head of Open Source | <ericnakagawa@fb.com> | 
+Morgan | [Belle](https://www.linkedin.com/in/morganbeller/) | N/A | Libra Assoc | Head of Strategy | | 
+Michael | [Engle](https://www.linkedin.com/in/mnengle/) | N/A | Libra Assoc | Developer Ecosystem | <mnengle@gmail.com> | 
+Bertrand | [Perez](https://www.linkedin.com/in/bertrandperez) | N/A | Libra Assoc | Managing Director and COO | | 
+Dante | [Disparte](https://www.linkedin.com/in/dantedisparte) | N/A | Libra Assoc | Vice Chair / Head of Policy and Communications | | 
+Jonathan | [Knoll](https://www.linkedin.com/in/jonathan-knoll/) | N/A | Libra Assoc | Head of Strategic Partnerships | | 
+Gael | [Jouraillec](https://www.linkedin.com/in/gael-jouaillec-a835a18) | N/A | Libra Assoc | Partnerships Manager | | 
+Lou | [Papazian](https://www.linkedin.com/in/lou-p-40111993/) | N/A | Libra Assoc | Junior Partnerships Manager | | 
+Kelly | [Richdale](https://www.linkedin.com/in/kelly-richdale-90397) | N/A | Libra Assoc | Head of Channel Development | | 
+Julien | [LeGoc](https://www.linkedin.com/in/julien-le-goc-362642/) | N/A | Libra Assoc | Director of Policy | | 
+Kurt | [Hemecker](linkedin.com/in/khemecker) | N/A | Libra Assoc | Head of Business Development | | 
+Leo | Pictet | N/A | Libra Assoc | Intern | | 
+Eric  | [Nakagawa](https://www.linkedin.com/in/ericnakagawa/ ) | Council member | Calibra | Head of Open Source | <ericnakagawa@fb.com> | 
 Brandon | Williams | Libra | Facebook | contributor | | 
 David Isaac | Wolinsky | Libra | Facebook | contributor | <isaac.wolinsky@gmail.com> | 
 Qinfan | Wu | Libra | Facebook | contributor | | 
