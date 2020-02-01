@@ -40,15 +40,6 @@
 * [17 Jun 2019 Initial public commit](https://github.com/libra/libra/commit/5e034dde19a5320d7e2bdc9da25114e816b4454d)
 * 2018 Facebook team starts working on Libra
 
-
-# Members, influencial
-1. [Calibra open jobs](https://calibra.com/careers/#careers)
-1. Anchorage
-1. Bison Trails
-1. Union Square Ventures
-1. Mercy Corps
-1. [Zengo open jobs](https://zengo.com/work-with-us/)
-
 # Projects Overloaded
 <div class="datatable-begin"></div>
 
