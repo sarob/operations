@@ -12,6 +12,7 @@
 
 # OE Research
 1. [Open Source Elections Systems, history and references](https://docs.google.com/document/d/1J-sUHg8EyIgPNPFrGlVok6MK1y1DrFDn6OnllC-7HEA/edit?usp=sharing)
+1. [Apr 2018 GAO Observations on Voting Equipment Use and Replacement](https://www.gao.gov/assets/700/691201.pdf)
 1. [Apr 2019: Briefing on Open Source Election systems, STAR-vote, VSAP, and 6 Open Source Elections Projects](https://osvtac.github.io/files/meetings/2019/2019-05-14/packet/OSV_State_of_the_Art_Brief_for_TAC_Review.pdf)
 
 ## Lincon staff ops Documentation
