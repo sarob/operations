@@ -1,55 +1,67 @@
 # Open Mobility Foundation
-* [About](https://www.openmobilityfoundation.org/about/)
-* Marketplace, Products (TBD)
-* User Forum (TBD)
 
-# OMF Documentation
-1. [OMF Bylaws 2019](https://members.openmobilityfoundation.org/wp-content/uploads/2019/08/OMF-Bylaws-CURRENT-1.pdf)
-1. [OMF Mission/Vision 2019](https://www.openmobilityfoundation.org/wp-content/uploads/2019/06/OpenMobilityFoundation_Principles.pdf)
-1. [OMF Plans 2019](https://www.openmobilityfoundation.org/wp-content/uploads/2019/10/OMF-Transitional-Architectural-Landscape-FINAL.pdf)
-1. [MDS release guidelines wiki](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseGuidelines.md)
-1. [MDS Release Guidelines slidedeck](https://docs.google.com/presentation/d/1iw3Y6kSDnSUEUNLGlc07ARQlcunYVYCd05P2RkTTNnc/edit?usp=sharing)
-1. [MDS release notes, all releases](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/ReleaseNotes.md)
-1. [MDS Contributor guidelines](https://github.com/openmobilityfoundation/mobility-data-specification/blob/dev/CONTRIBUTING.md)
-1. [OMF New Contributor FAQ](#new-contributor-faq)
-1. [![OMF Feature Release workflow](omf-feature-workflow.png "release workflow")OMF Feature Release workflow](https://docs.google.com/drawings/d/1QvpR7ljkw1-tZHiuqWVNJtwuwg9P2SySscgN3CHkvvo/edit?usp=sharing)
+# Urban Computing Foundation (UCF)
+* Keeping track of the competition (future partner?)
+* github org https://github.com/ucfoundation
+* some information on their website, but very limited https://uc.foundation/
+* Most of the [planning and discussion happens in their TC meetings](https://docs.google.com/document/d/1ScXoO3urg-iOB26OSvz4VjMR2SNVLd-aA8yhgvvq8Bs/edit#)
 
-## OMF Ops Documentation
-1. [OMF Operations Procedures](https://docs.google.com/document/d/1yHHTCKcXe46vF2KoYknOE0CgAPhRNNRhuned02pbPTY/edit?usp=sharing)
-1. [OMF Working Group meeting and project information](https://github.com/openmobilityfoundation/mobility-data-specification/wiki/Working-Group-Operations-(wg-ops)#omf-projects-overloaded)
-1. [OMF Operations weekly retrospectives and planning](https://docs.google.com/document/d/1wEj46BFxgo1HGAC0L7qd3UfNNhnDzMzJdLLR2C7Qesg/edit?usp=sharing)
+# 12 Priorities
+1. OMF developer summits with admin/community run tracks and project meetings. Administration organizes the space, food, headcount. Members can have expo hall space and meeting rooms. Provide a forum for strategic headliner talks. Get the membership excited to be a part of the momentum. John Ellis interest. 
+    1. First step on creating a marketplace. 
+1. Documentation as a project. I have been involved in this type of project before and can help. Underway for mds-core. Turn into long term effort.
+1. Product Management and Architecture Landscape development as a project. It’s appears to be four documents jammed together. Product strategy, technology architecture, development process and project roadmap. As a public project, we can make headway much faster.
+1. OMF train releases on a 3-6 month schedule. I believe this is the highest priority for Lacuna. Geoff Arnold interest.
+1. Public project roadmap with milestones and features
+1. Start holding face to face project meetings for at least next release planning. I would recommend that the maintainers and co-chairs plan this without waiting for the foundation. I have done these public retro/planning meetings before and can help.
+1. Business Development: Find new members for sponsorship and contribution. Build a integration process to make them marketing or development contributors. Geoff Arnolds interest.
+1. Community Management: Find new users and operators. Build a integration process to teach them how to install, maintain, patch, and upgrade mds-core. 
+1. Build a user forum for the users and operators to self help. Make it search crawlable.
+1. I would like to work on projects with Seleta Reynolds LA DOT. 
+    1. Privacy, permitting, UCF, and general getting along with Uber
+    2. Teaching open source office operations to the OMF BoD and users
+1. Create a user committee. Surveys the community for user problems and how well OMF to contributing to making solutions. Marketing volunteers from the membership and community. 
+1. Create a infrastructure wg. Would manage GitHub org admin, web site, chat, mailing lists, calendar, CI tooling/software pipeline, and release process. Couple of paid leaders, rest volunteers from the membership and community.
+    1. Second step on creating a marketplace
 
 # Sprint Community Requests
-List gets updated at least once a week. 
 
 <div class="datatable-begin"></div>
 
-Key	|	Status	|	Assignee	|	Summary
----	|	---	|	---	|	---
-OMF-93	|	BACKLOG	|	Unassigned	|	BlueSystems 19dec19: Chrisophe want to bring strategic city policy and agency issues into City Services wg
-OMF-94	|	BACKLOG	|	Unassigned	|	BlueSystems 19dec19: Henri wants clarity on validation tools
-OMF-97	|	BACKLOG	|	Unassigned	|	BlueSystems 19dec19: Henri wants to provide cities insight to other cities practices
-OMF-96	|	BACKLOG	|	Unassigned	|	BlueSystems 19dec19: Henri wants to survey the cities on what services are needed
-OMF-95	|	BACKLOG	|	Unassigned	|	BlueSystems/Lacuna 19dec19: Existing unit tests can be broken out into a seperate repository
-OMF-85	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: Cities need to break their procurement models
-OMF-86	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: Cities need to manage their right of ways
-OMF-89	|	BLOCKED	|	sean roberts	|	Ellis 20dec19: John Ellis wants to meet f2f in DC during BoD Jan 2020 meeting
-OMF-87	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: OMF needs to create a marketplace
-OMF-88	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: OMF needs to create OMF releases that cities can adopt to break the vendor procurement model
-OMF-82	|	BACKLOG	|	Unassigned	|	Ellis 20dec19: Support the creation of OMF open source office committee
-OMF-98	|	BACKLOG	|	sean roberts	|	Lacuna 09dec19: What is the plan for the OMF first release
-OMF-101	|	BACKLOG	|	Unassigned	|	Lacuna 16dec19: architecture landscape developed in github repo
-OMF-103	|	BACKLOG	|	sean roberts	|	Lacuna 16dec19: get more people involved through improving the documentation
-OMF-105	|	BACKLOG	|	Unassigned	|	Lacuna 16dec19: how to get Cornell involved?
-OMF-102	|	BACKLOG	|	sean roberts	|	Lacuna 16dec19: Need to openly discuss the product feature to project development process
-OMF-99	|	BACKLOG	|	sean roberts	|	Lacuna 16dec19: product management OMF role needs to happen, can lacuna contribute to it
-OMF-106	|	DONE	|	sean roberts	|	Lacuna 16dec19: provider wg chair election
-OMF-104	|	BACKLOG	|	sean roberts	|	Lacuna 16dec19: spec is not accessible enough sean can help.
-OMF-100	|	BACKLOG	|	Unassigned	|	Lacuna 16dec19: working groups are waiting for direction from the architecture decisions from the landscape document
-OMF-110	|	WORKING	|	sean roberts	|	LADOT 02jan20 Hunter: email to mds-announce on wiki updates
-OMF-90	|	BACKLOG	|	sean roberts	|	Roundtrip 17dec19: OMF needs test infrastructure
-OMF-91	|	BACKLOG	|	Unassigned	|	Roundtrip 17dec19: OMF needs to explain how code testing works today
-OMF-92	|	BACKLOG	|	Unassigned	|	Roundtrip 17dec19: Roundtrip wants to contribute more to the community
+Issue key	|	Issue id	|	Status	|	Assignee	|	Created	|	Summary
+---	|	---	|	---	|	---	|	---	|	---
+OMF-206	|	10397	|	done	|	admin	|	8-Mar-2020	|	wg-ops 04mar20 How to patch releases work into the release cycle
+OMF-203	|	10394	|	done	|	admin	|	8-Mar-2020	|	wg-ops 04mar20 Release guidelines belong in a repo or wiki
+OMF-132	|	10265	|	done	|	admin	|	9-Jan-2020	|	Lacuna 03Jan20: What are the OMF release process operations steps
+OMF-98	|	10220	|	done	|	admin	|	31-Dec-2019	|	Lacuna 09dec19: What is the plan for the OMF first release
+OMF-103	|	10225	|	done	|	admin	|	31-Dec-2019	|	Lacuna 16dec19: get more people involved through improving the documentation
+OMF-89	|	10207	|	done	|	admin	|	30-Dec-2019	|	Ellis 20dec19: John Ellis wants to meet f2f in DC during BoD Jan 2020 meeting
+OMF-110	|	10242	|	done	|	admin	|	3-Jan-2020	|	LADOT 02jan20 Hunter: email to mds-announce on wiki updates
+OMF-106	|	10228	|	done	|	admin	|	31-Dec-2019	|	Lacuna 16dec19: provider wg chair election
+OMF-128	|	10261	|	blocked	|	admin	|	9-Jan-2020	|	Lacuna 08jan20: During the repo move, Mark lost his maintainer permissions
+OMF-90	|	10208	|	blocked	|	admin	|	30-Dec-2019	|	Roundtrip 17dec19: OMF needs test infrastructure
+OMF-88	|	10206	|	blocked	|	admin	|	30-Dec-2019	|	Ellis 20dec19: OMF needs to create OMF releases that cities can adopt to break the vendor procurement model
+OMF-194	|	10376	|	blocked	|	admin	|	26-Feb-2020	|	19feb20 Lacuna: Make the minutes of the TC meeting public
+OMF-204	|	10395	|	backlog	|	admin	|	8-Mar-2020	|	wg-ops 04mar20 EA share cloud tooling they use to OMF? Which providers to support?
+OMF-91	|	10209	|	backlog	|	admin	|	30-Dec-2019	|	Roundtrip 17dec19: OMF needs to explain how code testing works today
+OMF-100	|	10222	|	backlog	|	admin	|	31-Dec-2019	|	Lacuna 16dec19: working groups are waiting for direction from the architecture decisions from the landscape document
+OMF-205	|	10396	|	backlog	|		|	8-Mar-2020	|	wg-ops 04mar20 How to create a marketplace
+OMF-131	|	10264	|	backlog	|	admin	|	9-Jan-2020	|	Lacuna 03Jan20: the process for forks asking TC for features to be included into the reference implementation
+OMF-95	|	10217	|	backlog	|	admin	|	31-Dec-2019	|	BlueSystems/Lacuna 19dec19: Existing unit tests can be broken out into a seperate repository
+OMF-94	|	10216	|	backlog	|	admin	|	31-Dec-2019	|	BlueSystems 19dec19: Henri wants clarity on validation tools
+OMF-104	|	10226	|	backlog	|	admin	|	31-Dec-2019	|	Lacuna 16dec19: spec is not accessible enough sean can help.
+OMF-101	|	10223	|	backlog	|		|	31-Dec-2019	|	Lacuna 16dec19: architecture landscape developed in github repo
+OMF-82	|	10200	|	backlog	|	admin	|	30-Dec-2019	|	Ellis 20dec19: Support the creation of OMF open source office committee
+OMF-96	|	10218	|	backlog	|		|	31-Dec-2019	|	BlueSystems 19dec19: Henri wants to survey the cities on what services are needed
+OMF-102	|	10224	|	backlog	|	admin	|	31-Dec-2019	|	Lacuna 16dec19: Need to openly discuss the product feature to project development process
+OMF-99	|	10221	|	backlog	|	admin	|	31-Dec-2019	|	Lacuna 16dec19: product management OMF role needs to happen, can lacuna contribute to it
+OMF-105	|	10227	|	backlog	|		|	31-Dec-2019	|	Lacuna 16dec19: how to get Cornell involved?
+OMF-97	|	10219	|	backlog	|		|	31-Dec-2019	|	BlueSystems 19dec19: Henri wants to provide cities insight to other cities practices
+OMF-93	|	10215	|	backlog	|		|	31-Dec-2019	|	BlueSystems 19dec19: Chrisophe want to bring strategic city policy and agency issues into City Services wg
+OMF-92	|	10210	|	backlog	|		|	30-Dec-2019	|	Roundtrip 17dec19: Roundtrip wants to contribute more to the community
+OMF-87	|	10205	|	backlog	|		|	30-Dec-2019	|	Ellis 20dec19: OMF needs to create a marketplace
+OMF-86	|	10204	|	backlog	|		|	30-Dec-2019	|	Ellis 20dec19: Cities need to manage their right of ways
+OMF-85	|	10203	|	backlog	|		|	30-Dec-2019	|	Ellis 20dec19: Cities need to break their procurement models
 
 <div class="datatable-end"></div>
 
